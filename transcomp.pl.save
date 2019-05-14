@@ -1,0 +1,917 @@
+#!/usr/bin/perl
+# tr2aacds.pl
+
+use constant VERSION => '2019.02.01';
+use strict;
+use warnings;
+use FindBin;
+use lib ("$FindBin::Bin/../"); # assume evigene/scripts/ layout: main, prot/, rnaseq/, ...
+
+use constant { kAAQUAL_MAX => 3, kAAQUAL_MIN => -3, kAAQUAL_NONE => 0, };
+use constant { LOG_NOTE => 0, LOG_WARN => 1, LOG_DIE => -1, };
+our $logh= undef;
+
+use Getopt::Long;
+use File::Basename qw(basename dirname);
+#use cdna_evigenesub; # the use of this was not complete, I'm making a stand-alone for tr2aacds
+
+# cdna_evigenesub globals:
+our $EVIGENES=$ENV{EVIGENES} || "$FindBin::Bin/..";  
+our $EGAPP='transcomp.pl';  
+our $EGLOG='trc';
+our $dryrun=0;
+our $DEBUG= $ENV{debug}|| 0;
+our $EVGLOGH;
+
+my $MINCDS = $ENV{MINCDS} || 90; # what? #maketraa3.sh: $AAMIN=40; $AMINPOO=100; $AMINBAD=200
+my $CDSBLAST_IDENT= 98;
+my $CDSBLAST_EVALUE= 1e-19;
+my $NCPU= 1;
+my $MAXMEM= 1000; # in Mb
+
+our $okayclass  ='main|noclass';
+our $okaltclass ='alt|part';
+our $dropclass  ='drop|cull';
+
+my ($debug,$tidyup,$runsteps,$USE_LASTZ)= (0) x 9;
+my ($logfile,$aaseq,$aasize,$cdnaseq,$cdsseq,$aacdseq,$aaclstr,$aablast,$table)= (undef) x 20; 
+my (@okayset,@dropset,@inputset,@tmpfiles,@erasefiles); # tidyup file sets
+
+my $optok= GetOptions( 
+  "cdnaseq|mrnaseq|trinput=s", \$cdnaseq, ## \@input,  # one only for this?
+  "aaseq|aainput:s", \$aaseq,
+  "cdsseq|cdsinput:s", \$cdsseq,
+  "logfile:s", \$logfile,
+  "ablastab=s", \$aablast,   # option traa-refaa.blastp.tall4 table for asmrna_dupfilter2.pl classifier
+  "MINCDS=i", \$MINCDS,  
+  "CDSBLAST_IDENT=i", \$CDSBLAST_IDENT, "CDSBLAST_EVALUE=i", \$CDSBLAST_EVALUE,  
+  "NCPU=i", \$NCPU, "MAXMEM=i", \$MAXMEM,  
+  "uselastz|lastz!", \$USE_LASTZ, # instead of blastn for cds-align
+  "tidyup!", \$tidyup, 
+  "dryrun|n!", \$dryrun,
+  "debug!", \$DEBUG,
+  "table:s", \$table,
+);
+
+$tidyup= 1 unless($dryrun||$debug);
+
+openloggit( $logfile, $cdnaseq); 
+loggit(1, "EvidentialGene tr2aacds.pl VERSION",VERSION);
+loggit(1, "input cdnaseq=",$cdnaseq);
+loggit(1, "ERR: unused arguments:",@ARGV) if(@ARGV>0); # do something w/ remaining @ARGV .. warn
+
+my $APPblastn=    findapp("blastn"); 
+my $APPmakeblastdb= findapp("makeblastdb");
+#my $APPlastz="echo MISSING_lastz"; 
+my $APPlastz= findapp("lastz") if ($USE_LASTZ || $debug); 
+my $APPfastanrdb= findapp("fastanrdb");
+my $APPcdhitest=  findapp("cd-hit-est"); 
+my $APPcdhit=     findapp("cd-hit");
+  
+my $APPtranseq=   findevigeneapp("transeq");
+my $APPselectORF= findevigeneapp("selectORF.ba");
+my $APPreformataaheader= findevigeneapp("reformat_aa_header.ba");
+
+## .. these should call findevigeneapp() to warn/die if missing
+my $APPcdnabest= findevigeneapp("cdna_bestorf.pl");
+my $APPtraa2cds= findevigeneapp("prot/traa2cds.pl");
+my $APPtrdupfilter= findevigeneapp("rnaseq/asmrna_dupfilter2.pl");  
+my $APPaaqual=    findevigeneapp("prot/aaqual.sh"); # replace w/ cdna_evigenesub:makeAaQual()
+
+=item  tr2aacds pipeline algorithm
+
+  I added a frame option - this is for use with ORFfinder and transeq.  This is the first step
+  in allowing for flexibility in reading frame.
+
+  0. make/collect input asm_name.{tr,aa,cds}, working mostly on .cds here
+
+  1. perfect redundant removal:  fastanrdb  input.cds > input_nr.cds
+    .. use aa.qual info for choosing top cds among identicals: pCDS only? ie need trsize along w/ cdssize
+
+  2. perfect fragment removal: cd-hit-est -c 1.0 -l $MINCDS ..
+
+  3. blastn, basic local align hi-ident subsequences for alternate tr.
+
+  4. classify main/alternate cds, okay & drop subsets, using evigene/rnaseq/asmrna_dupfilter2.pl
+     .. merges alignment table, protein-quality and identity, to score okay-main, ok-alt, and drop sets.
+
+  5. make final output files from outclass: okay-main, okay-alts, drops 
+      okayset is for public consumption, drops for data-overload enthusiasts (may contain valids).
+
+=cut
+
+
+#----------------------------------------------------
+#MAIN
+#----------------------------------------------------
+
+sub MAIN_start {}
+MAIN: {
+  unless($ENV{TMPDIR}) {  ## FIXME sort TMPDIR, cant use /tmp
+  require Cwd; if(my $cdir=Cwd::getcwd()) { $ENV{TMPDIR}=$cdir; } 
+  if(my $cdir=FindBin::cwd2()) { $ENV{TMPDIR}=$cdir; } 
+  }
+ 
+  #check table used is valid
+  my @table = (1,2,3,4,5,6,9,10,11,12,13,14,15,16,21,22,23,24,25,26,27,28,29,30,31,31);
+  if ( grep( /$table/, @table) ) {
+     print "using ncbi amino acid table #$table\n";
+  } else {
+     print "please use a valid amino acid table:\n";
+     print "1,2,3,4,5,6,9,10,11,12,13,14,15,16,21,22,23,24,25,26,27,28,29,30,31,31\n";
+     exit;
+  }
+
+  #make intermediate/output files
+  my($cdsseqnr,$cdsseqnrcd1,$cdsblast,$outclass,$outaln);
+  my(%perfect_dups,%perfect_frags);
+  
+  loggit(0, "BEGIN with cdnaseq=",$cdnaseq,"date=",`date`);
+
+
+  # 0. make/collect input assembly_name.{tr,aa,cds}, we will work mostly with cds though
+
+  #Required to have cdnaseq - may or may not have aaseq, cdsseq
+  ($cdsseq,$aaseq) = get_bestorf($cdnaseq,$aaseq,$cdsseq);
+  loggit(0, "bestorf_cds=",$cdsseq,"nrec=",facount($cdsseq));
+  ($aasize)= make_aaqual($aaseq);
+  my(%qualhash)= create_qualhash($aasize);
+  
+  # 1. nonredundant removal:  fastanrdb  input.cds 
+  ($cdsseqnr)= nonredundant_cds($cdsseq);
+  loggit(0, "nonredundant_cds=",$cdsseqnr,"nrec=",facount($cdsseqnr));
+
+  ## 1.1. reassign redundant cds from aaqual = pCDS to reduce utrbad/utrpoor set.
+  ## .. need only change header ID in $cdsseqnr ; fastanrdb puts all redundant ids on header.
+  ## Note this rewrites $cdsseqnr file, to same name
+  my(%perfduphash) = redundancy_resolve($cdsseqnr, "perfectdup", \%qualhash);
+  #NEED TO DO:loggit(0,"nonredundant_reassignbest=",$nbest,"of",$ndups); 
+  #NEED TO DO: implement actual sorting!
+
+  # 2. perfect fragment removal  : clusterize : $NCPU, $MAXMEM
+  my $cdsnrids= {};
+  ($cdsseqnrcd1)= nofragments_cds($cdsseqnr, "cd1");
+  my (%fragduphash) = classify_cd($cdsseqnrcd1, \%qualhash, "perfectfrag");
+  #loggit(0, "nofragments_cds=",$cdsseqnrcd1,"nrec=",facount($cdsseqnrcd1));
+
+  #(%perfduphash) = reconcile_duplicates(\%perfduphash, \%fragduphash, $cdsseq);
+  print_file_from_hash(\%perfduphash, 3, "dupclean", $cdsseq, $aaseq);
+
+  # 3. BLAST TBD
+  # 3. blastn alignments of hi-ident subsequences : clusterized  : $NCPU, $MAXMEM
+  my($cdsblast)= blastn_cds($cdsseq);
+
+  # 4.1 cdhit -c 0.9 -i $aaseq -o $aaseqcd .. for aaseqcd.clstr input to dupfilter ..
+  #  .. filter uses aaclstr only to drop aa-hiident alts as uninformative; eg 1/2 of 13k althi.
+  my($cdsseqnrcd90)= nofragments_cds($cdsseqnr, "cd90");
+  my(%cdhash) = classify_cd($cdsseqnrcd90, \%qualhash, "cd90");
+  #dump_hash(\%cdhash);   
+  #TO DO: * why are there less sequences in cdna2nrcd9.cds than in cdna2.cds? 474 -> 448, but only 
+  #         1 alternate form... did it in c100 too, so maybe not an issue?
+  #	  * store the hit "type" (i.e. a1 hi, hi1, etc) in type - "cd90-a2" - would be $5
+  #  	    i.e. "100.00%" -> "cd90-a2"
+  #	         "92.00%" -> "cd90-default"
+  #	         "*" in a cluster of 2+ -> "cd90-longest" 
+
+  }
+
+#----------------------------------------------------
+#Subprocesses - Set up
+#----------------------------------------------------
+
+sub findapp
+{
+  my($aname, $nodie)=@_;
+  my $app=""; $nodie ||= 0;
+  $app=$ENV{$aname} if(not $app and $ENV{$aname});  
+  $app=$ENV{uc($aname)} if(not $app and $ENV{uc($aname)});  
+  $app=`which $aname` unless($app); 
+  chomp($app);
+
+  my $dol=0; if(not $app or $app =~ /^no $aname/) { 
+    $app="echo MISSING_$aname"; 
+    $dol=($dryrun||$DEBUG||$nodie)? LOG_WARN : LOG_DIE; 
+    }
+
+  loggit( $dol, "app=$aname, path=$app");
+  return($app);
+}
+
+sub findevigeneapp
+{
+  my($aname, $nodie)=@_;
+  my $app= $aname; $nodie ||= 0;
+  # my $EVIGENES="$FindBin::Bin/.."; # ok?
+  # my $APPcdnabest= findevigeneapp("$EVIGENES/cdna_bestorf.pl"); # allow ENV/path substitutions?
+  $app="$EVIGENES/$aname" unless(-x $app);
+  my $dol=0; 
+  unless( -x $app) { 
+    $app="echo MISSING_$aname"; 
+    $dol=($dryrun||$DEBUG||$nodie)? LOG_WARN : LOG_DIE; 
+    }
+  loggit( $dol, "evigeneapp=$aname, path=$app");
+  return($app);
+}
+
+sub makename
+{
+  my($infile,$osuf,$insuf)=@_;
+  $insuf ||= 'aa|blast|cdna|mrna|cds|tr|trclass|tbl|fasta|faa|fsa|fa';
+  
+  unless($infile) { warn "makename MISSING infile"; $infile="Noname$$"; }
+  my $outfile= $infile; $outfile =~ s/\.gz$//; # bad for infile empty/undef .. do what?
+  
+  $outfile =~ s,\.($insuf)[^\/\s]*$,,; 
+  $outfile.= $osuf if($osuf); 
+  $outfile.= "_out" if($outfile eq $infile);
+  
+  return $outfile;
+}
+
+sub openloggit {
+  my($logfile,$trname)= @_;
+  
+  if(not $logfile and defined $logfile) { # use output name
+    $logfile= $trname || $EGLOG;
+    $logfile= makename($logfile,".$EGAPP.log");  # need program suffix??
+  }
+  
+  if($logfile) { open($logh, '>>', $logfile) or die $logfile; } 
+}
+
+sub loggit{ 
+  my($dowarn,@msg)= @_; return unless($dowarn or @msg);
+  my $s= join(' ',@msg); chomp($s); $s="FATAL $s" if($dowarn == LOG_DIE);
+  if($logh){ print $logh "#$EGLOG: $s\n"; } elsif($dowarn>0||$DEBUG){ warn "#$EGLOG: $s\n"; }
+  if($dowarn == LOG_DIE) { die "#$EGLOG: $s\n" ; }
+}
+
+sub openRead {
+  my($fna)= @_; 
+  my($ok,$hin)= (0,undef);
+  $ok= ($fna =~ /\.gz$/) ? open($hin,"gunzip -c $fna|") : open($hin,$fna);  
+  loggit(1,"ERR: openRead $fna") unless($ok);
+  return ($ok,$hin);
+}
+
+sub runcmd
+{
+  my @cmd= @_;
+  loggit( ($dryrun) ? 1 : 0,"CMD=",@cmd);  
+  ## fail if $cmd[0] =~ /MISSING_/
+  my $err= ($dryrun) ? 0 : system(@cmd);  ## ?? add option run: @result=`$cmd`;
+  if($err) { loggit(1,"ERR=$err ",$cmd[0]); } # ..
+  return $err;
+}
+
+sub forkcmd
+{
+  my @cmd= @_;
+
+  loggit( ($dryrun) ? 1 : 0,"forkCMD=",@cmd);  
+
+  unless($dryrun) {
+    my $pid= fork();
+    if($pid) { # parent
+      return $pid;
+    } else { # child
+      my $err= system(@cmd);
+      exit($err);
+    }
+  }
+}
+
+#----------------------------------------------------
+#Subprocesses - Fasta handling
+#----------------------------------------------------
+
+sub fasize
+{ 
+   #Reports the number of sequence characters in a file
+   my $fa=shift; my $b=0; my $ok;
+
+   if($fa =~ /\.gz$/) { $ok= open(F,"gunzip -c $fa|"); }
+   else { $ok= open(F,$fa); }
+
+   while(<F>) { $b += length($_) unless(/^>/); } close(F);
+   chomp($b); return $b; 
+}
+
+sub facount 
+{
+  #Reports the number of sequence entries in a file
+  my $fa=shift; my $n=0;
+  my($ok,$hin)= openRead($fa);
+
+  if($ok) { while(<$hin>) { $n++ if(/^>/); } close($hin); }
+  return $n;  
+}
+
+sub fasplit
+{
+  my($fa, $spldir, $npart, $splsize)=@_;
+  my @splist= (); my $ok= 0;
+  my($atsize,$atfile)=(0,0);
+  my $fabase= basename($fa);
+
+  if($fa =~ /\.gz$/) { $ok= open(F,"gunzip -c $fa|"); }
+  else { $ok= open(F,$fa); }
+
+  unless($ok) { loggit(LOG_DIE,"ERR: fasplit $fa $spldir $npart $splsize"); return @splist; }
+
+  mkdir($spldir) unless(-d $spldir);
+
+  while(<F>) {
+    if($atfile==0 or ($atsize > $splsize && /^>/)) {
+      $atfile++; if($atfile>$npart) { } # finishup???
+      close(SPL) if($atfile>1);
+
+      my $spname= $spldir . makename($fabase,".split$atfile.fa");
+      $ok= open(SPL,'>',$spname);  $atsize= 0;
+      unless($ok) { loggit(LOG_DIE,"ERR: fasplit $atfile $spname"); return @splist; }
+      push @splist, $spname;
+      }
+    print SPL;
+    $atsize+= length($_) unless(/^>/);
+  } 
+  close(SPL); close(F);
+  return @splist;
+}
+
+#----------------------------------------------------
+#Subprocesses - Introduced in Step 0
+#----------------------------------------------------
+
+sub get_bestorf
+{
+  my($cdnaseq,$aaseq,$cdsseq)=@_;
+
+  #create names for files if file not provided in main options
+  $aaseq = makename($cdnaseq,".aa") unless($aaseq);
+  $cdsseq= makename($cdnaseq,".cds") unless($cdsseq);
+
+  # if cds exists - grab cds, make aa if not provided; else if only aa provided, make cds from AA, 
+  # else if only cdna is provided, make best orf/aa from cdna
+  
+  if( $cdsseq and -s $cdsseq ) {
+    if ( $aaseq and -s $aaseq ) {
+       #do nothing, we have all three!
+    } else {
+       ($aaseq) = make_aaseq_from_transeq($cdsseq, $aaseq);
+    }
+  } elsif( $aaseq and -s $aaseq ) {
+       #Alternate not needed here, as the cds is pulled from the cdna and offset in aa headers
+       #However, need to reformat aa input from ORFfinder...
+       ($cdsseq) = make_cdsFromTrAA($cdnaseq,$aaseq);
+  } else {
+    if ($table eq 1) {
+       ($cdsseq,$aaseq) = make_bestorf($cdnaseq);
+    } else {    
+       ($cdsseq,$aaseq) = make_cdsFromORFfinder($cdnaseq, $cdsseq, $aaseq);
+    }
+  }
+
+  push @inputset, $cdsseq,$aaseq ;
+  return($cdsseq,$aaseq);
+}
+
+sub make_cdsFromTrAA
+{
+  my($cdnaseq,$aaseq)=@_;
+  my $cdsseq= makename($aaseq,".cds");
+
+  #Run prot/traa2cds script
+  my $cmd="$APPtraa2cds -cdna $cdnaseq -aaseq $aaseq -cdsseq $cdsseq";
+  unless(-s $cdsseq) {
+  my $runerr= runcmd($cmd);
+  }
+
+  #returns cds file
+  return($cdsseq);
+}
+
+sub make_cdsFromORFfinder
+{
+  my($cdnaseq, $cdsseq, $aaseq)=@_;
+  
+  my $cmd="ORFfinder -in $cdnaseq -g $table -n true -out $cdsseq -outfmt 1";
+  runcmd($cmd);
+
+  #bash to fix header for cdsseq is needed for aa offset
+  my $cmd2="./$APPselectORF $cdnaseq $cdsseq $table";
+  runcmd($cmd2);
+
+  ($aaseq) = make_aaseq_from_transeq($cdsseq, $aaseq);
+
+  return($cdsseq, $aaseq);
+}
+
+sub make_bestorf
+{
+  my($cdnaseq)=@_;
+
+  #MINCDS is user defined or default 90BP, MINAA scales to 30AA
+  my $MINAA=int($MINCDS/3);
+
+  my $aaseq = makename($cdnaseq,".aa");
+  my $cdsseq= makename($cdnaseq,".cds");
+ 
+  unless(-s $cdsseq) {
+    if($NCPU>1 and not $dryrun) {
+         #Run in paralell if more than 1 CPU given 
+         ($cdsseq,$aaseq)= make_bestorf_ncpu($NCPU,$cdnaseq,$cdsseq,$aaseq);
+    }
+    else { 
+          #Run cdna_bestorf.pl
+          my $cmd="$APPcdnabest -nostop -minaa=$MINAA -cdna $cdnaseq -aaseq $aaseq -cdsseq $cdsseq";
+          runcmd($cmd); 
+    }
+  }
+  return($cdsseq,$aaseq);
+}
+
+sub make_bestorf_ncpu
+{
+  #Parallel version of above script
+  my($npart,$cdnaseq,$cdsseq,$aaseq)=@_;
+  return unless(-s $cdnaseq);
+  
+  my $MINAA=int($MINCDS/3);
+  my $csize= fasize($cdnaseq);
+  my $spldir= makename($cdnaseq,"_split/");
+  my $splsize= 1 + int($csize/$npart);
+  
+  mkdir($spldir);
+  my @splset= fasplit( $cdnaseq, $spldir, $npart, $splsize); 
+  my (@cdsset,@aaset);
+  my $icpu= 0; 
+  foreach my $cdna1 (@splset) {
+    my $aa1  = makename($cdna1,".aa$icpu"); 
+    my $cds1 = makename($cdna1,".cds$icpu"); 
+    my $cmd1="$APPcdnabest -nostop -minaa=$MINAA -cdna $cdna1 -aaseq $aa1 -cdsseq $cds1";
+    push @aaset, $aa1; push @cdsset, $cds1;
+    my $pid= forkcmd($cmd1);    
+    if(++$icpu > $npart) { while (wait() != -1) { }; $icpu= 0; }
+  }
+
+  while (wait() != -1) { };
+  
+  my $cmd;
+  $cmd= "cat ".join(' ',@aaset)." > $aaseq"; runcmd($cmd);
+  $cmd= "cat ".join(' ',@cdsset)." > $cdsseq"; runcmd($cmd);
+  
+  if($debug||$dryrun) {
+    push @erasefiles, @splset, @aaset, @cdsset; # which?
+  } else {
+    foreach my $fn (@splset, @aaset, @cdsset) {  unlink($fn) if(-f $fn); } 
+    rmdir($spldir); 
+  }
+  
+  return($cdsseq,$aaseq);
+}
+
+sub make_aaseq_from_transeq
+{
+  my($cdsseq, $aaseq)=@_;
+
+  my ($cmd, $cmd2);
+
+  #assume frame 1, as the cds is being provided, allow for table definition
+  #can't - partials!
+  #$cmd = "$APPtranseq -sequence $cdsseq -outseq $aaseq -table $table -frame 1";
+  $cmd = "./best_aa.ba $cdsseq $aaseq $table";
+  my $runerr= runcmd($cmd);
+
+  #just renames the type - could do this in perl, but leaving in case I need to change header
+  $cmd2 = "cat $aaseq | ./$APPreformataaheader > tmp; mv tmp $aaseq";
+  runcmd($cmd2);
+
+  push @inputset, $aaseq;
+  return($aaseq);
+}
+
+sub make_aaqual
+{
+  my($aaseq)=@_;
+  
+  my $aasize= makename($aaseq,".aa.qual"); 
+
+  #Run prot/aaqual.sh
+  my $cmd="$APPaaqual $aaseq";
+
+  unless(-s $aasize) { my $runerr= runcmd($cmd); }
+  push @inputset, $aasize;
+  return($aasize);
+}
+
+#----------------------------------------------------
+#Subprocesses - Introduced in Step 1
+#----------------------------------------------------
+
+sub nonredundant_cds
+{
+  #Runs Fastanrdb on sequences -any that have a match gets a second name in the header
+  my($cdsseq)=@_;
+
+  my $cdsnrseq = makename($cdsseq,"nr.cds");
+  my $cmd="$APPfastanrdb $cdsseq > $cdsnrseq";
+  unless(-s $cdsnrseq) {
+  my $runerr= runcmd($cmd);
+  }
+  push @tmpfiles, $cdsnrseq;
+  return($cdsnrseq);
+}
+
+sub create_qualhash
+{
+ my ($aaqual) = @_;
+
+ my $data = "$aaqual";
+ my %qualhash;
+
+ open(my $fh, '<', $data) or die "Could not open '$data' $!\n";
+
+ while (my $line = <$fh>) {
+   chomp $line;
+   my @fields = split "\t" , $line;
+
+   my $key = shift @fields;
+   my @rest = @fields;
+   my $rests = join(",", @rest);
+   $qualhash{$key} = $rests ;
+ }
+
+ return %qualhash;
+}
+
+sub redundancy_resolve
+{
+ my $file = $_[0];
+ my $mode = $_[1];
+ my %qualhash = %{$_[2]};
+
+ my(%perfduphash, %duphash);
+
+ my $tmp = makename($file,".tmp"); 
+
+ open(O,'>',$tmp);
+ open(F,$file); while(my $line = <F>) { 
+	if($line =~ m/^>/) { 
+		chomp $line;
+		$line=~ s/>//; 
+		my @duplist = split(/\  */,$line);
+
+		foreach my $transcript_name (@duplist) {
+		    	$duphash{$transcript_name} = $qualhash{$transcript_name};
+		}
+
+		my($best, $others);
+	 	($best, $others) = sort_duphash(\%duphash, $mode);	
+
+		$perfduphash{$best} = $others;
+
+		%{duphash}= ();		
+
+		#if ($mode eq "perfectdup") {
+			print O ">$best\n";
+  		#}
+	} else {
+		print O "$line";
+	}
+  }
+  close(F);
+  close(O); 
+
+  my $cmd= "mv $file $file.$mode; mv $tmp $file";
+  runcmd($cmd);
+
+  return(%perfduphash)
+}
+
+sub sort_duphash 
+{
+ my %inhash = %{$_[0]};
+ my $mode = $_[1];
+
+ my %outhash;
+ my $best;
+ my $others;
+
+ my @keys = keys %inhash;
+ my $l = scalar @keys; 
+
+ if ($l == "1") {
+	if (%inhash) { #true if not empty
+		$best = $keys[0];
+		$best =~ s/\s+$//;
+		$keys[0] = "no $mode";}
+ } else {
+	#@qual = split %duphash, ",";
+	#need a way to sort...
+ 	#sort %inhash by aalen, aalen_wogap, type?, clen
+   	#(see https://perlmaven.com/how-to-sort-a-hash-in-perl)
+
+	$best = $keys[0]; #move to bottom for cd sorting ease - "longest is best!"!
+	splice(@keys,0,1);
+
+	for my $i (0 .. $#keys) {
+		$keys[$i] =~ s/\s+$//;
+		$keys[$i] ="$keys[$i]/$mode";
+	}
+ }
+
+ $others = join("," , @keys);
+
+ return($best, $others)
+}
+
+
+#----------------------------------------------------
+#Subprocesses - Introduced in Step 2 - remove perfect frags
+#----------------------------------------------------
+
+sub nofragments_cds
+{
+  my($seqnr, $mode)=@_;
+  
+  my $cdlog = makename($seqnr,"$mode.log");
+  my($opts, $app, $seqnrcd);
+
+  ## *** clusterize this .. -T NCPU works ok
+  ## cd1: cd-hit-est -M 1500  -c 1.00 -d 0;  -l  length of throw_away_sequences, default 10
+  ## cd9: cdhit -c 0.9 -i $aaseq -o $aaseqcd .. for aaseqcd.clstr input to dupfilter ..
+  if ($mode eq "cd1") {
+	$app= $APPcdhitest;
+	$opts=" -c 1.00"; 
+	$seqnrcd = makename($seqnr,"$mode.cds");
+  #} elsif ($mode eq "cd90") {
+  } elsif (index($mode, "cd90") !=-1) {
+ 	$app= $APPcdhit;
+ 	$opts=" -c 0.9";
+ 	$seqnrcd = makename($seqnr,"$mode.aa");
+  }
+
+  $opts.=" -T $NCPU" if($NCPU>1);
+  $opts.=" -M $MAXMEM" if($MAXMEM>1); # M in Megabytes
+  $opts.=" -l ".($MINCDS-1) if($MINCDS>10); 
+
+  if(my $cdopt=$ENV{CDHITESTOPT}) { $opts .= " ".$cdopt; }
+  
+  my $cmd="$app $opts -d 0 -i $seqnr -o $seqnrcd 1> $cdlog 2>&1"; # log to ...
+  #print "\nours:\n$cmd\n";
+  #print "/N/soft/rhel7/cd-hit/4.6.8/cd-hit-est  -c 1.00 -M 1000 -l 89 -d 0 -i test2/cdna2nr.cds -o test2/cdna2nrcd1.cds 1> test2/cdna2nrcd1.log 2>&1\n";
+  #runcmd($cmd);
+	
+  unless(-s $seqnrcd) {
+    my $runerr= runcmd($cmd); # $idops="update";
+    unlink("$seqnrcd.bak.clstr") if (-f "$seqnrcd.bak.clstr");
+  }
+  
+  return($seqnrcd);
+}
+
+sub classify_cd
+{
+ my $file = $_[0];
+ my %qualhash = %{$_[1]};
+ my $mode = $_[2];
+
+ my(%duphash, %outhash, @cluster);
+ my($best,$others,$tag, $out);
+
+ $file = $file . ".clstr";
+ open(F, $file); while(<F>) {
+ 	if (/Cluster/) {
+		if(@cluster) {
+			my @list;
+			foreach my $nametag (@cluster) {
+				my @set = split(" ", $nametag);
+
+				if ($set[1] eq "best") { #assumes longest == best
+					$best = $set[0];
+					$best =~ s/\s+$//;
+				} else {
+					push @list, "$set[0]/$mode$set[1]";  
+				}
+			}
+
+			if (@list) {
+				$others = join("," , @list);
+			} else {
+				$others = "no $mode";
+			}
+
+			$outhash{$best} = $others;
+			%duphash = (); @cluster = ();	#reset
+		}
+	} else {
+                s/>//;
+		s/\.\.\.//g;
+		my @line = split;
+		my $name = $line[2];
+		chomp $name;
+
+		if ( $line[3] eq "*") {
+			$tag = "best";
+		} else {
+		        $tag = $line[4];
+			$tag =~ s/%//;
+			if ($mode eq "cd90") {
+				if ($tag >= 98) { $tag = "-a2"; } else { $tag = "-default";}
+			} else {
+				$tag = "";
+			}
+		}
+		$name = "$name $tag";				
+		push @cluster, "$name\n";
+	}
+ }
+ close(F);
+
+ #my @keys= keys %outhash; foreach my $k (@keys) { print "k: $k e: $outhash{$k}\n";}
+
+ return (%outhash);
+
+}
+
+sub reconcile_duplicates
+{
+ my %perfectdups = %{$_[0]};
+ my %fragdups = %{$_[1]};
+ my $cdsseq = $_[2];
+ my $mode ="cleanupdups";
+
+ my @keys = keys %fragdups;
+ my @pvalues = values %perfectdups;
+ my @remove;
+
+ foreach my $key (@keys) {
+	if ($fragdups{$key} eq "no perfectfrag") {
+		#skip it
+		#print "$fragdups{$key} skipped\n";
+	} elsif (exists($perfectdups{$key})) { 
+		#it is a frag of a best
+		#print "\nfragdups key $key is a hit to a best: $key";
+
+		if ($perfectdups{$key} eq "no perfectdup") { 
+			#print " but no perfect dups are found\n";
+			$perfectdups{$key} = $fragdups{$key}; 
+		} else { 
+			#print " so it is added to the perfect dups\n";
+			$perfectdups{$key} = $perfectdups{$key} . "," . $fragdups{$key};
+                }
+
+		my @frags = split /,/, $fragdups{$key};
+		foreach my $f (@frags) { 
+			$f =~ s/\/.*//g; 
+			#print "fragment $f removed from perdups as it is a fragment.\n"; 
+			push @remove, $f 
+		};
+				
+	} elsif ( "$key/perfectdup" ~~ @pvalues ) {
+		#print "this is a fragment of a duplicate";
+		#it is a fragment of a duplicate
+	
+		my ($pkey) = grep{ $perfectdups{$_} eq '$key/perfectdup'} keys %perfectdups;
+		#print " and the fragments matching $fragdups{$key} have been added to $pkey.\n";
+
+		$perfectdups{$pkey} = $perfectdups{$pkey} . "," . $fragdups{$key}; 
+	}
+ }
+
+ #remove fragdup key from perfectdup keys, as it now merged to better hit
+ foreach my $d (@remove) { delete $perfectdups{$d}; }
+
+ return(%perfectdups); #MAIN -> all keys are either okay or okalt
+}
+
+sub dump_hash
+{
+  my %hash = %{$_[0]};
+
+  my @keys = keys %hash;
+  foreach my $k (@keys) { print "k: $k e: $hash{$k}\n";}
+}
+
+sub print_file_from_hash
+{
+  my %hash = %{$_[0]};
+  my $which = $_[1];
+  my $mode = $_[2];
+  my $cdsseq = $_[3];
+  my $aaseq = $_[4];
+ 
+  my @keys = keys %hash;
+  my $list = makename($cdsseq,".list");
+  my $cdsout = makename($cdsseq, ".cds.$mode");
+  my $aasout = makename($cdsseq, ".aa.$mode");
+
+  my $cmd;
+
+  open(O,'>',$list);
+
+  foreach my $k (@keys) {
+	print O ">$k\n";
+  }
+  close(O);
+
+  if ($which == 1) { 
+	$cmd = "./subset_fasta.pl -i $list < $cdsseq > $cdsout; mv $cdsseq $cdsseq.pre$mode; mv $cdsout $cdsseq";
+	runcmd($cmd);
+  } elsif ($which == 2) {
+	$cmd = "./subset_fasta.pl -i $list < $aaseq > $aasout; mv $aaseq $aaseq.pre$mode; mv $aasout $aaseq";
+	runcmd($cmd);
+  } elsif ($which == 3) {
+	$cmd = "./subset_fasta.pl -i $list < $cdsseq > $cdsout; mv $cdsseq $cdsseq.pre$mode; mv $cdsout $cdsseq";
+	runcmd($cmd);
+
+
+	$cmd = "./subset_fasta.pl -i $list < $aaseq > $aasout; mv $aaseq $aaseq.pre$mode; mv $aasout $aaseq";
+	runcmd($cmd);
+  }
+
+  #no return, just prints files  
+}
+
+#----------------------------------------------------
+#Subprocesses - Introduced in Step 3 - BLAST Alternates
+#----------------------------------------------------
+
+sub blastn_cds
+{
+  my($cdsseq)=@_;
+  if($NCPU>1 and not $dryrun) { return blastn_cds_ncpu($NCPU,$cdsseq); }
+ 
+  ## *** clusterize this .. NCPU works ok .. NOT!
+  my $cdsdb= makename($cdsseq,"_db");
+  my $cdsbltab= makename($cdsseq,"-self$CDSBLAST_IDENT.blastn");
+  my $blog= makename($cdsdb,".log","xxxsuf");
+  return($cdsbltab) unless(-s $cdsseq);
+
+  my $fmtcmd="$APPmakeblastdb -in $cdsseq -dbtype nucl -out $cdsdb -logfile $blog";
+  my $opts="";
+  $opts.=" -num_threads $NCPU" if($NCPU>1); # -num_threads isnt effective
+  my $cmd="$APPblastn -task megablast $opts -ungapped -perc_identity $CDSBLAST_IDENT -evalue $CDSBLAST_EVALUE -dust no" . " -outfmt 6 -db $cdsdb -query $cdsseq -out $cdsbltab";
+  unless(-s $cdsbltab) {
+	  runcmd($fmtcmd);
+	  my $runerr= runcmd($cmd);
+  }
+  push @erasefiles, "$cdsdb.nsq","$cdsdb.nin","$cdsdb.nhr";
+  push @tmpfiles, $cdsbltab,$blog;
+  return($cdsbltab);
+}
+
+sub blast2alt
+{
+  my $cdsbltab = $_[1];
+  my %perfduphash = %{$_[2]};
+  my %qualhash = %{$_[3]};
+  my(%althash, %duphas);
+
+ #hash all query to results 
+ #foreach $line in blast.out
+	#grab query
+	#if query and hit are the same, skip
+	#	elsif id, evalue, length, and bitscore meet requirements
+	#		add to array of hits hashed to that query
+	#		tag with mid, hi, hi1, or default
+	
+
+			#} elsif ($mode eq "blast") {
+			#	if ($tag == 100) { $tag = "-hi1"; 
+			#	} elsif ($tag >= 98 ) {$tag="-hi";
+			#	} elsif ($tag <= 93) {$tag = "-mid";
+			#	} else { $tag = "-default";}
+
+
+
+ #reconcile query <-> db duplicates into "clusters"
+ #foreach $query (%blasthash) {
+ #	if @values ~ m/$query(-tag)
+ #	merge $%blasthash{$query} into matching $query
+ #else
+ #	ignore, hit not quality
+
+ #find best aa in matching, mark as alt and best
+ #for each $key in %mainhash
+	#if $key"/.*" is in %althash
+	#	print "WARNING - two blast 'clusters' have same best"  #not sure if this happens- building in test!
+	#else 
+	#	@hits=split %blasthash{$key}
+	#	duphash{$query} = %qualityhash[$query]
+	#	foreach $entry in @hits
+	#		duphash{$entry} = %qualhash{$entry}
+	#
+	#	$best,$alts=sort_duphash(%duphash, "alt")
+	#	%althash{$best}=@alts
+
+  return(%althash)
+}
+
+#----------------------------------------------------
+#Subprocesses - Introduced in Step 4 - CD-HIT-EST Alternates and combine
+#----------------------------------------------------
+
+#----------------------------------------------------
+#Subprocesses - Introduced in Step 5 - Output Generation
+#----------------------------------------------------

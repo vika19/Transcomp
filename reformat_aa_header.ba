@@ -1,0 +1,1 @@
+sed -e 's/cds/aa/g' -e 's/_[0-9]* / /g' -e 's/\*$//g' | fasta2oneline.ba

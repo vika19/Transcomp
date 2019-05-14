@@ -1,0 +1,4464 @@
+>Cluster 0
+0	3270aa, >SOAP_k35_scaffold19608... *
+>Cluster 1
+0	1854aa, >SOAP_k55_scaffold2363... *
+>Cluster 2
+0	1800aa, >SOAP_k55_scaffold18954... *
+>Cluster 3
+0	1791aa, >SOAP_k55_scaffold2364... *
+>Cluster 4
+0	1611aa, >SOAP_k35_scaffold8483... *
+>Cluster 5
+0	1605aa, >SOAP_k55_scaffold16391... *
+>Cluster 6
+0	1587aa, >SOAP_k45_scaffold19398... *
+>Cluster 7
+0	1449aa, >SOAP_k35_scaffold404... *
+>Cluster 8
+0	1434aa, >SOAP_k45_scaffold11061... *
+1	1344aa, >SOAP_k55_scaffold10023... at 99.26%
+>Cluster 9
+0	1416aa, >SOAP_k55_scaffold8699... *
+>Cluster 10
+0	1416aa, >SOAP_k55_scaffold6981... *
+1	1344aa, >SOAP_k45_scaffold6527... at 96.50%
+>Cluster 11
+0	1398aa, >SOAP_k35_scaffold14003... *
+>Cluster 12
+0	1383aa, >SOAP_k55_scaffold6946... *
+1	1245aa, >SOAP_k35_scaffold13362... at 93.01%
+>Cluster 13
+0	1383aa, >SOAP_k35_scaffold17573... *
+>Cluster 14
+0	1374aa, >SOAP_k55_scaffold12483... *
+>Cluster 15
+0	1347aa, >SOAP_k55_scaffold19787... *
+>Cluster 16
+0	1338aa, >SOAP_k45_scaffold863... *
+>Cluster 17
+0	1299aa, >SOAP_k35_scaffold12382... *
+>Cluster 18
+0	1251aa, >SOAP_k35_scaffold20323... *
+>Cluster 19
+0	1245aa, >SOAP_k55_scaffold16364... *
+>Cluster 20
+0	1218aa, >SOAP_k35_scaffold20116... at 99.75%
+1	1242aa, >SOAP_k45_scaffold20239... *
+>Cluster 21
+0	1242aa, >SOAP_k35_scaffold19239... *
+>Cluster 22
+0	1236aa, >SOAP_k35_scaffold16106... *
+>Cluster 23
+0	1230aa, >SOAP_k35_scaffold18613... *
+1	780aa, >SOAP_k45_scaffold11239... at 98.72%
+>Cluster 24
+0	1218aa, >SOAP_k55_scaffold19645... *
+>Cluster 25
+0	1200aa, >SOAP_k55_scaffold19186... *
+>Cluster 26
+0	909aa, >SOAP_k55_scaffold3926... at 90.43%
+1	1200aa, >SOAP_k55_scaffold3923... *
+>Cluster 27
+0	1200aa, >SOAP_k55_scaffold4603... *
+>Cluster 28
+0	1182aa, >SOAP_k35_scaffold16478... *
+>Cluster 29
+0	1179aa, >SOAP_k35_scaffold16321... *
+>Cluster 30
+0	1161aa, >SOAP_k55_scaffold18856... *
+>Cluster 31
+0	1152aa, >SOAP_k45_scaffold14073... *
+>Cluster 32
+0	1146aa, >SOAP_k55_scaffold7116... *
+>Cluster 33
+0	1143aa, >SOAP_k55_scaffold13816... *
+1	1110aa, >SOAP_k45_scaffold13453... at 94.50%
+>Cluster 34
+0	1143aa, >SOAP_k45_scaffold14184... *
+>Cluster 35
+0	1131aa, >SOAP_k45_scaffold20606... *
+>Cluster 36
+0	1131aa, >SOAP_k45_scaffold17521... *
+>Cluster 37
+0	1125aa, >SOAP_k35_scaffold14242... *
+>Cluster 38
+0	1122aa, >SOAP_k35_scaffold14243... *
+>Cluster 39
+0	1122aa, >SOAP_k35_scaffold20325... *
+>Cluster 40
+0	1116aa, >SOAP_k55_scaffold20119... *
+>Cluster 41
+0	1113aa, >SOAP_k45_scaffold20475... *
+>Cluster 42
+0	1098aa, >SOAP_k35_scaffold8570... *
+>Cluster 43
+0	1098aa, >SOAP_k45_scaffold7484... *
+>Cluster 44
+0	1086aa, >SOAP_k55_scaffold20091... *
+>Cluster 45
+0	1059aa, >SOAP_k55_scaffold10430... *
+>Cluster 46
+0	1056aa, >SOAP_k55_scaffold15230... *
+>Cluster 47
+0	1056aa, >SOAP_k55_scaffold14625... *
+>Cluster 48
+0	1053aa, >SOAP_k45_scaffold19477... *
+>Cluster 49
+0	1032aa, >SOAP_k45_scaffold8314... *
+>Cluster 50
+0	1029aa, >SOAP_k45_scaffold7738... *
+>Cluster 51
+0	1026aa, >SOAP_k45_scaffold14576... *
+>Cluster 52
+0	1023aa, >SOAP_k45_scaffold16147... *
+>Cluster 53
+0	1017aa, >SOAP_k45_scaffold4613... *
+>Cluster 54
+0	1011aa, >SOAP_k55_scaffold3636... at 98.02%
+1	1017aa, >SOAP_k45_scaffold15368... *
+>Cluster 55
+0	1011aa, >SOAP_k55_scaffold15774... *
+>Cluster 56
+0	1011aa, >SOAP_k35_scaffold15604... *
+1	819aa, >SOAP_k55_scaffold12615... at 98.90%
+>Cluster 57
+0	1011aa, >SOAP_k45_scaffold16124... *
+>Cluster 58
+0	1008aa, >SOAP_k35_scaffold20554... *
+>Cluster 59
+0	1005aa, >SOAP_k55_scaffold16664... *
+>Cluster 60
+0	1002aa, >SOAP_k55_scaffold11963... *
+>Cluster 61
+0	1002aa, >SOAP_k45_scaffold11532... *
+>Cluster 62
+0	1002aa, >SOAP_k45_C310065... *
+>Cluster 63
+0	1002aa, >SOAP_k45_scaffold16783... *
+>Cluster 64
+0	681aa, >SOAP_k45_scaffold16160... at 97.50%
+1	996aa, >SOAP_k55_scaffold15669... *
+>Cluster 65
+0	993aa, >SOAP_k55_scaffold1992... *
+>Cluster 66
+0	993aa, >SOAP_k45_scaffold1633... *
+>Cluster 67
+0	993aa, >SOAP_k45_scaffold18234... *
+>Cluster 68
+0	993aa, >SOAP_k55_scaffold10875... *
+>Cluster 69
+0	990aa, >SOAP_k35_scaffold20185... *
+>Cluster 70
+0	987aa, >SOAP_k45_scaffold9109... *
+>Cluster 71
+0	984aa, >SOAP_k45_scaffold20310... *
+>Cluster 72
+0	984aa, >SOAP_k55_scaffold4361... *
+1	984aa, >SOAP_k35_scaffold403... at 99.80%
+>Cluster 73
+0	975aa, >SOAP_k35_scaffold1457... *
+>Cluster 74
+0	972aa, >SOAP_k35_scaffold15850... *
+>Cluster 75
+0	972aa, >SOAP_k55_scaffold5667... *
+>Cluster 76
+0	972aa, >SOAP_k55_scaffold908... *
+>Cluster 77
+0	969aa, >SOAP_k35_C404251... *
+>Cluster 78
+0	963aa, >SOAP_k55_scaffold19172... *
+>Cluster 79
+0	963aa, >SOAP_k35_scaffold13227... *
+>Cluster 80
+0	960aa, >SOAP_k35_scaffold18075... *
+>Cluster 81
+0	954aa, >SOAP_k35_scaffold5370... *
+>Cluster 82
+0	954aa, >SOAP_k45_scaffold15791... *
+>Cluster 83
+0	954aa, >SOAP_k35_scaffold19055... *
+1	927aa, >SOAP_k45_scaffold19203... at 93.74%
+>Cluster 84
+0	954aa, >SOAP_k45_scaffold20709... *
+>Cluster 85
+0	621aa, >SOAP_k35_scaffold17491... at 99.52%
+1	948aa, >SOAP_k45_scaffold18634... *
+>Cluster 86
+0	942aa, >SOAP_k45_scaffold3833... *
+>Cluster 87
+0	942aa, >SOAP_k55_scaffold19252... *
+>Cluster 88
+0	939aa, >SOAP_k55_scaffold19068... *
+>Cluster 89
+0	936aa, >SOAP_k45_scaffold20677... *
+>Cluster 90
+0	933aa, >SOAP_k45_scaffold20601... *
+>Cluster 91
+0	930aa, >SOAP_k45_scaffold13368... *
+>Cluster 92
+0	930aa, >SOAP_k55_scaffold18442... *
+>Cluster 93
+0	930aa, >SOAP_k45_scaffold9584... *
+>Cluster 94
+0	930aa, >SOAP_k45_scaffold13423... *
+>Cluster 95
+0	927aa, >SOAP_k35_scaffold20044... *
+>Cluster 96
+0	924aa, >SOAP_k55_scaffold17086... *
+>Cluster 97
+0	924aa, >SOAP_k55_scaffold14278... *
+>Cluster 98
+0	924aa, >SOAP_k55_scaffold6813... *
+>Cluster 99
+0	921aa, >SOAP_k35_C395135... *
+>Cluster 100
+0	918aa, >SOAP_k35_scaffold13835... *
+>Cluster 101
+0	915aa, >SOAP_k45_scaffold3892... *
+>Cluster 102
+0	906aa, >SOAP_k55_scaffold1539... *
+>Cluster 103
+0	906aa, >SOAP_k35_scaffold2353... *
+>Cluster 104
+0	906aa, >SOAP_k45_scaffold10498... *
+>Cluster 105
+0	903aa, >SOAP_k35_scaffold19182... *
+>Cluster 106
+0	900aa, >SOAP_k45_scaffold6157... *
+>Cluster 107
+0	900aa, >SOAP_k35_scaffold12557... *
+>Cluster 108
+0	900aa, >SOAP_k45_scaffold15402... *
+>Cluster 109
+0	897aa, >SOAP_k45_scaffold13123... *
+>Cluster 110
+0	897aa, >SOAP_k35_scaffold19349... *
+>Cluster 111
+0	894aa, >SOAP_k35_scaffold20410... *
+>Cluster 112
+0	891aa, >SOAP_k45_scaffold17037... *
+>Cluster 113
+0	891aa, >SOAP_k45_scaffold19276... *
+>Cluster 114
+0	888aa, >SOAP_k45_scaffold19184... *
+1	834aa, >SOAP_k35_scaffold19657... at 93.88%
+>Cluster 115
+0	879aa, >SOAP_k55_scaffold15571... *
+>Cluster 116
+0	879aa, >SOAP_k35_scaffold10240... *
+>Cluster 117
+0	879aa, >SOAP_k55_scaffold17462... *
+>Cluster 118
+0	876aa, >SOAP_k35_scaffold11590... *
+>Cluster 119
+0	876aa, >SOAP_k45_C293649... *
+>Cluster 120
+0	873aa, >SOAP_k45_scaffold4475... *
+>Cluster 121
+0	873aa, >SOAP_k35_scaffold4652... *
+>Cluster 122
+0	870aa, >SOAP_k45_scaffold13068... *
+>Cluster 123
+0	870aa, >SOAP_k35_scaffold2565... *
+>Cluster 124
+0	870aa, >SOAP_k55_scaffold19053... *
+>Cluster 125
+0	867aa, >SOAP_k55_scaffold2969... *
+>Cluster 126
+0	864aa, >SOAP_k35_scaffold14606... *
+>Cluster 127
+0	861aa, >SOAP_k45_scaffold15981... *
+>Cluster 128
+0	858aa, >SOAP_k45_scaffold15583... *
+>Cluster 129
+0	858aa, >SOAP_k35_scaffold11125... *
+>Cluster 130
+0	855aa, >SOAP_k45_scaffold16879... *
+>Cluster 131
+0	855aa, >SOAP_k45_scaffold20427... *
+>Cluster 132
+0	855aa, >SOAP_k35_scaffold20083... *
+>Cluster 133
+0	852aa, >SOAP_k35_C411401... *
+>Cluster 134
+0	852aa, >SOAP_k45_scaffold15428... *
+>Cluster 135
+0	846aa, >SOAP_k45_scaffold16439... *
+>Cluster 136
+0	846aa, >SOAP_k35_scaffold14690... *
+>Cluster 137
+0	843aa, >SOAP_k55_scaffold14246... *
+>Cluster 138
+0	843aa, >SOAP_k35_C401373... *
+>Cluster 139
+0	843aa, >SOAP_k45_scaffold13638... *
+>Cluster 140
+0	843aa, >SOAP_k55_scaffold3010... *
+>Cluster 141
+0	843aa, >SOAP_k55_scaffold4711... *
+>Cluster 142
+0	738aa, >SOAP_k45_scaffold20006... at 93.36%
+1	837aa, >SOAP_k55_scaffold20138... *
+>Cluster 143
+0	765aa, >SOAP_k35_scaffold6158... at 96.86%
+1	837aa, >SOAP_k45_scaffold6150... *
+>Cluster 144
+0	837aa, >SOAP_k45_scaffold4507... *
+>Cluster 145
+0	831aa, >SOAP_k55_scaffold15647... *
+>Cluster 146
+0	831aa, >SOAP_k35_scaffold19012... *
+>Cluster 147
+0	828aa, >SOAP_k55_scaffold8443... *
+>Cluster 148
+0	828aa, >SOAP_k45_C303897... *
+>Cluster 149
+0	828aa, >SOAP_k35_scaffold9589... *
+>Cluster 150
+0	825aa, >SOAP_k35_C394297... *
+>Cluster 151
+0	822aa, >SOAP_k55_scaffold2497... *
+>Cluster 152
+0	822aa, >SOAP_k35_scaffold14024... *
+>Cluster 153
+0	819aa, >SOAP_k35_scaffold14052... *
+>Cluster 154
+0	747aa, >SOAP_k55_scaffold14333... at 94.38%
+1	819aa, >SOAP_k35_scaffold10788... *
+>Cluster 155
+0	819aa, >SOAP_k55_scaffold18383... *
+>Cluster 156
+0	816aa, >SOAP_k35_scaffold18185... *
+>Cluster 157
+0	813aa, >SOAP_k55_scaffold10648... *
+>Cluster 158
+0	810aa, >SOAP_k55_scaffold8307... *
+1	669aa, >SOAP_k45_scaffold14496... at 99.55%
+>Cluster 159
+0	810aa, >SOAP_k55_scaffold14181... *
+>Cluster 160
+0	807aa, >SOAP_k45_scaffold17500... *
+1	807aa, >SOAP_k35_scaffold17967... at 97.77%
+>Cluster 161
+0	804aa, >SOAP_k55_scaffold5310... *
+>Cluster 162
+0	804aa, >SOAP_k55_scaffold13952... *
+>Cluster 163
+0	804aa, >SOAP_k55_scaffold12105... *
+>Cluster 164
+0	798aa, >SOAP_k35_scaffold5262... *
+>Cluster 165
+0	798aa, >SOAP_k35_C393693... *
+>Cluster 166
+0	795aa, >SOAP_k35_scaffold18121... *
+>Cluster 167
+0	795aa, >SOAP_k45_C321075... *
+>Cluster 168
+0	795aa, >SOAP_k45_scaffold1788... *
+>Cluster 169
+0	792aa, >SOAP_k55_scaffold3478... *
+>Cluster 170
+0	792aa, >SOAP_k35_C380575... *
+>Cluster 171
+0	789aa, >SOAP_k55_scaffold422... *
+>Cluster 172
+0	789aa, >SOAP_k35_scaffold9678... *
+>Cluster 173
+0	789aa, >SOAP_k45_scaffold19603... *
+>Cluster 174
+0	789aa, >SOAP_k55_scaffold792... *
+>Cluster 175
+0	789aa, >SOAP_k45_scaffold20716... *
+>Cluster 176
+0	789aa, >SOAP_k35_scaffold517... *
+>Cluster 177
+0	783aa, >SOAP_k45_scaffold13272... *
+>Cluster 178
+0	783aa, >SOAP_k35_C404887... *
+>Cluster 179
+0	783aa, >SOAP_k35_C390523... *
+>Cluster 180
+0	783aa, >SOAP_k55_scaffold19715... *
+>Cluster 181
+0	780aa, >SOAP_k35_C373775... *
+>Cluster 182
+0	780aa, >SOAP_k55_scaffold17977... *
+>Cluster 183
+0	777aa, >SOAP_k45_scaffold13271... *
+>Cluster 184
+0	774aa, >SOAP_k35_scaffold19440... *
+>Cluster 185
+0	774aa, >SOAP_k45_scaffold9909... *
+>Cluster 186
+0	771aa, >SOAP_k35_scaffold19472... *
+>Cluster 187
+0	771aa, >SOAP_k35_scaffold20530... *
+>Cluster 188
+0	771aa, >SOAP_k35_scaffold334... *
+>Cluster 189
+0	771aa, >SOAP_k55_scaffold2174... *
+>Cluster 190
+0	771aa, >SOAP_k35_scaffold20619... *
+>Cluster 191
+0	768aa, >SOAP_k35_scaffold15068... *
+1	498aa, >SOAP_k45_scaffold15212... at 100.00%
+>Cluster 192
+0	762aa, >SOAP_k55_scaffold9132... *
+>Cluster 193
+0	762aa, >SOAP_k35_scaffold18165... *
+>Cluster 194
+0	762aa, >SOAP_k55_scaffold13172... *
+>Cluster 195
+0	762aa, >SOAP_k45_scaffold10223... *
+>Cluster 196
+0	759aa, >SOAP_k55_scaffold11143... *
+>Cluster 197
+0	756aa, >SOAP_k45_scaffold18495... *
+>Cluster 198
+0	756aa, >SOAP_k45_scaffold20589... *
+>Cluster 199
+0	756aa, >SOAP_k35_C413763... *
+>Cluster 200
+0	753aa, >SOAP_k55_scaffold13843... *
+>Cluster 201
+0	753aa, >SOAP_k45_scaffold9816... *
+>Cluster 202
+0	753aa, >SOAP_k55_scaffold17556... *
+>Cluster 203
+0	750aa, >SOAP_k35_scaffold14930... *
+1	744aa, >SOAP_k45_scaffold15240... at 100.00%
+>Cluster 204
+0	750aa, >SOAP_k35_scaffold8934... *
+>Cluster 205
+0	750aa, >SOAP_k55_scaffold14536... *
+>Cluster 206
+0	747aa, >SOAP_k35_scaffold301... *
+>Cluster 207
+0	744aa, >SOAP_k55_scaffold15637... *
+>Cluster 208
+0	744aa, >SOAP_k45_scaffold14691... *
+>Cluster 209
+0	744aa, >SOAP_k35_scaffold12491... *
+>Cluster 210
+0	741aa, >SOAP_k55_scaffold13192... *
+>Cluster 211
+0	741aa, >SOAP_k45_C321095... *
+>Cluster 212
+0	741aa, >SOAP_k45_scaffold5815... *
+>Cluster 213
+0	630aa, >SOAP_k55_scaffold2803... at 94.92%
+1	741aa, >SOAP_k55_scaffold2805... *
+>Cluster 214
+0	741aa, >SOAP_k35_scaffold16801... *
+>Cluster 215
+0	738aa, >SOAP_k55_scaffold16798... *
+1	729aa, >SOAP_k45_scaffold16478... at 97.81%
+>Cluster 216
+0	735aa, >SOAP_k35_scaffold9178... *
+>Cluster 217
+0	732aa, >SOAP_k35_C405361... *
+>Cluster 218
+0	732aa, >SOAP_k35_scaffold20112... *
+>Cluster 219
+0	732aa, >SOAP_k55_scaffold7244... *
+>Cluster 220
+0	729aa, >SOAP_k35_scaffold4932... *
+>Cluster 221
+0	726aa, >SOAP_k45_scaffold11502... *
+>Cluster 222
+0	726aa, >SOAP_k45_scaffold20487... *
+>Cluster 223
+0	726aa, >SOAP_k35_scaffold4900... *
+>Cluster 224
+0	726aa, >SOAP_k45_scaffold12300... *
+>Cluster 225
+0	723aa, >SOAP_k45_scaffold13579... *
+>Cluster 226
+0	723aa, >SOAP_k55_scaffold6768... *
+>Cluster 227
+0	723aa, >SOAP_k35_scaffold15198... *
+>Cluster 228
+0	720aa, >SOAP_k45_scaffold17680... *
+>Cluster 229
+0	720aa, >SOAP_k55_scaffold13312... *
+>Cluster 230
+0	720aa, >SOAP_k35_scaffold14217... *
+1	720aa, >SOAP_k45_scaffold13671... at 98.61%
+>Cluster 231
+0	720aa, >SOAP_k35_scaffold18310... *
+1	720aa, >SOAP_k45_scaffold2649... at 98.33%
+>Cluster 232
+0	717aa, >SOAP_k35_scaffold17930... *
+>Cluster 233
+0	717aa, >SOAP_k55_scaffold17302... *
+>Cluster 234
+0	714aa, >SOAP_k35_C411339... *
+>Cluster 235
+0	495aa, >SOAP_k35_scaffold14912... at 90.10%
+1	714aa, >SOAP_k55_scaffold15177... *
+>Cluster 236
+0	714aa, >SOAP_k55_scaffold19334... *
+>Cluster 237
+0	714aa, >SOAP_k35_scaffold10781... *
+>Cluster 238
+0	714aa, >SOAP_k55_scaffold18713... *
+>Cluster 239
+0	714aa, >SOAP_k45_scaffold15931... *
+>Cluster 240
+0	711aa, >SOAP_k35_scaffold7482... *
+>Cluster 241
+0	711aa, >SOAP_k45_C305113... *
+>Cluster 242
+0	711aa, >SOAP_k55_scaffold14466... *
+>Cluster 243
+0	711aa, >SOAP_k55_scaffold19466... *
+>Cluster 244
+0	711aa, >SOAP_k35_C404647... *
+>Cluster 245
+0	711aa, >SOAP_k35_scaffold20592... *
+>Cluster 246
+0	708aa, >SOAP_k55_scaffold19226... *
+>Cluster 247
+0	708aa, >SOAP_k35_scaffold4383... *
+>Cluster 248
+0	708aa, >SOAP_k55_scaffold16246... *
+>Cluster 249
+0	708aa, >SOAP_k35_scaffold14924... *
+>Cluster 250
+0	705aa, >SOAP_k35_scaffold6348... *
+>Cluster 251
+0	705aa, >SOAP_k35_scaffold17900... *
+>Cluster 252
+0	705aa, >SOAP_k55_scaffold6411... *
+>Cluster 253
+0	705aa, >SOAP_k55_scaffold18825... *
+>Cluster 254
+0	705aa, >SOAP_k55_scaffold5521... *
+>Cluster 255
+0	702aa, >SOAP_k55_scaffold15836... *
+>Cluster 256
+0	702aa, >SOAP_k55_scaffold188... *
+>Cluster 257
+0	702aa, >SOAP_k45_scaffold17730... *
+>Cluster 258
+0	702aa, >SOAP_k55_scaffold15966... *
+>Cluster 259
+0	702aa, >SOAP_k35_scaffold13612... *
+1	702aa, >SOAP_k45_scaffold11549... at 91.31%
+>Cluster 260
+0	702aa, >SOAP_k35_scaffold9785... *
+>Cluster 261
+0	702aa, >SOAP_k55_scaffold19545... *
+>Cluster 262
+0	702aa, >SOAP_k35_scaffold13459... *
+>Cluster 263
+0	702aa, >SOAP_k45_scaffold3758... *
+>Cluster 264
+0	699aa, >SOAP_k35_C396715... *
+>Cluster 265
+0	699aa, >SOAP_k55_scaffold18508... *
+>Cluster 266
+0	696aa, >SOAP_k35_scaffold7904... *
+>Cluster 267
+0	696aa, >SOAP_k55_scaffold11236... *
+>Cluster 268
+0	696aa, >SOAP_k35_scaffold20046... *
+>Cluster 269
+0	696aa, >SOAP_k35_scaffold19678... *
+>Cluster 270
+0	696aa, >SOAP_k55_scaffold16137... *
+>Cluster 271
+0	696aa, >SOAP_k35_scaffold18097... *
+>Cluster 272
+0	693aa, >SOAP_k55_scaffold19789... *
+>Cluster 273
+0	693aa, >SOAP_k35_scaffold15592... *
+>Cluster 274
+0	693aa, >SOAP_k45_scaffold11178... *
+>Cluster 275
+0	693aa, >SOAP_k45_scaffold16045... *
+>Cluster 276
+0	693aa, >SOAP_k45_scaffold14309... *
+>Cluster 277
+0	693aa, >SOAP_k45_scaffold19732... *
+>Cluster 278
+0	690aa, >SOAP_k35_scaffold10603... *
+>Cluster 279
+0	690aa, >SOAP_k35_scaffold16261... *
+>Cluster 280
+0	690aa, >SOAP_k35_scaffold8833... *
+1	516aa, >SOAP_k45_C298191... at 95.93%
+>Cluster 281
+0	690aa, >SOAP_k55_scaffold18543... *
+>Cluster 282
+0	690aa, >SOAP_k55_scaffold17998... *
+>Cluster 283
+0	690aa, >SOAP_k35_scaffold18457... *
+>Cluster 284
+0	690aa, >SOAP_k45_scaffold18593... *
+>Cluster 285
+0	690aa, >SOAP_k55_scaffold15251... *
+>Cluster 286
+0	687aa, >SOAP_k35_scaffold4312... *
+>Cluster 287
+0	684aa, >SOAP_k35_scaffold2816... *
+>Cluster 288
+0	684aa, >SOAP_k45_scaffold16885... *
+>Cluster 289
+0	684aa, >SOAP_k55_scaffold18734... *
+>Cluster 290
+0	684aa, >SOAP_k35_C409897... *
+>Cluster 291
+0	681aa, >SOAP_k35_scaffold16516... *
+>Cluster 292
+0	681aa, >SOAP_k45_scaffold520... *
+>Cluster 293
+0	681aa, >SOAP_k35_scaffold15052... *
+>Cluster 294
+0	681aa, >SOAP_k45_C323597... *
+>Cluster 295
+0	681aa, >SOAP_k35_scaffold11811... *
+>Cluster 296
+0	678aa, >SOAP_k45_scaffold17220... *
+>Cluster 297
+0	678aa, >SOAP_k55_scaffold19759... *
+>Cluster 298
+0	678aa, >SOAP_k55_scaffold15107... *
+>Cluster 299
+0	678aa, >SOAP_k35_C396015... *
+>Cluster 300
+0	678aa, >SOAP_k45_scaffold12761... *
+>Cluster 301
+0	678aa, >SOAP_k45_scaffold18860... *
+>Cluster 302
+0	678aa, >SOAP_k55_scaffold13025... *
+>Cluster 303
+0	678aa, >SOAP_k55_scaffold14437... *
+>Cluster 304
+0	675aa, >SOAP_k35_C401567... *
+>Cluster 305
+0	675aa, >SOAP_k35_scaffold11688... *
+>Cluster 306
+0	672aa, >SOAP_k35_scaffold19208... *
+1	672aa, >SOAP_k45_scaffold19322... at 98.51%
+>Cluster 307
+0	672aa, >SOAP_k55_scaffold11356... *
+>Cluster 308
+0	672aa, >SOAP_k55_scaffold13962... *
+>Cluster 309
+0	669aa, >SOAP_k55_scaffold13949... *
+>Cluster 310
+0	669aa, >SOAP_k55_scaffold14516... *
+>Cluster 311
+0	669aa, >SOAP_k35_scaffold19187... *
+>Cluster 312
+0	669aa, >SOAP_k45_scaffold16005... *
+>Cluster 313
+0	669aa, >SOAP_k35_scaffold6224... *
+>Cluster 314
+0	669aa, >SOAP_k55_scaffold18880... *
+1	543aa, >SOAP_k45_scaffold18652... at 94.84%
+>Cluster 315
+0	669aa, >SOAP_k45_scaffold472... *
+>Cluster 316
+0	669aa, >SOAP_k35_scaffold13984... *
+>Cluster 317
+0	666aa, >SOAP_k55_scaffold18294... *
+>Cluster 318
+0	666aa, >SOAP_k35_C397641... *
+>Cluster 319
+0	663aa, >SOAP_k35_scaffold8118... *
+>Cluster 320
+0	663aa, >SOAP_k45_scaffold8908... *
+>Cluster 321
+0	663aa, >SOAP_k35_C394469... *
+>Cluster 322
+0	660aa, >SOAP_k35_scaffold18724... *
+>Cluster 323
+0	660aa, >SOAP_k45_scaffold20537... *
+>Cluster 324
+0	660aa, >SOAP_k35_scaffold5642... *
+>Cluster 325
+0	660aa, >SOAP_k55_scaffold18634... *
+>Cluster 326
+0	660aa, >SOAP_k55_scaffold3036... *
+>Cluster 327
+0	660aa, >SOAP_k35_scaffold14169... *
+>Cluster 328
+0	660aa, >SOAP_k35_scaffold16739... *
+>Cluster 329
+0	657aa, >SOAP_k35_scaffold16738... *
+1	654aa, >SOAP_k45_scaffold19545... at 96.64%
+>Cluster 330
+0	657aa, >SOAP_k55_scaffold19460... *
+>Cluster 331
+0	657aa, >SOAP_k55_scaffold7368... *
+>Cluster 332
+0	657aa, >SOAP_k35_scaffold14444... *
+>Cluster 333
+0	657aa, >SOAP_k35_scaffold14122... *
+>Cluster 334
+0	654aa, >SOAP_k55_scaffold19811... *
+>Cluster 335
+0	654aa, >SOAP_k45_C323525... *
+>Cluster 336
+0	651aa, >SOAP_k55_scaffold6518... *
+>Cluster 337
+0	651aa, >SOAP_k55_scaffold3328... *
+>Cluster 338
+0	651aa, >SOAP_k55_scaffold4799... *
+>Cluster 339
+0	651aa, >SOAP_k45_scaffold19726... *
+>Cluster 340
+0	651aa, >SOAP_k35_scaffold8148... *
+>Cluster 341
+0	510aa, >SOAP_k35_scaffold19339... at 98.82%
+1	651aa, >SOAP_k45_scaffold8050... *
+>Cluster 342
+0	648aa, >SOAP_k35_scaffold11595... *
+>Cluster 343
+0	648aa, >SOAP_k35_scaffold17635... *
+>Cluster 344
+0	648aa, >SOAP_k55_scaffold20063... *
+>Cluster 345
+0	648aa, >SOAP_k45_scaffold15527... *
+>Cluster 346
+0	648aa, >SOAP_k55_scaffold8051... *
+>Cluster 347
+0	648aa, >SOAP_k35_scaffold18729... *
+>Cluster 348
+0	645aa, >SOAP_k45_scaffold19437... *
+>Cluster 349
+0	645aa, >SOAP_k35_scaffold4166... *
+>Cluster 350
+0	645aa, >SOAP_k35_scaffold14120... *
+>Cluster 351
+0	645aa, >SOAP_k45_scaffold20628... *
+>Cluster 352
+0	642aa, >SOAP_k55_scaffold4264... *
+>Cluster 353
+0	642aa, >SOAP_k55_scaffold6939... *
+>Cluster 354
+0	642aa, >SOAP_k35_scaffold15154... *
+1	642aa, >SOAP_k45_scaffold15305... at 90.34%
+>Cluster 355
+0	642aa, >SOAP_k55_scaffold13492... *
+>Cluster 356
+0	639aa, >SOAP_k35_scaffold15028... *
+>Cluster 357
+0	639aa, >SOAP_k35_scaffold16845... *
+>Cluster 358
+0	639aa, >SOAP_k35_C411895... *
+>Cluster 359
+0	639aa, >SOAP_k35_scaffold11721... *
+>Cluster 360
+0	639aa, >SOAP_k55_scaffold13539... *
+>Cluster 361
+0	636aa, >SOAP_k35_scaffold18129... *
+>Cluster 362
+0	636aa, >SOAP_k35_C386253... *
+>Cluster 363
+0	636aa, >SOAP_k35_scaffold16653... *
+>Cluster 364
+0	636aa, >SOAP_k35_scaffold20103... *
+>Cluster 365
+0	636aa, >SOAP_k35_scaffold7503... *
+>Cluster 366
+0	636aa, >SOAP_k45_scaffold16616... *
+>Cluster 367
+0	636aa, >SOAP_k35_C393567... *
+>Cluster 368
+0	636aa, >SOAP_k55_scaffold4354... *
+>Cluster 369
+0	633aa, >SOAP_k45_scaffold20728... *
+>Cluster 370
+0	633aa, >SOAP_k45_scaffold13393... *
+>Cluster 371
+0	633aa, >SOAP_k35_scaffold7098... *
+>Cluster 372
+0	633aa, >SOAP_k35_C407859... *
+>Cluster 373
+0	630aa, >SOAP_k55_scaffold10274... *
+>Cluster 374
+0	630aa, >SOAP_k45_scaffold4753... *
+>Cluster 375
+0	630aa, >SOAP_k45_scaffold20659... *
+>Cluster 376
+0	510aa, >SOAP_k55_scaffold3395... at 100.00%
+1	630aa, >SOAP_k45_scaffold15265... *
+>Cluster 377
+0	627aa, >SOAP_k35_scaffold13175... *
+>Cluster 378
+0	627aa, >SOAP_k35_scaffold6096... *
+>Cluster 379
+0	627aa, >SOAP_k55_scaffold15552... *
+>Cluster 380
+0	627aa, >SOAP_k55_scaffold5459... *
+>Cluster 381
+0	627aa, >SOAP_k55_scaffold16432... *
+>Cluster 382
+0	624aa, >SOAP_k35_C411767... *
+>Cluster 383
+0	624aa, >SOAP_k55_scaffold19484... *
+>Cluster 384
+0	585aa, >SOAP_k35_C414055... at 100.00%
+1	624aa, >SOAP_k55_scaffold5397... *
+>Cluster 385
+0	624aa, >SOAP_k35_scaffold19180... *
+>Cluster 386
+0	621aa, >SOAP_k35_scaffold16510... *
+>Cluster 387
+0	621aa, >SOAP_k45_scaffold18723... *
+>Cluster 388
+0	621aa, >SOAP_k55_scaffold14332... *
+>Cluster 389
+0	621aa, >SOAP_k35_scaffold3949... *
+>Cluster 390
+0	621aa, >SOAP_k45_scaffold3090... *
+>Cluster 391
+0	621aa, >SOAP_k55_scaffold11479... *
+>Cluster 392
+0	621aa, >SOAP_k35_scaffold17437... *
+>Cluster 393
+0	621aa, >SOAP_k35_scaffold14268... *
+>Cluster 394
+0	621aa, >SOAP_k45_scaffold7153... *
+>Cluster 395
+0	621aa, >SOAP_k35_C402613... *
+>Cluster 396
+0	621aa, >SOAP_k45_scaffold16513... *
+>Cluster 397
+0	621aa, >SOAP_k55_scaffold20158... *
+>Cluster 398
+0	618aa, >SOAP_k45_scaffold7101... *
+>Cluster 399
+0	618aa, >SOAP_k35_scaffold9024... *
+>Cluster 400
+0	618aa, >SOAP_k35_C392703... *
+>Cluster 401
+0	618aa, >SOAP_k55_scaffold10901... *
+>Cluster 402
+0	615aa, >SOAP_k55_scaffold11855... *
+>Cluster 403
+0	615aa, >SOAP_k55_scaffold6064... *
+>Cluster 404
+0	615aa, >SOAP_k35_scaffold17601... *
+>Cluster 405
+0	615aa, >SOAP_k45_scaffold5024... *
+>Cluster 406
+0	615aa, >SOAP_k55_scaffold2110... *
+>Cluster 407
+0	615aa, >SOAP_k35_scaffold17741... *
+>Cluster 408
+0	615aa, >SOAP_k55_scaffold19879... *
+>Cluster 409
+0	615aa, >SOAP_k45_scaffold18749... *
+>Cluster 410
+0	615aa, >SOAP_k45_scaffold19034... *
+>Cluster 411
+0	612aa, >SOAP_k35_C409261... *
+>Cluster 412
+0	612aa, >SOAP_k55_scaffold14799... *
+>Cluster 413
+0	612aa, >SOAP_k45_scaffold2041... *
+>Cluster 414
+0	612aa, >SOAP_k45_scaffold17845... *
+>Cluster 415
+0	612aa, >SOAP_k45_scaffold19976... *
+>Cluster 416
+0	612aa, >SOAP_k45_scaffold9191... *
+>Cluster 417
+0	612aa, >SOAP_k35_scaffold14976... *
+>Cluster 418
+0	612aa, >SOAP_k45_scaffold1552... *
+>Cluster 419
+0	609aa, >SOAP_k45_scaffold14442... *
+>Cluster 420
+0	609aa, >SOAP_k55_scaffold15918... *
+>Cluster 421
+0	609aa, >SOAP_k35_scaffold13555... *
+>Cluster 422
+0	609aa, >SOAP_k45_scaffold20738... *
+>Cluster 423
+0	360aa, >SOAP_k35_scaffold15358... at 94.17%
+1	609aa, >SOAP_k45_scaffold16244... *
+>Cluster 424
+0	609aa, >SOAP_k45_scaffold14053... *
+>Cluster 425
+0	606aa, >SOAP_k45_scaffold16977... *
+>Cluster 426
+0	606aa, >SOAP_k55_scaffold18951... *
+>Cluster 427
+0	606aa, >SOAP_k35_scaffold18583... *
+>Cluster 428
+0	606aa, >SOAP_k35_scaffold18862... *
+>Cluster 429
+0	606aa, >SOAP_k55_scaffold6444... *
+>Cluster 430
+0	606aa, >SOAP_k35_C391269... *
+>Cluster 431
+0	606aa, >SOAP_k45_scaffold20185... *
+>Cluster 432
+0	606aa, >SOAP_k45_scaffold19906... *
+>Cluster 433
+0	606aa, >SOAP_k35_scaffold9610... *
+>Cluster 434
+0	603aa, >SOAP_k35_scaffold8200... *
+>Cluster 435
+0	603aa, >SOAP_k35_scaffold18366... *
+>Cluster 436
+0	603aa, >SOAP_k45_scaffold6766... *
+>Cluster 437
+0	603aa, >SOAP_k45_scaffold2575... *
+>Cluster 438
+0	603aa, >SOAP_k45_scaffold10685... *
+>Cluster 439
+0	603aa, >SOAP_k55_scaffold18792... *
+>Cluster 440
+0	600aa, >SOAP_k35_scaffold5614... *
+>Cluster 441
+0	600aa, >SOAP_k45_scaffold19855... *
+>Cluster 442
+0	600aa, >SOAP_k35_scaffold11344... *
+>Cluster 443
+0	600aa, >SOAP_k45_scaffold1513... *
+>Cluster 444
+0	600aa, >SOAP_k45_scaffold12744... *
+>Cluster 445
+0	600aa, >SOAP_k55_scaffold13801... *
+>Cluster 446
+0	600aa, >SOAP_k35_C397299... *
+>Cluster 447
+0	600aa, >SOAP_k35_C405745... *
+>Cluster 448
+0	600aa, >SOAP_k45_scaffold12080... *
+>Cluster 449
+0	597aa, >SOAP_k35_scaffold19148... *
+1	522aa, >SOAP_k55_scaffold20179... at 93.10%
+>Cluster 450
+0	597aa, >SOAP_k55_scaffold16076... *
+>Cluster 451
+0	597aa, >SOAP_k35_scaffold5876... *
+>Cluster 452
+0	597aa, >SOAP_k45_scaffold9403... *
+>Cluster 453
+0	597aa, >SOAP_k55_scaffold159... *
+>Cluster 454
+0	597aa, >SOAP_k35_C391297... *
+>Cluster 455
+0	594aa, >SOAP_k55_scaffold13645... *
+1	492aa, >SOAP_k45_scaffold8873... at 96.54%
+>Cluster 456
+0	594aa, >SOAP_k55_scaffold15086... *
+>Cluster 457
+0	594aa, >SOAP_k45_scaffold9642... *
+>Cluster 458
+0	594aa, >SOAP_k45_scaffold18373... *
+>Cluster 459
+0	594aa, >SOAP_k35_scaffold19833... *
+>Cluster 460
+0	594aa, >SOAP_k35_scaffold16502... *
+>Cluster 461
+0	594aa, >SOAP_k45_scaffold20646... *
+>Cluster 462
+0	594aa, >SOAP_k55_scaffold666... *
+>Cluster 463
+0	594aa, >SOAP_k55_scaffold18241... *
+>Cluster 464
+0	591aa, >SOAP_k35_scaffold3832... *
+>Cluster 465
+0	591aa, >SOAP_k35_scaffold300... *
+>Cluster 466
+0	591aa, >SOAP_k35_scaffold13077... *
+>Cluster 467
+0	591aa, >SOAP_k35_scaffold15005... *
+>Cluster 468
+0	591aa, >SOAP_k45_C289091... *
+>Cluster 469
+0	591aa, >SOAP_k55_scaffold1522... *
+>Cluster 470
+0	588aa, >SOAP_k55_scaffold11711... *
+>Cluster 471
+0	588aa, >SOAP_k35_scaffold13344... *
+>Cluster 472
+0	588aa, >SOAP_k45_scaffold19005... *
+>Cluster 473
+0	588aa, >SOAP_k35_scaffold9511... *
+>Cluster 474
+0	588aa, >SOAP_k55_scaffold18957... *
+>Cluster 475
+0	588aa, >SOAP_k35_scaffold19420... *
+>Cluster 476
+0	588aa, >SOAP_k35_scaffold9881... *
+>Cluster 477
+0	588aa, >SOAP_k55_scaffold13725... *
+>Cluster 478
+0	585aa, >SOAP_k55_scaffold1984... *
+>Cluster 479
+0	585aa, >SOAP_k55_scaffold10661... *
+>Cluster 480
+0	585aa, >SOAP_k45_C303909... *
+>Cluster 481
+0	585aa, >SOAP_k35_C398195... *
+>Cluster 482
+0	585aa, >SOAP_k35_C365115... *
+>Cluster 483
+0	585aa, >SOAP_k55_scaffold1662... *
+>Cluster 484
+0	585aa, >SOAP_k35_scaffold20308... *
+>Cluster 485
+0	585aa, >SOAP_k35_C406239... *
+>Cluster 486
+0	585aa, >SOAP_k45_scaffold14245... *
+>Cluster 487
+0	585aa, >SOAP_k55_scaffold17091... *
+>Cluster 488
+0	582aa, >SOAP_k55_scaffold19044... *
+>Cluster 489
+0	582aa, >SOAP_k55_scaffold8452... *
+>Cluster 490
+0	582aa, >SOAP_k45_scaffold8716... *
+>Cluster 491
+0	582aa, >SOAP_k45_C316621... *
+>Cluster 492
+0	582aa, >SOAP_k45_scaffold12574... *
+>Cluster 493
+0	582aa, >SOAP_k55_scaffold4414... *
+>Cluster 494
+0	582aa, >SOAP_k35_scaffold15... *
+>Cluster 495
+0	579aa, >SOAP_k35_scaffold17991... *
+>Cluster 496
+0	579aa, >SOAP_k45_scaffold10311... *
+>Cluster 497
+0	579aa, >SOAP_k35_scaffold11805... *
+>Cluster 498
+0	579aa, >SOAP_k55_scaffold20074... *
+>Cluster 499
+0	579aa, >SOAP_k45_scaffold17227... *
+>Cluster 500
+0	579aa, >SOAP_k35_scaffold6187... *
+1	351aa, >SOAP_k45_scaffold14936... at 97.72%
+>Cluster 501
+0	579aa, >SOAP_k55_scaffold19983... *
+>Cluster 502
+0	579aa, >SOAP_k55_scaffold14219... *
+>Cluster 503
+0	579aa, >SOAP_k35_scaffold17261... *
+>Cluster 504
+0	579aa, >SOAP_k45_C293319... *
+>Cluster 505
+0	576aa, >SOAP_k35_scaffold20200... *
+>Cluster 506
+0	576aa, >SOAP_k55_scaffold19082... *
+>Cluster 507
+0	576aa, >SOAP_k55_scaffold9842... *
+>Cluster 508
+0	576aa, >SOAP_k55_scaffold17631... *
+>Cluster 509
+0	576aa, >SOAP_k35_scaffold14289... *
+>Cluster 510
+0	576aa, >SOAP_k45_scaffold12667... *
+>Cluster 511
+0	576aa, >SOAP_k55_scaffold749... *
+>Cluster 512
+0	576aa, >SOAP_k45_C293035... *
+1	576aa, >SOAP_k55_scaffold10422... at 99.83%
+>Cluster 513
+0	576aa, >SOAP_k55_scaffold16703... *
+>Cluster 514
+0	573aa, >SOAP_k35_scaffold3638... *
+>Cluster 515
+0	573aa, >SOAP_k45_scaffold12299... *
+>Cluster 516
+0	573aa, >SOAP_k45_scaffold17956... *
+>Cluster 517
+0	573aa, >SOAP_k45_scaffold20165... *
+>Cluster 518
+0	573aa, >SOAP_k45_scaffold16330... *
+>Cluster 519
+0	573aa, >SOAP_k45_scaffold19147... *
+>Cluster 520
+0	573aa, >SOAP_k35_scaffold20503... *
+>Cluster 521
+0	573aa, >SOAP_k55_scaffold18921... *
+>Cluster 522
+0	573aa, >SOAP_k45_scaffold12241... *
+>Cluster 523
+0	573aa, >SOAP_k55_scaffold17445... *
+1	573aa, >SOAP_k35_C407257... at 99.83%
+>Cluster 524
+0	573aa, >SOAP_k35_scaffold19056... *
+>Cluster 525
+0	570aa, >SOAP_k45_scaffold19840... *
+>Cluster 526
+0	570aa, >SOAP_k35_scaffold19888... *
+>Cluster 527
+0	570aa, >SOAP_k45_scaffold14145... *
+>Cluster 528
+0	570aa, >SOAP_k55_scaffold12706... *
+>Cluster 529
+0	570aa, >SOAP_k55_scaffold8676... *
+>Cluster 530
+0	570aa, >SOAP_k55_scaffold12159... *
+>Cluster 531
+0	570aa, >SOAP_k45_scaffold19879... *
+>Cluster 532
+0	570aa, >SOAP_k45_scaffold17481... *
+1	468aa, >SOAP_k35_scaffold17245... at 94.87%
+>Cluster 533
+0	570aa, >SOAP_k45_scaffold7825... *
+>Cluster 534
+0	570aa, >SOAP_k35_scaffold1455... *
+>Cluster 535
+0	570aa, >SOAP_k35_C391565... *
+>Cluster 536
+0	570aa, >SOAP_k35_scaffold18599... *
+>Cluster 537
+0	570aa, >SOAP_k55_scaffold14903... *
+>Cluster 538
+0	570aa, >SOAP_k35_scaffold15286... *
+>Cluster 539
+0	570aa, >SOAP_k35_scaffold19437... *
+>Cluster 540
+0	567aa, >SOAP_k35_scaffold17530... *
+>Cluster 541
+0	567aa, >SOAP_k45_scaffold15943... *
+>Cluster 542
+0	567aa, >SOAP_k35_C367296... *
+>Cluster 543
+0	378aa, >SOAP_k35_scaffold9857... at 94.71%
+1	567aa, >SOAP_k45_scaffold10813... *
+>Cluster 544
+0	567aa, >SOAP_k55_scaffold18320... *
+>Cluster 545
+0	567aa, >SOAP_k35_scaffold11810... *
+>Cluster 546
+0	567aa, >SOAP_k45_scaffold17121... *
+>Cluster 547
+0	564aa, >SOAP_k45_scaffold9490... *
+>Cluster 548
+0	564aa, >SOAP_k45_C323375... *
+>Cluster 549
+0	564aa, >SOAP_k45_C323927... *
+>Cluster 550
+0	564aa, >SOAP_k55_scaffold19974... *
+>Cluster 551
+0	564aa, >SOAP_k35_scaffold17989... *
+>Cluster 552
+0	564aa, >SOAP_k35_scaffold4056... *
+>Cluster 553
+0	564aa, >SOAP_k35_scaffold19931... *
+>Cluster 554
+0	564aa, >SOAP_k45_scaffold18124... *
+1	564aa, >SOAP_k55_scaffold16613... at 98.23%
+>Cluster 555
+0	564aa, >SOAP_k45_scaffold14150... *
+>Cluster 556
+0	564aa, >SOAP_k55_scaffold17716... *
+>Cluster 557
+0	564aa, >SOAP_k35_scaffold15594... *
+>Cluster 558
+0	564aa, >SOAP_k55_scaffold18007... *
+>Cluster 559
+0	561aa, >SOAP_k45_scaffold17840... *
+>Cluster 560
+0	561aa, >SOAP_k45_scaffold7185... *
+1	441aa, >SOAP_k45_scaffold7184... at 94.10%
+>Cluster 561
+0	561aa, >SOAP_k45_scaffold15986... *
+1	561aa, >SOAP_k55_scaffold15159... at 98.22%
+>Cluster 562
+0	561aa, >SOAP_k55_scaffold15248... *
+>Cluster 563
+0	561aa, >SOAP_k35_scaffold17819... *
+>Cluster 564
+0	561aa, >SOAP_k35_C400877... *
+>Cluster 565
+0	561aa, >SOAP_k45_scaffold8115... *
+>Cluster 566
+0	561aa, >SOAP_k55_scaffold20152... *
+>Cluster 567
+0	558aa, >SOAP_k55_scaffold16092... *
+>Cluster 568
+0	558aa, >SOAP_k35_C400167... *
+>Cluster 569
+0	558aa, >SOAP_k35_scaffold5122... *
+>Cluster 570
+0	558aa, >SOAP_k55_scaffold15091... *
+>Cluster 571
+0	558aa, >SOAP_k55_scaffold15083... *
+>Cluster 572
+0	558aa, >SOAP_k55_scaffold16614... *
+>Cluster 573
+0	558aa, >SOAP_k35_scaffold17042... *
+>Cluster 574
+0	558aa, >SOAP_k55_scaffold15729... *
+>Cluster 575
+0	558aa, >SOAP_k45_scaffold13527... *
+>Cluster 576
+0	555aa, >SOAP_k55_scaffold18484... *
+>Cluster 577
+0	555aa, >SOAP_k45_scaffold2472... *
+>Cluster 578
+0	555aa, >SOAP_k35_scaffold11673... *
+>Cluster 579
+0	555aa, >SOAP_k55_scaffold18923... *
+>Cluster 580
+0	555aa, >SOAP_k55_scaffold18724... *
+>Cluster 581
+0	555aa, >SOAP_k55_scaffold4728... *
+>Cluster 582
+0	525aa, >SOAP_k45_scaffold15065... at 93.14%
+1	507aa, >SOAP_k55_scaffold15031... at 92.90%
+2	555aa, >SOAP_k35_scaffold17160... *
+>Cluster 583
+0	552aa, >SOAP_k55_scaffold10990... *
+>Cluster 584
+0	552aa, >SOAP_k35_scaffold14523... *
+>Cluster 585
+0	552aa, >SOAP_k35_C392215... *
+>Cluster 586
+0	552aa, >SOAP_k35_C400779... *
+>Cluster 587
+0	552aa, >SOAP_k55_scaffold15773... *
+>Cluster 588
+0	552aa, >SOAP_k45_C319937... *
+>Cluster 589
+0	549aa, >SOAP_k45_scaffold5943... *
+>Cluster 590
+0	549aa, >SOAP_k45_C313665... *
+>Cluster 591
+0	549aa, >SOAP_k45_scaffold12306... *
+>Cluster 592
+0	549aa, >SOAP_k35_scaffold3397... *
+>Cluster 593
+0	549aa, >SOAP_k35_scaffold9607... *
+>Cluster 594
+0	549aa, >SOAP_k35_scaffold12190... *
+>Cluster 595
+0	549aa, >SOAP_k45_C318715... *
+>Cluster 596
+0	549aa, >SOAP_k55_scaffold14939... *
+>Cluster 597
+0	549aa, >SOAP_k35_scaffold9141... *
+>Cluster 598
+0	549aa, >SOAP_k45_scaffold15609... *
+>Cluster 599
+0	549aa, >SOAP_k35_scaffold18558... *
+>Cluster 600
+0	549aa, >SOAP_k55_scaffold17941... *
+>Cluster 601
+0	549aa, >SOAP_k45_scaffold10140... *
+>Cluster 602
+0	549aa, >SOAP_k45_scaffold16867... *
+>Cluster 603
+0	429aa, >SOAP_k45_scaffold10102... at 99.30%
+1	426aa, >SOAP_k35_scaffold10377... at 96.95%
+2	549aa, >SOAP_k55_scaffold8753... *
+>Cluster 604
+0	549aa, >SOAP_k45_scaffold19931... *
+>Cluster 605
+0	549aa, >SOAP_k55_scaffold5808... *
+>Cluster 606
+0	546aa, >SOAP_k45_scaffold15484... *
+>Cluster 607
+0	546aa, >SOAP_k35_scaffold3102... *
+1	498aa, >SOAP_k45_scaffold10975... at 98.80%
+>Cluster 608
+0	546aa, >SOAP_k35_scaffold17554... *
+>Cluster 609
+0	546aa, >SOAP_k55_scaffold14726... *
+>Cluster 610
+0	546aa, >SOAP_k35_scaffold16361... *
+>Cluster 611
+0	546aa, >SOAP_k55_scaffold15314... *
+>Cluster 612
+0	483aa, >SOAP_k55_scaffold16290... at 92.75%
+1	546aa, >SOAP_k35_scaffold9059... *
+>Cluster 613
+0	546aa, >SOAP_k35_scaffold17738... *
+>Cluster 614
+0	546aa, >SOAP_k35_scaffold19306... *
+>Cluster 615
+0	546aa, >SOAP_k45_C323467... *
+>Cluster 616
+0	546aa, >SOAP_k55_scaffold17741... *
+>Cluster 617
+0	546aa, >SOAP_k35_scaffold16288... *
+>Cluster 618
+0	546aa, >SOAP_k55_scaffold1721... *
+>Cluster 619
+0	546aa, >SOAP_k45_scaffold16509... *
+>Cluster 620
+0	543aa, >SOAP_k45_scaffold4323... *
+>Cluster 621
+0	543aa, >SOAP_k45_scaffold2323... *
+>Cluster 622
+0	543aa, >SOAP_k35_C402513... *
+>Cluster 623
+0	543aa, >SOAP_k45_scaffold11396... *
+>Cluster 624
+0	543aa, >SOAP_k45_scaffold5794... *
+>Cluster 625
+0	543aa, >SOAP_k45_scaffold13042... *
+>Cluster 626
+0	402aa, >SOAP_k55_scaffold5264... at 92.54%
+1	543aa, >SOAP_k55_scaffold5265... *
+>Cluster 627
+0	543aa, >SOAP_k55_scaffold13577... *
+>Cluster 628
+0	543aa, >SOAP_k45_scaffold16561... *
+>Cluster 629
+0	540aa, >SOAP_k45_scaffold8556... *
+>Cluster 630
+0	540aa, >SOAP_k35_scaffold19193... *
+>Cluster 631
+0	540aa, >SOAP_k45_C292881... *
+>Cluster 632
+0	540aa, >SOAP_k45_scaffold16923... *
+1	540aa, >SOAP_k55_scaffold19562... at 99.63%
+>Cluster 633
+0	540aa, >SOAP_k55_scaffold18404... *
+>Cluster 634
+0	540aa, >SOAP_k55_scaffold13821... *
+>Cluster 635
+0	540aa, >SOAP_k55_scaffold20024... *
+>Cluster 636
+0	540aa, >SOAP_k35_C394819... *
+>Cluster 637
+0	540aa, >SOAP_k35_scaffold3787... *
+>Cluster 638
+0	540aa, >SOAP_k55_scaffold3944... *
+>Cluster 639
+0	540aa, >SOAP_k45_scaffold14779... *
+>Cluster 640
+0	540aa, >SOAP_k35_scaffold5734... *
+>Cluster 641
+0	537aa, >SOAP_k45_scaffold16442... *
+>Cluster 642
+0	537aa, >SOAP_k35_scaffold20070... *
+>Cluster 643
+0	537aa, >SOAP_k55_scaffold8056... *
+>Cluster 644
+0	492aa, >SOAP_k55_scaffold258... at 90.85%
+1	537aa, >SOAP_k55_scaffold257... *
+>Cluster 645
+0	537aa, >SOAP_k55_scaffold1923... *
+>Cluster 646
+0	537aa, >SOAP_k35_C413505... *
+>Cluster 647
+0	537aa, >SOAP_k35_scaffold7072... *
+>Cluster 648
+0	534aa, >SOAP_k35_scaffold3406... *
+>Cluster 649
+0	534aa, >SOAP_k45_scaffold7405... *
+>Cluster 650
+0	534aa, >SOAP_k45_scaffold2800... *
+>Cluster 651
+0	534aa, >SOAP_k35_scaffold7310... *
+>Cluster 652
+0	534aa, >SOAP_k35_scaffold16764... *
+>Cluster 653
+0	534aa, >SOAP_k55_scaffold3601... *
+>Cluster 654
+0	534aa, >SOAP_k45_scaffold18121... *
+>Cluster 655
+0	534aa, >SOAP_k45_scaffold11182... *
+>Cluster 656
+0	534aa, >SOAP_k35_scaffold9684... *
+>Cluster 657
+0	534aa, >SOAP_k55_scaffold18276... *
+>Cluster 658
+0	534aa, >SOAP_k35_scaffold8568... *
+>Cluster 659
+0	534aa, >SOAP_k35_C401057... *
+>Cluster 660
+0	534aa, >SOAP_k45_C298271... *
+>Cluster 661
+0	531aa, >SOAP_k35_C342384... *
+>Cluster 662
+0	531aa, >SOAP_k55_scaffold15916... *
+>Cluster 663
+0	531aa, >SOAP_k55_scaffold16146... *
+>Cluster 664
+0	531aa, >SOAP_k45_scaffold4805... *
+>Cluster 665
+0	531aa, >SOAP_k55_scaffold19136... *
+>Cluster 666
+0	531aa, >SOAP_k45_scaffold7498... *
+>Cluster 667
+0	531aa, >SOAP_k35_scaffold16796... *
+>Cluster 668
+0	531aa, >SOAP_k45_scaffold7082... *
+>Cluster 669
+0	525aa, >SOAP_k35_scaffold6968... at 97.33%
+1	531aa, >SOAP_k45_scaffold8266... *
+>Cluster 670
+0	531aa, >SOAP_k55_scaffold8610... *
+>Cluster 671
+0	531aa, >SOAP_k45_scaffold6482... *
+>Cluster 672
+0	531aa, >SOAP_k55_scaffold14443... *
+>Cluster 673
+0	528aa, >SOAP_k35_scaffold12012... *
+>Cluster 674
+0	528aa, >SOAP_k35_C362559... *
+>Cluster 675
+0	528aa, >SOAP_k45_scaffold16493... *
+>Cluster 676
+0	528aa, >SOAP_k55_scaffold10734... *
+>Cluster 677
+0	528aa, >SOAP_k35_scaffold764... *
+>Cluster 678
+0	528aa, >SOAP_k45_scaffold10581... *
+>Cluster 679
+0	525aa, >SOAP_k45_scaffold15819... *
+>Cluster 680
+0	525aa, >SOAP_k35_scaffold19672... *
+>Cluster 681
+0	525aa, >SOAP_k35_C411983... *
+>Cluster 682
+0	525aa, >SOAP_k35_scaffold20152... *
+>Cluster 683
+0	525aa, >SOAP_k55_scaffold9915... *
+>Cluster 684
+0	525aa, >SOAP_k35_scaffold10136... *
+>Cluster 685
+0	525aa, >SOAP_k55_scaffold9564... *
+>Cluster 686
+0	525aa, >SOAP_k45_scaffold6246... *
+>Cluster 687
+0	525aa, >SOAP_k45_scaffold13775... *
+>Cluster 688
+0	525aa, >SOAP_k55_scaffold20174... *
+>Cluster 689
+0	525aa, >SOAP_k45_scaffold14387... *
+>Cluster 690
+0	525aa, >SOAP_k55_scaffold2978... *
+>Cluster 691
+0	522aa, >SOAP_k55_scaffold1640... *
+>Cluster 692
+0	522aa, >SOAP_k55_scaffold20224... *
+>Cluster 693
+0	522aa, >SOAP_k55_scaffold11162... *
+>Cluster 694
+0	522aa, >SOAP_k35_scaffold9015... *
+>Cluster 695
+0	522aa, >SOAP_k35_scaffold2508... *
+>Cluster 696
+0	522aa, >SOAP_k45_scaffold12805... *
+>Cluster 697
+0	522aa, >SOAP_k45_C323907... *
+>Cluster 698
+0	522aa, >SOAP_k45_scaffold15699... *
+>Cluster 699
+0	522aa, >SOAP_k45_scaffold5972... *
+>Cluster 700
+0	522aa, >SOAP_k55_scaffold8812... *
+>Cluster 701
+0	522aa, >SOAP_k35_C357001... *
+>Cluster 702
+0	519aa, >SOAP_k35_C405293... *
+>Cluster 703
+0	519aa, >SOAP_k35_scaffold19760... *
+>Cluster 704
+0	519aa, >SOAP_k55_scaffold8871... *
+>Cluster 705
+0	519aa, >SOAP_k55_scaffold11243... *
+>Cluster 706
+0	519aa, >SOAP_k45_scaffold19991... *
+>Cluster 707
+0	519aa, >SOAP_k55_scaffold10157... *
+>Cluster 708
+0	519aa, >SOAP_k35_C394811... *
+>Cluster 709
+0	519aa, >SOAP_k45_C267808... *
+>Cluster 710
+0	519aa, >SOAP_k55_scaffold10885... *
+>Cluster 711
+0	519aa, >SOAP_k45_scaffold13878... *
+>Cluster 712
+0	519aa, >SOAP_k35_scaffold10980... *
+>Cluster 713
+0	519aa, >SOAP_k35_C402429... *
+>Cluster 714
+0	519aa, >SOAP_k55_scaffold15449... *
+>Cluster 715
+0	516aa, >SOAP_k45_scaffold19772... *
+>Cluster 716
+0	516aa, >SOAP_k35_scaffold15580... *
+>Cluster 717
+0	516aa, >SOAP_k45_scaffold20088... *
+>Cluster 718
+0	516aa, >SOAP_k55_scaffold1353... *
+>Cluster 719
+0	516aa, >SOAP_k45_scaffold10676... *
+>Cluster 720
+0	513aa, >SOAP_k35_scaffold12827... *
+>Cluster 721
+0	513aa, >SOAP_k35_scaffold5301... *
+>Cluster 722
+0	513aa, >SOAP_k45_scaffold13679... *
+>Cluster 723
+0	513aa, >SOAP_k35_scaffold18026... *
+>Cluster 724
+0	513aa, >SOAP_k55_scaffold12411... *
+>Cluster 725
+0	513aa, >SOAP_k55_scaffold15399... *
+>Cluster 726
+0	513aa, >SOAP_k55_scaffold16908... *
+>Cluster 727
+0	510aa, >SOAP_k45_scaffold19461... *
+>Cluster 728
+0	510aa, >SOAP_k35_scaffold8973... *
+>Cluster 729
+0	510aa, >SOAP_k45_scaffold10340... *
+>Cluster 730
+0	510aa, >SOAP_k55_scaffold11310... *
+>Cluster 731
+0	510aa, >SOAP_k55_scaffold13818... *
+>Cluster 732
+0	510aa, >SOAP_k55_scaffold19964... *
+>Cluster 733
+0	510aa, >SOAP_k55_scaffold10627... *
+>Cluster 734
+0	510aa, >SOAP_k35_scaffold14578... *
+>Cluster 735
+0	510aa, >SOAP_k35_C349193... *
+>Cluster 736
+0	510aa, >SOAP_k35_scaffold4342... *
+>Cluster 737
+0	378aa, >SOAP_k45_scaffold17302... at 96.30%
+1	510aa, >SOAP_k35_scaffold17615... *
+>Cluster 738
+0	510aa, >SOAP_k35_scaffold19143... *
+>Cluster 739
+0	510aa, >SOAP_k45_scaffold13141... *
+>Cluster 740
+0	510aa, >SOAP_k45_scaffold310... *
+>Cluster 741
+0	510aa, >SOAP_k55_scaffold13922... *
+>Cluster 742
+0	507aa, >SOAP_k35_scaffold3210... *
+>Cluster 743
+0	507aa, >SOAP_k35_scaffold15934... *
+>Cluster 744
+0	507aa, >SOAP_k55_scaffold10282... *
+>Cluster 745
+0	507aa, >SOAP_k45_C293417... *
+>Cluster 746
+0	507aa, >SOAP_k45_scaffold17660... *
+>Cluster 747
+0	507aa, >SOAP_k45_C291367... *
+>Cluster 748
+0	507aa, >SOAP_k45_scaffold11826... *
+>Cluster 749
+0	507aa, >SOAP_k55_scaffold5067... *
+>Cluster 750
+0	507aa, >SOAP_k45_scaffold12549... *
+>Cluster 751
+0	507aa, >SOAP_k55_scaffold6420... *
+>Cluster 752
+0	507aa, >SOAP_k35_C349749... *
+>Cluster 753
+0	507aa, >SOAP_k55_scaffold18511... *
+>Cluster 754
+0	507aa, >SOAP_k55_scaffold16245... *
+>Cluster 755
+0	504aa, >SOAP_k35_scaffold16184... *
+>Cluster 756
+0	504aa, >SOAP_k35_C351039... *
+>Cluster 757
+0	504aa, >SOAP_k55_scaffold7843... *
+>Cluster 758
+0	504aa, >SOAP_k35_scaffold14214... *
+>Cluster 759
+0	504aa, >SOAP_k35_scaffold16477... *
+>Cluster 760
+0	504aa, >SOAP_k55_scaffold1961... *
+>Cluster 761
+0	504aa, >SOAP_k45_scaffold20190... *
+>Cluster 762
+0	504aa, >SOAP_k45_scaffold17512... *
+>Cluster 763
+0	504aa, >SOAP_k35_scaffold15476... *
+>Cluster 764
+0	504aa, >SOAP_k35_scaffold15120... *
+>Cluster 765
+0	501aa, >SOAP_k35_scaffold18018... *
+>Cluster 766
+0	501aa, >SOAP_k45_scaffold19567... *
+>Cluster 767
+0	501aa, >SOAP_k35_scaffold18509... *
+>Cluster 768
+0	501aa, >SOAP_k35_scaffold15106... *
+>Cluster 769
+0	501aa, >SOAP_k35_scaffold12303... *
+>Cluster 770
+0	501aa, >SOAP_k45_scaffold14366... *
+>Cluster 771
+0	501aa, >SOAP_k55_scaffold13318... *
+>Cluster 772
+0	501aa, >SOAP_k35_scaffold20292... *
+>Cluster 773
+0	501aa, >SOAP_k35_scaffold14265... *
+>Cluster 774
+0	498aa, >SOAP_k55_scaffold3946... *
+>Cluster 775
+0	498aa, >SOAP_k35_scaffold18767... *
+>Cluster 776
+0	498aa, >SOAP_k55_scaffold3373... *
+>Cluster 777
+0	498aa, >SOAP_k45_scaffold13470... *
+>Cluster 778
+0	498aa, >SOAP_k35_scaffold9923... *
+>Cluster 779
+0	498aa, >SOAP_k55_scaffold18500... *
+>Cluster 780
+0	498aa, >SOAP_k45_C281205... *
+>Cluster 781
+0	498aa, >SOAP_k45_scaffold2586... *
+>Cluster 782
+0	498aa, >SOAP_k45_C312443... *
+>Cluster 783
+0	498aa, >SOAP_k55_scaffold2927... *
+>Cluster 784
+0	498aa, >SOAP_k35_C395549... *
+>Cluster 785
+0	498aa, >SOAP_k35_scaffold13122... *
+>Cluster 786
+0	498aa, >SOAP_k55_scaffold15228... *
+>Cluster 787
+0	498aa, >SOAP_k45_scaffold8970... *
+>Cluster 788
+0	498aa, >SOAP_k45_scaffold14259... *
+>Cluster 789
+0	498aa, >SOAP_k35_scaffold14574... *
+>Cluster 790
+0	498aa, >SOAP_k45_scaffold18081... *
+>Cluster 791
+0	495aa, >SOAP_k35_scaffold20622... *
+>Cluster 792
+0	495aa, >SOAP_k45_C311151... *
+>Cluster 793
+0	495aa, >SOAP_k35_scaffold13924... *
+>Cluster 794
+0	495aa, >SOAP_k55_scaffold14142... *
+>Cluster 795
+0	495aa, >SOAP_k55_scaffold19869... *
+>Cluster 796
+0	495aa, >SOAP_k35_scaffold10191... *
+>Cluster 797
+0	495aa, >SOAP_k35_scaffold19166... *
+>Cluster 798
+0	495aa, >SOAP_k35_scaffold10374... *
+>Cluster 799
+0	495aa, >SOAP_k55_scaffold17369... *
+>Cluster 800
+0	495aa, >SOAP_k35_scaffold6028... *
+>Cluster 801
+0	495aa, >SOAP_k35_scaffold6379... *
+>Cluster 802
+0	495aa, >SOAP_k35_scaffold237... *
+>Cluster 803
+0	495aa, >SOAP_k35_scaffold19716... *
+>Cluster 804
+0	495aa, >SOAP_k55_scaffold8845... *
+>Cluster 805
+0	495aa, >SOAP_k35_C401353... *
+>Cluster 806
+0	495aa, >SOAP_k45_scaffold19790... *
+>Cluster 807
+0	492aa, >SOAP_k55_scaffold6917... *
+>Cluster 808
+0	492aa, >SOAP_k45_scaffold18750... *
+>Cluster 809
+0	492aa, >SOAP_k55_scaffold3691... *
+>Cluster 810
+0	492aa, >SOAP_k55_scaffold1287... *
+>Cluster 811
+0	492aa, >SOAP_k35_C336826... *
+>Cluster 812
+0	492aa, >SOAP_k35_scaffold12161... *
+>Cluster 813
+0	492aa, >SOAP_k55_scaffold7123... *
+>Cluster 814
+0	492aa, >SOAP_k55_scaffold133... *
+>Cluster 815
+0	492aa, >SOAP_k35_scaffold16832... *
+1	486aa, >SOAP_k45_scaffold16816... at 92.18%
+>Cluster 816
+0	492aa, >SOAP_k55_scaffold6214... *
+>Cluster 817
+0	492aa, >SOAP_k55_scaffold17873... *
+>Cluster 818
+0	492aa, >SOAP_k55_scaffold19242... *
+>Cluster 819
+0	489aa, >SOAP_k35_scaffold14078... *
+>Cluster 820
+0	489aa, >SOAP_k35_scaffold18512... *
+>Cluster 821
+0	489aa, >SOAP_k35_C396413... *
+>Cluster 822
+0	489aa, >SOAP_k35_C405643... *
+>Cluster 823
+0	489aa, >SOAP_k45_scaffold5346... *
+>Cluster 824
+0	489aa, >SOAP_k55_scaffold5881... *
+>Cluster 825
+0	489aa, >SOAP_k35_scaffold20028... *
+>Cluster 826
+0	489aa, >SOAP_k55_scaffold8360... *
+>Cluster 827
+0	489aa, >SOAP_k55_scaffold852... *
+>Cluster 828
+0	489aa, >SOAP_k45_scaffold18353... *
+>Cluster 829
+0	489aa, >SOAP_k45_scaffold12501... *
+>Cluster 830
+0	489aa, >SOAP_k45_scaffold14583... *
+>Cluster 831
+0	486aa, >SOAP_k35_scaffold17786... *
+>Cluster 832
+0	486aa, >SOAP_k45_scaffold11546... *
+>Cluster 833
+0	486aa, >SOAP_k35_scaffold828... *
+>Cluster 834
+0	486aa, >SOAP_k55_scaffold2711... *
+>Cluster 835
+0	486aa, >SOAP_k35_scaffold18264... *
+>Cluster 836
+0	486aa, >SOAP_k55_scaffold5121... *
+>Cluster 837
+0	486aa, >SOAP_k35_scaffold14333... *
+>Cluster 838
+0	486aa, >SOAP_k45_scaffold7852... *
+>Cluster 839
+0	486aa, >SOAP_k45_C317883... *
+>Cluster 840
+0	486aa, >SOAP_k45_scaffold9113... *
+>Cluster 841
+0	486aa, >SOAP_k45_scaffold515... *
+>Cluster 842
+0	483aa, >SOAP_k45_scaffold19623... *
+>Cluster 843
+0	483aa, >SOAP_k45_C313881... *
+>Cluster 844
+0	483aa, >SOAP_k35_scaffold3362... *
+>Cluster 845
+0	483aa, >SOAP_k35_scaffold19562... *
+>Cluster 846
+0	483aa, >SOAP_k35_scaffold11525... *
+>Cluster 847
+0	483aa, >SOAP_k55_scaffold1238... *
+>Cluster 848
+0	483aa, >SOAP_k35_scaffold6031... *
+>Cluster 849
+0	483aa, >SOAP_k35_scaffold2024... *
+>Cluster 850
+0	483aa, >SOAP_k55_scaffold12917... *
+>Cluster 851
+0	483aa, >SOAP_k35_C386353... *
+>Cluster 852
+0	483aa, >SOAP_k45_scaffold12525... *
+>Cluster 853
+0	483aa, >SOAP_k45_scaffold17123... *
+>Cluster 854
+0	483aa, >SOAP_k35_scaffold11745... *
+>Cluster 855
+0	483aa, >SOAP_k55_scaffold8003... *
+>Cluster 856
+0	480aa, >SOAP_k35_C401963... *
+>Cluster 857
+0	480aa, >SOAP_k45_scaffold20569... *
+>Cluster 858
+0	480aa, >SOAP_k55_scaffold11315... *
+>Cluster 859
+0	480aa, >SOAP_k45_scaffold14540... *
+>Cluster 860
+0	480aa, >SOAP_k55_scaffold19123... *
+>Cluster 861
+0	480aa, >SOAP_k55_scaffold18667... *
+>Cluster 862
+0	480aa, >SOAP_k45_C315217... *
+>Cluster 863
+0	480aa, >SOAP_k35_scaffold10811... *
+>Cluster 864
+0	480aa, >SOAP_k45_scaffold390... *
+>Cluster 865
+0	480aa, >SOAP_k45_scaffold20255... *
+>Cluster 866
+0	480aa, >SOAP_k35_scaffold18754... *
+>Cluster 867
+0	444aa, >SOAP_k55_scaffold17425... at 99.77%
+1	480aa, >SOAP_k45_scaffold20073... *
+>Cluster 868
+0	480aa, >SOAP_k45_scaffold6386... *
+>Cluster 869
+0	477aa, >SOAP_k35_scaffold9518... *
+>Cluster 870
+0	477aa, >SOAP_k35_scaffold3609... *
+>Cluster 871
+0	477aa, >SOAP_k45_scaffold11124... *
+>Cluster 872
+0	477aa, >SOAP_k35_C335776... *
+>Cluster 873
+0	477aa, >SOAP_k35_scaffold4656... *
+>Cluster 874
+0	477aa, >SOAP_k45_scaffold963... *
+>Cluster 875
+0	426aa, >SOAP_k45_scaffold5930... at 94.84%
+1	477aa, >SOAP_k45_scaffold5931... *
+2	477aa, >SOAP_k35_scaffold5833... at 95.18%
+>Cluster 876
+0	477aa, >SOAP_k55_scaffold17575... *
+>Cluster 877
+0	477aa, >SOAP_k55_scaffold19573... *
+>Cluster 878
+0	477aa, >SOAP_k35_C383167... *
+>Cluster 879
+0	477aa, >SOAP_k35_C393939... *
+>Cluster 880
+0	477aa, >SOAP_k35_scaffold17275... *
+>Cluster 881
+0	474aa, >SOAP_k35_scaffold14728... *
+>Cluster 882
+0	474aa, >SOAP_k35_scaffold11694... *
+>Cluster 883
+0	474aa, >SOAP_k45_scaffold13302... *
+>Cluster 884
+0	474aa, >SOAP_k45_scaffold860... *
+>Cluster 885
+0	474aa, >SOAP_k45_scaffold19409... *
+>Cluster 886
+0	474aa, >SOAP_k35_scaffold14718... *
+>Cluster 887
+0	474aa, >SOAP_k45_scaffold13126... *
+>Cluster 888
+0	474aa, >SOAP_k35_scaffold13517... *
+>Cluster 889
+0	474aa, >SOAP_k45_scaffold13369... *
+>Cluster 890
+0	336aa, >SOAP_k55_scaffold15250... at 100.00%
+1	474aa, >SOAP_k45_scaffold15369... *
+>Cluster 891
+0	474aa, >SOAP_k45_scaffold9940... *
+>Cluster 892
+0	474aa, >SOAP_k45_scaffold3996... *
+>Cluster 893
+0	474aa, >SOAP_k35_scaffold4571... *
+>Cluster 894
+0	474aa, >SOAP_k45_scaffold20216... *
+>Cluster 895
+0	471aa, >SOAP_k35_scaffold13321... *
+>Cluster 896
+0	471aa, >SOAP_k35_C411251... *
+>Cluster 897
+0	471aa, >SOAP_k45_scaffold16038... *
+>Cluster 898
+0	471aa, >SOAP_k45_C310377... *
+>Cluster 899
+0	471aa, >SOAP_k55_scaffold16389... *
+>Cluster 900
+0	471aa, >SOAP_k55_scaffold436... *
+>Cluster 901
+0	471aa, >SOAP_k35_scaffold20508... *
+>Cluster 902
+0	471aa, >SOAP_k55_scaffold14009... *
+>Cluster 903
+0	471aa, >SOAP_k35_scaffold14933... *
+>Cluster 904
+0	471aa, >SOAP_k55_scaffold14288... *
+>Cluster 905
+0	471aa, >SOAP_k55_scaffold7544... *
+>Cluster 906
+0	471aa, >SOAP_k35_scaffold15897... *
+>Cluster 907
+0	447aa, >SOAP_k35_scaffold15507... at 90.60%
+1	471aa, >SOAP_k45_scaffold19172... *
+>Cluster 908
+0	468aa, >SOAP_k55_scaffold15063... *
+>Cluster 909
+0	468aa, >SOAP_k35_C405107... *
+>Cluster 910
+0	468aa, >SOAP_k45_scaffold17321... *
+>Cluster 911
+0	468aa, >SOAP_k45_scaffold7393... *
+>Cluster 912
+0	468aa, >SOAP_k55_scaffold5371... *
+>Cluster 913
+0	468aa, >SOAP_k55_scaffold18155... *
+1	444aa, >SOAP_k45_scaffold17939... at 95.95%
+>Cluster 914
+0	468aa, >SOAP_k45_C296777... *
+>Cluster 915
+0	468aa, >SOAP_k55_scaffold14595... *
+>Cluster 916
+0	468aa, >SOAP_k55_scaffold17792... *
+>Cluster 917
+0	468aa, >SOAP_k55_scaffold19534... *
+>Cluster 918
+0	468aa, >SOAP_k35_scaffold8695... *
+>Cluster 919
+0	468aa, >SOAP_k55_scaffold13408... *
+>Cluster 920
+0	468aa, >SOAP_k35_scaffold10906... *
+>Cluster 921
+0	468aa, >SOAP_k55_scaffold12219... *
+>Cluster 922
+0	468aa, >SOAP_k55_scaffold14281... *
+>Cluster 923
+0	468aa, >SOAP_k35_scaffold12705... *
+>Cluster 924
+0	468aa, >SOAP_k55_scaffold17420... *
+>Cluster 925
+0	468aa, >SOAP_k55_scaffold14658... *
+>Cluster 926
+0	468aa, >SOAP_k35_scaffold10236... *
+>Cluster 927
+0	468aa, >SOAP_k45_scaffold16907... *
+>Cluster 928
+0	468aa, >SOAP_k35_C383973... *
+>Cluster 929
+0	468aa, >SOAP_k35_scaffold14928... *
+>Cluster 930
+0	465aa, >SOAP_k45_scaffold14590... *
+>Cluster 931
+0	465aa, >SOAP_k55_scaffold19351... *
+>Cluster 932
+0	465aa, >SOAP_k35_scaffold16399... *
+>Cluster 933
+0	465aa, >SOAP_k55_scaffold8826... *
+>Cluster 934
+0	465aa, >SOAP_k45_scaffold13832... *
+>Cluster 935
+0	465aa, >SOAP_k35_scaffold20551... *
+>Cluster 936
+0	465aa, >SOAP_k35_scaffold11288... *
+>Cluster 937
+0	465aa, >SOAP_k45_scaffold19306... *
+>Cluster 938
+0	465aa, >SOAP_k55_scaffold4785... *
+>Cluster 939
+0	465aa, >SOAP_k55_scaffold19254... *
+>Cluster 940
+0	465aa, >SOAP_k55_scaffold15847... *
+>Cluster 941
+0	465aa, >SOAP_k35_scaffold7348... *
+>Cluster 942
+0	465aa, >SOAP_k45_C321507... *
+>Cluster 943
+0	465aa, >SOAP_k35_scaffold2561... *
+>Cluster 944
+0	465aa, >SOAP_k35_scaffold19656... *
+>Cluster 945
+0	465aa, >SOAP_k35_scaffold17807... *
+>Cluster 946
+0	465aa, >SOAP_k35_C374631... *
+>Cluster 947
+0	465aa, >SOAP_k35_scaffold5589... *
+>Cluster 948
+0	465aa, >SOAP_k45_scaffold19051... *
+1	387aa, >SOAP_k35_scaffold15618... at 93.02%
+>Cluster 949
+0	465aa, >SOAP_k45_scaffold15194... *
+>Cluster 950
+0	465aa, >SOAP_k45_C246465... *
+>Cluster 951
+0	465aa, >SOAP_k35_C383829... *
+>Cluster 952
+0	465aa, >SOAP_k35_scaffold15237... *
+>Cluster 953
+0	462aa, >SOAP_k35_scaffold11047... *
+>Cluster 954
+0	462aa, >SOAP_k45_scaffold14402... *
+>Cluster 955
+0	462aa, >SOAP_k35_scaffold20055... *
+>Cluster 956
+0	462aa, >SOAP_k55_scaffold18299... *
+>Cluster 957
+0	462aa, >SOAP_k55_scaffold19647... *
+>Cluster 958
+0	462aa, >SOAP_k45_C294213... *
+>Cluster 959
+0	462aa, >SOAP_k45_scaffold8267... *
+>Cluster 960
+0	462aa, >SOAP_k45_C314803... *
+>Cluster 961
+0	462aa, >SOAP_k35_scaffold16325... *
+>Cluster 962
+0	462aa, >SOAP_k55_scaffold10391... *
+>Cluster 963
+0	462aa, >SOAP_k45_scaffold17720... *
+>Cluster 964
+0	462aa, >SOAP_k55_scaffold10423... *
+>Cluster 965
+0	462aa, >SOAP_k55_scaffold4199... *
+>Cluster 966
+0	462aa, >SOAP_k45_C279755... *
+>Cluster 967
+0	459aa, >SOAP_k45_scaffold8495... *
+>Cluster 968
+0	459aa, >SOAP_k55_scaffold10663... *
+>Cluster 969
+0	459aa, >SOAP_k45_scaffold17174... *
+>Cluster 970
+0	459aa, >SOAP_k55_scaffold4286... *
+>Cluster 971
+0	459aa, >SOAP_k35_scaffold8663... *
+>Cluster 972
+0	459aa, >SOAP_k45_C322023... *
+>Cluster 973
+0	459aa, >SOAP_k35_scaffold12252... *
+>Cluster 974
+0	459aa, >SOAP_k35_scaffold12002... *
+>Cluster 975
+0	459aa, >SOAP_k55_scaffold19765... *
+>Cluster 976
+0	459aa, >SOAP_k55_scaffold2276... *
+>Cluster 977
+0	459aa, >SOAP_k45_scaffold1340... *
+>Cluster 978
+0	459aa, >SOAP_k35_scaffold19495... *
+>Cluster 979
+0	459aa, >SOAP_k35_C413157... *
+>Cluster 980
+0	459aa, >SOAP_k45_scaffold3297... *
+>Cluster 981
+0	459aa, >SOAP_k45_scaffold16643... *
+>Cluster 982
+0	459aa, >SOAP_k45_C275294... *
+>Cluster 983
+0	459aa, >SOAP_k45_scaffold12475... *
+>Cluster 984
+0	459aa, >SOAP_k55_scaffold19560... *
+>Cluster 985
+0	459aa, >SOAP_k45_scaffold18592... *
+>Cluster 986
+0	459aa, >SOAP_k45_scaffold19262... *
+>Cluster 987
+0	459aa, >SOAP_k45_scaffold4162... *
+>Cluster 988
+0	459aa, >SOAP_k45_scaffold15134... *
+>Cluster 989
+0	459aa, >SOAP_k55_scaffold19122... *
+>Cluster 990
+0	459aa, >SOAP_k45_scaffold19584... *
+>Cluster 991
+0	459aa, >SOAP_k55_scaffold14873... *
+>Cluster 992
+0	459aa, >SOAP_k45_scaffold1147... *
+>Cluster 993
+0	459aa, >SOAP_k55_scaffold20025... *
+>Cluster 994
+0	459aa, >SOAP_k45_scaffold20032... *
+>Cluster 995
+0	459aa, >SOAP_k35_scaffold13498... *
+>Cluster 996
+0	459aa, >SOAP_k35_scaffold8738... *
+>Cluster 997
+0	459aa, >SOAP_k45_scaffold9402... *
+>Cluster 998
+0	456aa, >SOAP_k45_scaffold41... *
+>Cluster 999
+0	456aa, >SOAP_k55_scaffold15485... *
+>Cluster 1000
+0	456aa, >SOAP_k35_scaffold3527... *
+>Cluster 1001
+0	456aa, >SOAP_k45_C321289... *
+>Cluster 1002
+0	456aa, >SOAP_k35_scaffold11496... *
+>Cluster 1003
+0	456aa, >SOAP_k35_scaffold17389... *
+>Cluster 1004
+0	456aa, >SOAP_k55_scaffold12784... *
+>Cluster 1005
+0	456aa, >SOAP_k35_scaffold17952... *
+>Cluster 1006
+0	456aa, >SOAP_k35_scaffold3098... *
+>Cluster 1007
+0	456aa, >SOAP_k45_scaffold8363... *
+>Cluster 1008
+0	456aa, >SOAP_k45_scaffold10139... *
+>Cluster 1009
+0	456aa, >SOAP_k35_scaffold19998... *
+>Cluster 1010
+0	456aa, >SOAP_k55_scaffold7197... *
+>Cluster 1011
+0	456aa, >SOAP_k45_scaffold7968... *
+>Cluster 1012
+0	456aa, >SOAP_k35_scaffold15468... *
+>Cluster 1013
+0	456aa, >SOAP_k55_scaffold6696... *
+>Cluster 1014
+0	453aa, >SOAP_k45_C314221... *
+>Cluster 1015
+0	453aa, >SOAP_k45_scaffold3757... *
+>Cluster 1016
+0	453aa, >SOAP_k45_scaffold15573... *
+>Cluster 1017
+0	453aa, >SOAP_k35_scaffold15456... *
+>Cluster 1018
+0	453aa, >SOAP_k55_scaffold7641... *
+>Cluster 1019
+0	453aa, >SOAP_k55_scaffold19239... *
+>Cluster 1020
+0	453aa, >SOAP_k55_scaffold4891... *
+>Cluster 1021
+0	453aa, >SOAP_k55_scaffold724... *
+>Cluster 1022
+0	453aa, >SOAP_k45_scaffold9248... *
+>Cluster 1023
+0	453aa, >SOAP_k45_scaffold2434... *
+>Cluster 1024
+0	453aa, >SOAP_k55_scaffold14584... *
+>Cluster 1025
+0	453aa, >SOAP_k45_scaffold14846... *
+>Cluster 1026
+0	453aa, >SOAP_k35_scaffold1529... *
+>Cluster 1027
+0	450aa, >SOAP_k35_scaffold18718... *
+>Cluster 1028
+0	450aa, >SOAP_k45_C244179... *
+>Cluster 1029
+0	450aa, >SOAP_k55_scaffold2867... *
+>Cluster 1030
+0	450aa, >SOAP_k45_scaffold8833... *
+>Cluster 1031
+0	450aa, >SOAP_k35_C330457... *
+>Cluster 1032
+0	450aa, >SOAP_k55_scaffold11062... *
+>Cluster 1033
+0	450aa, >SOAP_k45_scaffold3746... *
+>Cluster 1034
+0	450aa, >SOAP_k35_C398073... *
+>Cluster 1035
+0	450aa, >SOAP_k45_C282239... *
+>Cluster 1036
+0	450aa, >SOAP_k55_scaffold13660... *
+>Cluster 1037
+0	450aa, >SOAP_k35_scaffold8777... *
+>Cluster 1038
+0	450aa, >SOAP_k35_scaffold16220... *
+>Cluster 1039
+0	450aa, >SOAP_k55_scaffold8678... *
+>Cluster 1040
+0	450aa, >SOAP_k55_scaffold11213... *
+>Cluster 1041
+0	447aa, >SOAP_k45_scaffold14289... *
+>Cluster 1042
+0	447aa, >SOAP_k55_scaffold3011... *
+>Cluster 1043
+0	447aa, >SOAP_k45_scaffold896... *
+>Cluster 1044
+0	447aa, >SOAP_k45_scaffold16644... *
+>Cluster 1045
+0	447aa, >SOAP_k45_scaffold12888... *
+>Cluster 1046
+0	447aa, >SOAP_k45_scaffold1274... *
+>Cluster 1047
+0	447aa, >SOAP_k55_scaffold8043... *
+>Cluster 1048
+0	447aa, >SOAP_k55_scaffold11381... *
+>Cluster 1049
+0	447aa, >SOAP_k45_scaffold2570... *
+>Cluster 1050
+0	447aa, >SOAP_k45_scaffold20450... *
+>Cluster 1051
+0	447aa, >SOAP_k55_scaffold5370... *
+>Cluster 1052
+0	447aa, >SOAP_k45_scaffold20573... *
+>Cluster 1053
+0	444aa, >SOAP_k35_C412157... *
+>Cluster 1054
+0	444aa, >SOAP_k45_scaffold10085... *
+>Cluster 1055
+0	444aa, >SOAP_k35_scaffold14593... *
+>Cluster 1056
+0	444aa, >SOAP_k45_scaffold10496... *
+>Cluster 1057
+0	444aa, >SOAP_k55_scaffold4975... *
+>Cluster 1058
+0	444aa, >SOAP_k55_scaffold3588... *
+>Cluster 1059
+0	444aa, >SOAP_k55_scaffold576... *
+>Cluster 1060
+0	444aa, >SOAP_k55_scaffold3505... *
+>Cluster 1061
+0	444aa, >SOAP_k35_scaffold13803... *
+>Cluster 1062
+0	444aa, >SOAP_k35_C394113... *
+>Cluster 1063
+0	444aa, >SOAP_k35_scaffold14643... *
+>Cluster 1064
+0	444aa, >SOAP_k35_C330049... *
+>Cluster 1065
+0	444aa, >SOAP_k45_scaffold3674... *
+>Cluster 1066
+0	444aa, >SOAP_k45_scaffold18914... *
+>Cluster 1067
+0	444aa, >SOAP_k45_scaffold14706... *
+>Cluster 1068
+0	441aa, >SOAP_k35_scaffold6198... *
+>Cluster 1069
+0	441aa, >SOAP_k35_scaffold20159... *
+>Cluster 1070
+0	441aa, >SOAP_k35_scaffold14299... *
+>Cluster 1071
+0	441aa, >SOAP_k45_scaffold12572... *
+>Cluster 1072
+0	441aa, >SOAP_k35_scaffold11480... *
+1	378aa, >SOAP_k55_scaffold8827... at 95.50%
+>Cluster 1073
+0	441aa, >SOAP_k35_scaffold15365... *
+>Cluster 1074
+0	441aa, >SOAP_k35_scaffold8857... *
+>Cluster 1075
+0	441aa, >SOAP_k35_scaffold1797... *
+>Cluster 1076
+0	441aa, >SOAP_k45_scaffold7476... *
+>Cluster 1077
+0	441aa, >SOAP_k35_C392439... *
+>Cluster 1078
+0	441aa, >SOAP_k55_scaffold2598... *
+>Cluster 1079
+0	441aa, >SOAP_k35_scaffold1313... *
+>Cluster 1080
+0	441aa, >SOAP_k45_scaffold7348... *
+>Cluster 1081
+0	441aa, >SOAP_k35_C355213... *
+>Cluster 1082
+0	441aa, >SOAP_k35_scaffold5117... *
+>Cluster 1083
+0	441aa, >SOAP_k35_scaffold19916... *
+>Cluster 1084
+0	438aa, >SOAP_k35_scaffold15940... *
+1	324aa, >SOAP_k45_scaffold16153... at 100.00%
+>Cluster 1085
+0	438aa, >SOAP_k45_C323615... *
+>Cluster 1086
+0	438aa, >SOAP_k45_scaffold7890... *
+>Cluster 1087
+0	438aa, >SOAP_k45_C319293... *
+>Cluster 1088
+0	438aa, >SOAP_k45_scaffold19928... *
+>Cluster 1089
+0	438aa, >SOAP_k35_scaffold8159... *
+>Cluster 1090
+0	393aa, >SOAP_k55_scaffold6534... at 100.00%
+1	438aa, >SOAP_k45_scaffold18465... *
+>Cluster 1091
+0	438aa, >SOAP_k55_scaffold2386... *
+>Cluster 1092
+0	438aa, >SOAP_k55_scaffold18768... *
+>Cluster 1093
+0	438aa, >SOAP_k35_scaffold9019... *
+>Cluster 1094
+0	438aa, >SOAP_k35_scaffold16800... *
+>Cluster 1095
+0	438aa, >SOAP_k45_scaffold681... *
+>Cluster 1096
+0	438aa, >SOAP_k55_scaffold12907... *
+>Cluster 1097
+0	438aa, >SOAP_k35_scaffold19138... *
+>Cluster 1098
+0	402aa, >SOAP_k55_scaffold2783... at 96.52%
+1	438aa, >SOAP_k55_scaffold2780... *
+>Cluster 1099
+0	438aa, >SOAP_k35_scaffold9759... *
+>Cluster 1100
+0	438aa, >SOAP_k55_scaffold17545... *
+>Cluster 1101
+0	438aa, >SOAP_k55_scaffold18558... *
+>Cluster 1102
+0	438aa, >SOAP_k45_C302713... *
+>Cluster 1103
+0	438aa, >SOAP_k35_scaffold18793... *
+>Cluster 1104
+0	438aa, >SOAP_k55_scaffold14558... *
+>Cluster 1105
+0	438aa, >SOAP_k55_scaffold9883... *
+>Cluster 1106
+0	438aa, >SOAP_k45_scaffold7638... *
+>Cluster 1107
+0	438aa, >SOAP_k35_scaffold20038... *
+>Cluster 1108
+0	435aa, >SOAP_k45_scaffold2873... *
+>Cluster 1109
+0	435aa, >SOAP_k45_scaffold15314... *
+>Cluster 1110
+0	375aa, >SOAP_k55_scaffold893... at 95.20%
+1	435aa, >SOAP_k55_scaffold891... *
+>Cluster 1111
+0	435aa, >SOAP_k35_scaffold13290... *
+>Cluster 1112
+0	435aa, >SOAP_k55_scaffold2875... *
+>Cluster 1113
+0	435aa, >SOAP_k45_scaffold3057... *
+>Cluster 1114
+0	435aa, >SOAP_k35_scaffold5832... *
+>Cluster 1115
+0	435aa, >SOAP_k55_scaffold7996... *
+>Cluster 1116
+0	435aa, >SOAP_k35_scaffold9756... *
+>Cluster 1117
+0	435aa, >SOAP_k35_scaffold2556... *
+>Cluster 1118
+0	435aa, >SOAP_k35_C399421... *
+>Cluster 1119
+0	432aa, >SOAP_k55_scaffold4187... *
+>Cluster 1120
+0	432aa, >SOAP_k45_scaffold18344... *
+>Cluster 1121
+0	432aa, >SOAP_k35_scaffold14136... *
+>Cluster 1122
+0	432aa, >SOAP_k45_scaffold19266... *
+>Cluster 1123
+0	432aa, >SOAP_k35_C351135... *
+>Cluster 1124
+0	432aa, >SOAP_k35_scaffold17386... *
+>Cluster 1125
+0	432aa, >SOAP_k35_C390871... *
+>Cluster 1126
+0	432aa, >SOAP_k45_scaffold16887... *
+>Cluster 1127
+0	432aa, >SOAP_k55_scaffold11916... *
+>Cluster 1128
+0	432aa, >SOAP_k45_scaffold5246... *
+>Cluster 1129
+0	432aa, >SOAP_k45_scaffold5297... *
+>Cluster 1130
+0	432aa, >SOAP_k45_scaffold15835... *
+>Cluster 1131
+0	432aa, >SOAP_k55_scaffold19621... *
+>Cluster 1132
+0	432aa, >SOAP_k55_scaffold14870... *
+>Cluster 1133
+0	432aa, >SOAP_k35_scaffold19933... *
+>Cluster 1134
+0	432aa, >SOAP_k55_scaffold5274... *
+>Cluster 1135
+0	432aa, >SOAP_k55_scaffold4604... *
+>Cluster 1136
+0	432aa, >SOAP_k45_C319089... *
+>Cluster 1137
+0	432aa, >SOAP_k45_scaffold9430... *
+>Cluster 1138
+0	432aa, >SOAP_k35_scaffold20618... *
+>Cluster 1139
+0	432aa, >SOAP_k45_scaffold11397... *
+>Cluster 1140
+0	432aa, >SOAP_k55_scaffold5534... *
+>Cluster 1141
+0	432aa, >SOAP_k35_C335690... *
+>Cluster 1142
+0	432aa, >SOAP_k55_scaffold8368... *
+>Cluster 1143
+0	429aa, >SOAP_k35_scaffold19949... *
+>Cluster 1144
+0	429aa, >SOAP_k45_scaffold8302... *
+>Cluster 1145
+0	429aa, >SOAP_k35_scaffold596... *
+>Cluster 1146
+0	429aa, >SOAP_k35_scaffold2541... *
+>Cluster 1147
+0	429aa, >SOAP_k45_scaffold18288... *
+>Cluster 1148
+0	429aa, >SOAP_k45_scaffold8440... *
+>Cluster 1149
+0	429aa, >SOAP_k45_scaffold16515... *
+>Cluster 1150
+0	429aa, >SOAP_k35_scaffold17948... *
+>Cluster 1151
+0	429aa, >SOAP_k55_scaffold12633... *
+>Cluster 1152
+0	429aa, >SOAP_k35_scaffold7740... *
+>Cluster 1153
+0	429aa, >SOAP_k45_C248789... *
+>Cluster 1154
+0	429aa, >SOAP_k55_scaffold12899... *
+>Cluster 1155
+0	426aa, >SOAP_k35_C326646... *
+>Cluster 1156
+0	414aa, >SOAP_k45_scaffold6560... at 97.58%
+1	426aa, >SOAP_k55_scaffold5854... *
+>Cluster 1157
+0	426aa, >SOAP_k55_scaffold17232... *
+>Cluster 1158
+0	426aa, >SOAP_k35_scaffold11954... *
+>Cluster 1159
+0	426aa, >SOAP_k45_C303885... *
+>Cluster 1160
+0	426aa, >SOAP_k55_scaffold6659... *
+>Cluster 1161
+0	426aa, >SOAP_k35_C412379... *
+>Cluster 1162
+0	426aa, >SOAP_k55_scaffold16745... *
+>Cluster 1163
+0	426aa, >SOAP_k45_scaffold10500... *
+>Cluster 1164
+0	426aa, >SOAP_k35_scaffold17001... *
+>Cluster 1165
+0	426aa, >SOAP_k35_scaffold17357... *
+>Cluster 1166
+0	426aa, >SOAP_k35_scaffold19823... *
+>Cluster 1167
+0	423aa, >SOAP_k55_scaffold5845... *
+>Cluster 1168
+0	423aa, >SOAP_k35_scaffold1227... *
+>Cluster 1169
+0	423aa, >SOAP_k55_scaffold15634... *
+>Cluster 1170
+0	423aa, >SOAP_k35_scaffold11743... *
+>Cluster 1171
+0	423aa, >SOAP_k55_scaffold16154... *
+>Cluster 1172
+0	423aa, >SOAP_k55_scaffold19662... *
+>Cluster 1173
+0	423aa, >SOAP_k55_scaffold2457... *
+>Cluster 1174
+0	423aa, >SOAP_k35_scaffold15879... *
+>Cluster 1175
+0	423aa, >SOAP_k35_C373321... *
+>Cluster 1176
+0	423aa, >SOAP_k35_scaffold6655... *
+>Cluster 1177
+0	423aa, >SOAP_k55_scaffold5659... *
+>Cluster 1178
+0	423aa, >SOAP_k45_scaffold19580... *
+>Cluster 1179
+0	423aa, >SOAP_k45_scaffold16044... *
+>Cluster 1180
+0	423aa, >SOAP_k35_scaffold10695... *
+>Cluster 1181
+0	423aa, >SOAP_k35_scaffold15736... *
+>Cluster 1182
+0	423aa, >SOAP_k45_scaffold468... *
+>Cluster 1183
+0	420aa, >SOAP_k35_scaffold15538... *
+>Cluster 1184
+0	420aa, >SOAP_k35_scaffold8307... *
+>Cluster 1185
+0	420aa, >SOAP_k45_scaffold20123... *
+>Cluster 1186
+0	420aa, >SOAP_k35_scaffold18467... *
+>Cluster 1187
+0	420aa, >SOAP_k35_scaffold11944... *
+>Cluster 1188
+0	420aa, >SOAP_k45_C321363... *
+>Cluster 1189
+0	420aa, >SOAP_k55_scaffold10698... *
+>Cluster 1190
+0	420aa, >SOAP_k45_C285447... *
+>Cluster 1191
+0	420aa, >SOAP_k35_scaffold18774... *
+>Cluster 1192
+0	420aa, >SOAP_k45_scaffold11315... *
+>Cluster 1193
+0	420aa, >SOAP_k55_scaffold4679... *
+>Cluster 1194
+0	420aa, >SOAP_k35_scaffold11779... *
+>Cluster 1195
+0	420aa, >SOAP_k55_scaffold19281... *
+>Cluster 1196
+0	420aa, >SOAP_k45_scaffold12346... *
+>Cluster 1197
+0	420aa, >SOAP_k45_scaffold6609... *
+>Cluster 1198
+0	420aa, >SOAP_k35_C400397... *
+>Cluster 1199
+0	420aa, >SOAP_k35_C325596... *
+>Cluster 1200
+0	417aa, >SOAP_k45_scaffold7129... *
+>Cluster 1201
+0	417aa, >SOAP_k35_scaffold18757... *
+1	348aa, >SOAP_k35_scaffold18758... at 95.69%
+>Cluster 1202
+0	417aa, >SOAP_k35_C399645... *
+>Cluster 1203
+0	417aa, >SOAP_k35_scaffold17799... *
+>Cluster 1204
+0	417aa, >SOAP_k45_C242853... *
+>Cluster 1205
+0	417aa, >SOAP_k55_scaffold1416... *
+>Cluster 1206
+0	417aa, >SOAP_k45_scaffold5092... *
+>Cluster 1207
+0	417aa, >SOAP_k55_scaffold17882... *
+>Cluster 1208
+0	417aa, >SOAP_k55_scaffold15213... *
+>Cluster 1209
+0	417aa, >SOAP_k55_scaffold18202... *
+>Cluster 1210
+0	417aa, >SOAP_k55_scaffold17547... *
+>Cluster 1211
+0	417aa, >SOAP_k45_scaffold20251... *
+>Cluster 1212
+0	417aa, >SOAP_k35_scaffold13974... *
+>Cluster 1213
+0	417aa, >SOAP_k45_scaffold16913... *
+>Cluster 1214
+0	417aa, >SOAP_k55_scaffold7363... *
+>Cluster 1215
+0	333aa, >SOAP_k35_C308858... at 100.00%
+1	417aa, >SOAP_k45_C240515... *
+>Cluster 1216
+0	417aa, >SOAP_k55_scaffold17788... *
+>Cluster 1217
+0	417aa, >SOAP_k45_scaffold3639... *
+>Cluster 1218
+0	417aa, >SOAP_k35_scaffold19265... *
+>Cluster 1219
+0	414aa, >SOAP_k45_scaffold13993... *
+>Cluster 1220
+0	414aa, >SOAP_k35_scaffold19112... *
+>Cluster 1221
+0	414aa, >SOAP_k35_scaffold15539... *
+>Cluster 1222
+0	414aa, >SOAP_k35_scaffold16964... *
+>Cluster 1223
+0	414aa, >SOAP_k35_C412797... *
+>Cluster 1224
+0	414aa, >SOAP_k55_scaffold3893... *
+>Cluster 1225
+0	414aa, >SOAP_k45_scaffold5336... *
+>Cluster 1226
+0	414aa, >SOAP_k35_scaffold18105... *
+>Cluster 1227
+0	414aa, >SOAP_k45_scaffold1128... *
+>Cluster 1228
+0	414aa, >SOAP_k45_scaffold17186... *
+>Cluster 1229
+0	414aa, >SOAP_k35_scaffold17240... *
+>Cluster 1230
+0	414aa, >SOAP_k45_scaffold19628... *
+>Cluster 1231
+0	414aa, >SOAP_k35_scaffold20184... *
+>Cluster 1232
+0	414aa, >SOAP_k55_scaffold5601... *
+>Cluster 1233
+0	414aa, >SOAP_k55_scaffold6549... *
+>Cluster 1234
+0	414aa, >SOAP_k35_scaffold7703... *
+>Cluster 1235
+0	414aa, >SOAP_k35_scaffold16508... *
+>Cluster 1236
+0	414aa, >SOAP_k55_scaffold4924... *
+>Cluster 1237
+0	411aa, >SOAP_k35_scaffold13033... *
+>Cluster 1238
+0	411aa, >SOAP_k35_scaffold3204... *
+>Cluster 1239
+0	411aa, >SOAP_k45_scaffold7903... *
+>Cluster 1240
+0	411aa, >SOAP_k55_scaffold17766... *
+>Cluster 1241
+0	411aa, >SOAP_k55_scaffold2943... *
+>Cluster 1242
+0	411aa, >SOAP_k45_scaffold13799... *
+>Cluster 1243
+0	411aa, >SOAP_k35_scaffold2987... *
+>Cluster 1244
+0	411aa, >SOAP_k35_scaffold11303... *
+>Cluster 1245
+0	411aa, >SOAP_k55_scaffold12448... *
+>Cluster 1246
+0	411aa, >SOAP_k45_scaffold6196... *
+>Cluster 1247
+0	411aa, >SOAP_k35_scaffold5361... *
+>Cluster 1248
+0	411aa, >SOAP_k45_scaffold17118... *
+>Cluster 1249
+0	411aa, >SOAP_k55_scaffold15587... *
+>Cluster 1250
+0	411aa, >SOAP_k35_scaffold12728... *
+>Cluster 1251
+0	411aa, >SOAP_k35_scaffold17747... *
+>Cluster 1252
+0	402aa, >SOAP_k45_scaffold12977... at 97.26%
+1	411aa, >SOAP_k55_scaffold12978... *
+>Cluster 1253
+0	411aa, >SOAP_k45_C252249... *
+>Cluster 1254
+0	411aa, >SOAP_k35_C388693... *
+>Cluster 1255
+0	411aa, >SOAP_k35_scaffold20301... *
+>Cluster 1256
+0	411aa, >SOAP_k35_scaffold19950... *
+>Cluster 1257
+0	411aa, >SOAP_k35_scaffold20416... *
+>Cluster 1258
+0	411aa, >SOAP_k55_scaffold19834... *
+>Cluster 1259
+0	411aa, >SOAP_k45_scaffold636... *
+>Cluster 1260
+0	408aa, >SOAP_k35_scaffold14065... *
+>Cluster 1261
+0	408aa, >SOAP_k55_scaffold12545... *
+>Cluster 1262
+0	408aa, >SOAP_k45_scaffold230... *
+>Cluster 1263
+0	408aa, >SOAP_k45_C323221... *
+>Cluster 1264
+0	408aa, >SOAP_k45_scaffold12605... *
+>Cluster 1265
+0	408aa, >SOAP_k35_C400903... *
+>Cluster 1266
+0	408aa, >SOAP_k45_scaffold15237... *
+>Cluster 1267
+0	408aa, >SOAP_k55_scaffold13301... *
+>Cluster 1268
+0	408aa, >SOAP_k35_C344736... *
+>Cluster 1269
+0	405aa, >SOAP_k35_scaffold17865... *
+>Cluster 1270
+0	405aa, >SOAP_k35_scaffold8501... *
+>Cluster 1271
+0	405aa, >SOAP_k45_C260358... *
+>Cluster 1272
+0	405aa, >SOAP_k35_scaffold11887... *
+>Cluster 1273
+0	405aa, >SOAP_k35_scaffold20177... *
+>Cluster 1274
+0	405aa, >SOAP_k55_scaffold11587... *
+>Cluster 1275
+0	405aa, >SOAP_k35_scaffold20219... *
+>Cluster 1276
+0	405aa, >SOAP_k45_scaffold6858... *
+>Cluster 1277
+0	405aa, >SOAP_k45_scaffold19164... *
+>Cluster 1278
+0	405aa, >SOAP_k35_C411041... *
+>Cluster 1279
+0	405aa, >SOAP_k45_scaffold9836... *
+>Cluster 1280
+0	405aa, >SOAP_k35_scaffold1972... *
+>Cluster 1281
+0	405aa, >SOAP_k45_scaffold18197... *
+>Cluster 1282
+0	405aa, >SOAP_k35_scaffold11200... *
+>Cluster 1283
+0	405aa, >SOAP_k35_C352421... *
+>Cluster 1284
+0	405aa, >SOAP_k45_scaffold3935... *
+>Cluster 1285
+0	405aa, >SOAP_k45_scaffold13877... *
+>Cluster 1286
+0	405aa, >SOAP_k35_scaffold15669... *
+>Cluster 1287
+0	405aa, >SOAP_k35_scaffold16040... *
+>Cluster 1288
+0	405aa, >SOAP_k45_scaffold9587... *
+>Cluster 1289
+0	405aa, >SOAP_k45_scaffold12311... *
+>Cluster 1290
+0	402aa, >SOAP_k55_scaffold17208... *
+>Cluster 1291
+0	402aa, >SOAP_k45_scaffold2519... *
+>Cluster 1292
+0	402aa, >SOAP_k45_scaffold18411... *
+>Cluster 1293
+0	402aa, >SOAP_k35_C388889... *
+>Cluster 1294
+0	402aa, >SOAP_k45_C240089... *
+>Cluster 1295
+0	402aa, >SOAP_k55_scaffold13744... *
+>Cluster 1296
+0	402aa, >SOAP_k45_scaffold514... *
+>Cluster 1297
+0	402aa, >SOAP_k45_C317949... *
+>Cluster 1298
+0	402aa, >SOAP_k55_scaffold19979... *
+>Cluster 1299
+0	402aa, >SOAP_k35_scaffold15315... *
+>Cluster 1300
+0	402aa, >SOAP_k45_scaffold19104... *
+>Cluster 1301
+0	402aa, >SOAP_k45_scaffold7857... *
+>Cluster 1302
+0	402aa, >SOAP_k55_scaffold11345... *
+>Cluster 1303
+0	402aa, >SOAP_k55_scaffold4786... *
+>Cluster 1304
+0	402aa, >SOAP_k55_scaffold12085... *
+>Cluster 1305
+0	402aa, >SOAP_k45_scaffold6253... *
+>Cluster 1306
+0	402aa, >SOAP_k45_scaffold8731... *
+>Cluster 1307
+0	402aa, >SOAP_k35_scaffold9970... *
+>Cluster 1308
+0	402aa, >SOAP_k35_scaffold10359... *
+>Cluster 1309
+0	402aa, >SOAP_k35_C390385... *
+>Cluster 1310
+0	402aa, >SOAP_k55_scaffold17601... *
+>Cluster 1311
+0	402aa, >SOAP_k35_scaffold8133... *
+>Cluster 1312
+0	318aa, >SOAP_k55_scaffold4190... at 96.86%
+1	402aa, >SOAP_k45_scaffold13528... *
+>Cluster 1313
+0	402aa, >SOAP_k35_scaffold10502... *
+>Cluster 1314
+0	399aa, >SOAP_k55_scaffold11853... *
+>Cluster 1315
+0	399aa, >SOAP_k55_scaffold14776... *
+>Cluster 1316
+0	399aa, >SOAP_k45_scaffold17020... *
+>Cluster 1317
+0	399aa, >SOAP_k55_scaffold17332... *
+>Cluster 1318
+0	399aa, >SOAP_k35_scaffold17156... *
+>Cluster 1319
+0	399aa, >SOAP_k45_scaffold5848... *
+>Cluster 1320
+0	399aa, >SOAP_k55_scaffold3533... *
+>Cluster 1321
+0	399aa, >SOAP_k55_scaffold9858... *
+>Cluster 1322
+0	399aa, >SOAP_k45_scaffold12772... *
+>Cluster 1323
+0	399aa, >SOAP_k35_scaffold15157... *
+>Cluster 1324
+0	399aa, >SOAP_k35_C345657... *
+>Cluster 1325
+0	399aa, >SOAP_k45_scaffold5089... *
+>Cluster 1326
+0	399aa, >SOAP_k35_scaffold19711... *
+>Cluster 1327
+0	399aa, >SOAP_k35_scaffold13539... *
+>Cluster 1328
+0	399aa, >SOAP_k45_scaffold17312... *
+>Cluster 1329
+0	399aa, >SOAP_k55_scaffold1330... *
+>Cluster 1330
+0	399aa, >SOAP_k45_scaffold17507... *
+>Cluster 1331
+0	399aa, >SOAP_k55_scaffold15521... *
+>Cluster 1332
+0	399aa, >SOAP_k35_scaffold13753... *
+>Cluster 1333
+0	396aa, >SOAP_k45_scaffold11423... *
+>Cluster 1334
+0	396aa, >SOAP_k35_scaffold937... *
+>Cluster 1335
+0	396aa, >SOAP_k45_scaffold7289... *
+>Cluster 1336
+0	396aa, >SOAP_k45_C233965... *
+>Cluster 1337
+0	396aa, >SOAP_k45_scaffold10553... *
+>Cluster 1338
+0	396aa, >SOAP_k35_scaffold6870... *
+>Cluster 1339
+0	396aa, >SOAP_k35_scaffold13878... *
+>Cluster 1340
+0	396aa, >SOAP_k45_scaffold10161... *
+>Cluster 1341
+0	396aa, >SOAP_k55_scaffold7125... *
+>Cluster 1342
+0	396aa, >SOAP_k35_scaffold3029... *
+>Cluster 1343
+0	396aa, >SOAP_k35_C411049... *
+>Cluster 1344
+0	396aa, >SOAP_k45_scaffold4553... *
+>Cluster 1345
+0	396aa, >SOAP_k35_C368954... *
+>Cluster 1346
+0	396aa, >SOAP_k35_C320371... *
+>Cluster 1347
+0	396aa, >SOAP_k35_scaffold2772... *
+>Cluster 1348
+0	396aa, >SOAP_k35_scaffold826... *
+>Cluster 1349
+0	396aa, >SOAP_k45_scaffold9846... *
+>Cluster 1350
+0	396aa, >SOAP_k35_C397711... *
+>Cluster 1351
+0	396aa, >SOAP_k45_C288771... *
+>Cluster 1352
+0	396aa, >SOAP_k55_scaffold15528... *
+>Cluster 1353
+0	396aa, >SOAP_k35_scaffold1917... *
+>Cluster 1354
+0	396aa, >SOAP_k45_C306843... *
+>Cluster 1355
+0	396aa, >SOAP_k55_scaffold16571... *
+>Cluster 1356
+0	396aa, >SOAP_k45_scaffold13007... *
+>Cluster 1357
+0	396aa, >SOAP_k35_scaffold11507... *
+>Cluster 1358
+0	396aa, >SOAP_k45_scaffold18679... *
+>Cluster 1359
+0	396aa, >SOAP_k35_C405579... *
+>Cluster 1360
+0	396aa, >SOAP_k55_scaffold7442... *
+>Cluster 1361
+0	396aa, >SOAP_k35_C387833... *
+>Cluster 1362
+0	393aa, >SOAP_k45_scaffold15782... *
+>Cluster 1363
+0	393aa, >SOAP_k35_scaffold9510... *
+>Cluster 1364
+0	393aa, >SOAP_k45_scaffold8930... *
+1	393aa, >SOAP_k55_scaffold7148... at 97.46%
+>Cluster 1365
+0	393aa, >SOAP_k55_scaffold13661... *
+>Cluster 1366
+0	393aa, >SOAP_k35_scaffold15649... *
+>Cluster 1367
+0	393aa, >SOAP_k45_C265128... *
+>Cluster 1368
+0	393aa, >SOAP_k35_scaffold19902... *
+>Cluster 1369
+0	393aa, >SOAP_k55_scaffold17822... *
+>Cluster 1370
+0	393aa, >SOAP_k55_scaffold10066... *
+>Cluster 1371
+0	393aa, >SOAP_k35_C319427... *
+>Cluster 1372
+0	393aa, >SOAP_k55_scaffold5271... *
+>Cluster 1373
+0	393aa, >SOAP_k45_scaffold3114... *
+>Cluster 1374
+0	393aa, >SOAP_k45_scaffold2871... *
+>Cluster 1375
+0	393aa, >SOAP_k55_scaffold16158... *
+>Cluster 1376
+0	393aa, >SOAP_k35_scaffold15046... *
+>Cluster 1377
+0	393aa, >SOAP_k45_scaffold843... *
+>Cluster 1378
+0	393aa, >SOAP_k35_scaffold18772... *
+>Cluster 1379
+0	393aa, >SOAP_k45_scaffold4407... *
+>Cluster 1380
+0	393aa, >SOAP_k55_scaffold20219... *
+>Cluster 1381
+0	393aa, >SOAP_k55_scaffold9326... *
+>Cluster 1382
+0	393aa, >SOAP_k45_scaffold17270... *
+>Cluster 1383
+0	393aa, >SOAP_k55_scaffold10236... *
+>Cluster 1384
+0	393aa, >SOAP_k35_scaffold14692... *
+>Cluster 1385
+0	393aa, >SOAP_k35_scaffold13491... *
+>Cluster 1386
+0	390aa, >SOAP_k55_scaffold17818... *
+>Cluster 1387
+0	390aa, >SOAP_k35_scaffold16826... *
+>Cluster 1388
+0	390aa, >SOAP_k45_C316761... *
+>Cluster 1389
+0	390aa, >SOAP_k45_scaffold10687... *
+>Cluster 1390
+0	390aa, >SOAP_k35_C397689... *
+>Cluster 1391
+0	390aa, >SOAP_k35_scaffold19109... *
+>Cluster 1392
+0	390aa, >SOAP_k45_scaffold7504... *
+>Cluster 1393
+0	390aa, >SOAP_k45_scaffold19674... *
+>Cluster 1394
+0	390aa, >SOAP_k55_scaffold19016... *
+>Cluster 1395
+0	390aa, >SOAP_k55_scaffold7367... *
+>Cluster 1396
+0	390aa, >SOAP_k45_scaffold14345... *
+>Cluster 1397
+0	390aa, >SOAP_k55_scaffold10758... *
+>Cluster 1398
+0	390aa, >SOAP_k45_C284859... *
+>Cluster 1399
+0	390aa, >SOAP_k45_scaffold14116... *
+>Cluster 1400
+0	390aa, >SOAP_k45_scaffold14532... *
+>Cluster 1401
+0	390aa, >SOAP_k45_C290015... *
+>Cluster 1402
+0	390aa, >SOAP_k45_scaffold9748... *
+>Cluster 1403
+0	390aa, >SOAP_k35_scaffold13762... *
+>Cluster 1404
+0	390aa, >SOAP_k35_C373021... *
+>Cluster 1405
+0	390aa, >SOAP_k55_scaffold5724... *
+>Cluster 1406
+0	390aa, >SOAP_k45_scaffold7986... *
+>Cluster 1407
+0	387aa, >SOAP_k35_C405297... *
+>Cluster 1408
+0	387aa, >SOAP_k35_scaffold17221... *
+>Cluster 1409
+0	387aa, >SOAP_k55_scaffold18799... *
+>Cluster 1410
+0	387aa, >SOAP_k55_scaffold6791... *
+>Cluster 1411
+0	387aa, >SOAP_k55_scaffold9066... *
+>Cluster 1412
+0	387aa, >SOAP_k35_C318377... *
+>Cluster 1413
+0	387aa, >SOAP_k45_scaffold13155... *
+>Cluster 1414
+0	387aa, >SOAP_k45_scaffold7878... *
+>Cluster 1415
+0	387aa, >SOAP_k55_scaffold7510... *
+>Cluster 1416
+0	387aa, >SOAP_k35_C318455... *
+>Cluster 1417
+0	387aa, >SOAP_k55_scaffold20184... *
+>Cluster 1418
+0	387aa, >SOAP_k35_scaffold18214... *
+>Cluster 1419
+0	387aa, >SOAP_k45_scaffold15275... *
+>Cluster 1420
+0	387aa, >SOAP_k45_scaffold17668... *
+>Cluster 1421
+0	387aa, >SOAP_k55_scaffold19938... *
+>Cluster 1422
+0	387aa, >SOAP_k35_C355217... *
+>Cluster 1423
+0	387aa, >SOAP_k45_scaffold18690... *
+>Cluster 1424
+0	387aa, >SOAP_k35_C406747... *
+>Cluster 1425
+0	387aa, >SOAP_k35_scaffold20395... *
+>Cluster 1426
+0	387aa, >SOAP_k35_scaffold3671... *
+>Cluster 1427
+0	387aa, >SOAP_k55_scaffold9747... *
+>Cluster 1428
+0	387aa, >SOAP_k55_scaffold14559... *
+>Cluster 1429
+0	387aa, >SOAP_k55_scaffold4008... *
+>Cluster 1430
+0	384aa, >SOAP_k45_scaffold6608... *
+1	366aa, >SOAP_k55_scaffold10509... at 92.62%
+>Cluster 1431
+0	384aa, >SOAP_k45_scaffold5588... *
+>Cluster 1432
+0	384aa, >SOAP_k55_scaffold19706... *
+>Cluster 1433
+0	384aa, >SOAP_k55_scaffold7356... *
+>Cluster 1434
+0	384aa, >SOAP_k45_scaffold2135... *
+>Cluster 1435
+0	384aa, >SOAP_k35_scaffold12797... *
+>Cluster 1436
+0	384aa, >SOAP_k35_C414061... *
+>Cluster 1437
+0	384aa, >SOAP_k45_scaffold13713... *
+>Cluster 1438
+0	384aa, >SOAP_k55_scaffold187... *
+>Cluster 1439
+0	384aa, >SOAP_k55_scaffold17676... *
+>Cluster 1440
+0	384aa, >SOAP_k35_C321736... *
+>Cluster 1441
+0	384aa, >SOAP_k35_scaffold10950... *
+>Cluster 1442
+0	384aa, >SOAP_k35_scaffold4870... *
+>Cluster 1443
+0	384aa, >SOAP_k35_scaffold11645... *
+>Cluster 1444
+0	384aa, >SOAP_k45_scaffold17059... *
+1	384aa, >SOAP_k55_scaffold16202... at 90.36%
+>Cluster 1445
+0	384aa, >SOAP_k55_scaffold15544... *
+>Cluster 1446
+0	384aa, >SOAP_k35_C390343... *
+>Cluster 1447
+0	384aa, >SOAP_k45_scaffold13216... *
+>Cluster 1448
+0	384aa, >SOAP_k35_scaffold12605... *
+>Cluster 1449
+0	384aa, >SOAP_k35_scaffold19876... *
+>Cluster 1450
+0	384aa, >SOAP_k55_scaffold18707... *
+>Cluster 1451
+0	384aa, >SOAP_k45_C303365... *
+>Cluster 1452
+0	384aa, >SOAP_k45_scaffold19139... *
+>Cluster 1453
+0	384aa, >SOAP_k45_scaffold12529... *
+>Cluster 1454
+0	384aa, >SOAP_k35_scaffold5939... *
+>Cluster 1455
+0	384aa, >SOAP_k35_scaffold13308... *
+>Cluster 1456
+0	384aa, >SOAP_k35_C370563... *
+>Cluster 1457
+0	384aa, >SOAP_k55_scaffold6945... *
+>Cluster 1458
+0	384aa, >SOAP_k55_scaffold11266... *
+>Cluster 1459
+0	384aa, >SOAP_k45_C234983... *
+>Cluster 1460
+0	381aa, >SOAP_k35_scaffold19325... *
+>Cluster 1461
+0	381aa, >SOAP_k35_C397779... *
+>Cluster 1462
+0	381aa, >SOAP_k55_scaffold7781... *
+>Cluster 1463
+0	381aa, >SOAP_k45_scaffold18505... *
+>Cluster 1464
+0	381aa, >SOAP_k35_scaffold6190... *
+>Cluster 1465
+0	381aa, >SOAP_k35_scaffold18579... *
+>Cluster 1466
+0	381aa, >SOAP_k55_scaffold14855... *
+>Cluster 1467
+0	381aa, >SOAP_k35_scaffold20020... *
+>Cluster 1468
+0	381aa, >SOAP_k45_scaffold10121... *
+>Cluster 1469
+0	381aa, >SOAP_k35_scaffold9223... *
+>Cluster 1470
+0	381aa, >SOAP_k45_scaffold9090... *
+>Cluster 1471
+0	381aa, >SOAP_k55_scaffold10772... *
+>Cluster 1472
+0	381aa, >SOAP_k35_scaffold3307... *
+>Cluster 1473
+0	381aa, >SOAP_k45_scaffold16430... *
+>Cluster 1474
+0	381aa, >SOAP_k35_scaffold16462... *
+>Cluster 1475
+0	381aa, >SOAP_k35_scaffold6375... *
+>Cluster 1476
+0	381aa, >SOAP_k45_scaffold16768... *
+>Cluster 1477
+0	381aa, >SOAP_k35_scaffold5411... *
+>Cluster 1478
+0	381aa, >SOAP_k45_scaffold18320... *
+>Cluster 1479
+0	378aa, >SOAP_k55_scaffold13692... *
+>Cluster 1480
+0	378aa, >SOAP_k35_scaffold16880... *
+>Cluster 1481
+0	378aa, >SOAP_k45_scaffold1916... *
+>Cluster 1482
+0	378aa, >SOAP_k35_C343898... *
+>Cluster 1483
+0	378aa, >SOAP_k45_scaffold8750... *
+>Cluster 1484
+0	378aa, >SOAP_k55_scaffold16343... *
+>Cluster 1485
+0	378aa, >SOAP_k35_C386881... *
+>Cluster 1486
+0	378aa, >SOAP_k35_C411749... *
+>Cluster 1487
+0	378aa, >SOAP_k35_scaffold776... *
+>Cluster 1488
+0	378aa, >SOAP_k35_C359199... *
+>Cluster 1489
+0	378aa, >SOAP_k55_scaffold14784... *
+>Cluster 1490
+0	378aa, >SOAP_k45_scaffold20440... *
+>Cluster 1491
+0	378aa, >SOAP_k35_C385333... *
+>Cluster 1492
+0	378aa, >SOAP_k45_scaffold18164... *
+>Cluster 1493
+0	378aa, >SOAP_k35_scaffold6697... *
+>Cluster 1494
+0	378aa, >SOAP_k45_scaffold11505... *
+>Cluster 1495
+0	378aa, >SOAP_k35_scaffold5842... *
+>Cluster 1496
+0	378aa, >SOAP_k55_scaffold7608... *
+>Cluster 1497
+0	378aa, >SOAP_k55_scaffold12500... *
+>Cluster 1498
+0	378aa, >SOAP_k45_scaffold6106... *
+>Cluster 1499
+0	378aa, >SOAP_k35_C380091... *
+>Cluster 1500
+0	378aa, >SOAP_k35_scaffold20459... *
+>Cluster 1501
+0	378aa, >SOAP_k35_scaffold2273... *
+>Cluster 1502
+0	378aa, >SOAP_k45_C230041... *
+>Cluster 1503
+0	375aa, >SOAP_k35_C412067... *
+>Cluster 1504
+0	375aa, >SOAP_k35_scaffold18575... *
+>Cluster 1505
+0	375aa, >SOAP_k45_scaffold1478... *
+>Cluster 1506
+0	375aa, >SOAP_k35_scaffold13646... *
+>Cluster 1507
+0	375aa, >SOAP_k55_scaffold16126... *
+>Cluster 1508
+0	375aa, >SOAP_k55_scaffold16259... *
+>Cluster 1509
+0	375aa, >SOAP_k45_scaffold18601... *
+>Cluster 1510
+0	375aa, >SOAP_k35_scaffold8256... *
+>Cluster 1511
+0	375aa, >SOAP_k45_scaffold12332... *
+>Cluster 1512
+0	375aa, >SOAP_k35_scaffold6066... *
+>Cluster 1513
+0	375aa, >SOAP_k45_scaffold1548... *
+>Cluster 1514
+0	375aa, >SOAP_k45_scaffold16077... *
+>Cluster 1515
+0	375aa, >SOAP_k45_scaffold8284... *
+>Cluster 1516
+0	375aa, >SOAP_k55_scaffold16714... *
+>Cluster 1517
+0	375aa, >SOAP_k35_scaffold14016... *
+>Cluster 1518
+0	375aa, >SOAP_k35_C402707... *
+>Cluster 1519
+0	375aa, >SOAP_k35_scaffold18101... *
+>Cluster 1520
+0	375aa, >SOAP_k55_scaffold11663... *
+>Cluster 1521
+0	375aa, >SOAP_k35_scaffold8189... *
+>Cluster 1522
+0	375aa, >SOAP_k35_C353019... *
+>Cluster 1523
+0	375aa, >SOAP_k55_scaffold12995... *
+>Cluster 1524
+0	375aa, >SOAP_k35_scaffold5259... *
+>Cluster 1525
+0	375aa, >SOAP_k55_scaffold2003... *
+>Cluster 1526
+0	375aa, >SOAP_k45_scaffold6660... *
+>Cluster 1527
+0	375aa, >SOAP_k35_C393239... *
+>Cluster 1528
+0	372aa, >SOAP_k55_scaffold14934... *
+>Cluster 1529
+0	372aa, >SOAP_k35_scaffold7557... *
+>Cluster 1530
+0	372aa, >SOAP_k35_C399045... *
+>Cluster 1531
+0	372aa, >SOAP_k35_scaffold20115... *
+>Cluster 1532
+0	372aa, >SOAP_k45_scaffold9880... *
+>Cluster 1533
+0	372aa, >SOAP_k55_scaffold18017... *
+>Cluster 1534
+0	372aa, >SOAP_k35_scaffold12821... *
+>Cluster 1535
+0	372aa, >SOAP_k55_scaffold18429... *
+>Cluster 1536
+0	372aa, >SOAP_k55_scaffold20217... *
+>Cluster 1537
+0	372aa, >SOAP_k45_scaffold19654... *
+>Cluster 1538
+0	372aa, >SOAP_k55_scaffold2242... *
+>Cluster 1539
+0	372aa, >SOAP_k35_scaffold12292... *
+>Cluster 1540
+0	372aa, >SOAP_k35_scaffold18371... *
+>Cluster 1541
+0	372aa, >SOAP_k35_scaffold18080... *
+>Cluster 1542
+0	372aa, >SOAP_k45_scaffold8453... *
+>Cluster 1543
+0	372aa, >SOAP_k55_scaffold15246... *
+>Cluster 1544
+0	372aa, >SOAP_k55_scaffold4514... *
+>Cluster 1545
+0	372aa, >SOAP_k35_C317381... *
+>Cluster 1546
+0	372aa, >SOAP_k45_scaffold3031... *
+>Cluster 1547
+0	372aa, >SOAP_k45_scaffold5990... *
+>Cluster 1548
+0	369aa, >SOAP_k45_scaffold12716... *
+>Cluster 1549
+0	369aa, >SOAP_k35_C318481... *
+>Cluster 1550
+0	369aa, >SOAP_k45_scaffold6783... *
+>Cluster 1551
+0	369aa, >SOAP_k35_scaffold14143... *
+>Cluster 1552
+0	369aa, >SOAP_k55_scaffold17583... *
+>Cluster 1553
+0	369aa, >SOAP_k35_C341852... *
+>Cluster 1554
+0	369aa, >SOAP_k55_scaffold18639... *
+>Cluster 1555
+0	369aa, >SOAP_k55_scaffold6874... *
+>Cluster 1556
+0	369aa, >SOAP_k55_scaffold12335... *
+>Cluster 1557
+0	369aa, >SOAP_k35_scaffold13654... *
+>Cluster 1558
+0	369aa, >SOAP_k45_C227673... *
+>Cluster 1559
+0	369aa, >SOAP_k55_scaffold14274... *
+>Cluster 1560
+0	369aa, >SOAP_k45_scaffold6268... *
+>Cluster 1561
+0	369aa, >SOAP_k55_scaffold16828... *
+>Cluster 1562
+0	369aa, >SOAP_k55_scaffold5321... *
+>Cluster 1563
+0	369aa, >SOAP_k35_scaffold4869... *
+>Cluster 1564
+0	369aa, >SOAP_k35_scaffold18626... *
+>Cluster 1565
+0	369aa, >SOAP_k55_scaffold17935... *
+>Cluster 1566
+0	369aa, >SOAP_k45_scaffold13360... *
+>Cluster 1567
+0	369aa, >SOAP_k35_C412569... *
+>Cluster 1568
+0	369aa, >SOAP_k45_C291251... *
+>Cluster 1569
+0	369aa, >SOAP_k45_scaffold7950... *
+>Cluster 1570
+0	369aa, >SOAP_k55_scaffold1580... *
+>Cluster 1571
+0	369aa, >SOAP_k35_C356569... *
+>Cluster 1572
+0	369aa, >SOAP_k55_scaffold17773... *
+>Cluster 1573
+0	366aa, >SOAP_k45_scaffold10288... *
+>Cluster 1574
+0	366aa, >SOAP_k35_C313343... *
+>Cluster 1575
+0	366aa, >SOAP_k45_scaffold15323... *
+>Cluster 1576
+0	366aa, >SOAP_k45_C306905... *
+>Cluster 1577
+0	366aa, >SOAP_k35_scaffold18384... *
+>Cluster 1578
+0	366aa, >SOAP_k35_scaffold6094... *
+>Cluster 1579
+0	366aa, >SOAP_k55_scaffold15666... *
+>Cluster 1580
+0	366aa, >SOAP_k45_scaffold20664... *
+>Cluster 1581
+0	366aa, >SOAP_k45_scaffold14040... *
+>Cluster 1582
+0	366aa, >SOAP_k35_scaffold14166... *
+>Cluster 1583
+0	366aa, >SOAP_k55_scaffold1219... *
+>Cluster 1584
+0	366aa, >SOAP_k45_scaffold9315... *
+>Cluster 1585
+0	366aa, >SOAP_k35_scaffold391... *
+>Cluster 1586
+0	366aa, >SOAP_k55_scaffold15311... *
+>Cluster 1587
+0	366aa, >SOAP_k35_C382515... *
+>Cluster 1588
+0	366aa, >SOAP_k35_scaffold6479... *
+>Cluster 1589
+0	366aa, >SOAP_k45_scaffold7275... *
+>Cluster 1590
+0	363aa, >SOAP_k35_C380131... *
+>Cluster 1591
+0	363aa, >SOAP_k45_scaffold16794... *
+>Cluster 1592
+0	363aa, >SOAP_k45_C243259... *
+>Cluster 1593
+0	363aa, >SOAP_k35_scaffold18777... *
+>Cluster 1594
+0	363aa, >SOAP_k45_scaffold13864... *
+>Cluster 1595
+0	363aa, >SOAP_k35_scaffold2826... *
+>Cluster 1596
+0	363aa, >SOAP_k55_scaffold18620... *
+>Cluster 1597
+0	363aa, >SOAP_k35_scaffold15867... *
+>Cluster 1598
+0	363aa, >SOAP_k55_scaffold15443... *
+>Cluster 1599
+0	363aa, >SOAP_k45_C294355... *
+>Cluster 1600
+0	363aa, >SOAP_k35_scaffold16740... *
+>Cluster 1601
+0	363aa, >SOAP_k45_scaffold19501... *
+>Cluster 1602
+0	363aa, >SOAP_k45_scaffold17357... *
+>Cluster 1603
+0	363aa, >SOAP_k35_scaffold12753... *
+>Cluster 1604
+0	363aa, >SOAP_k35_scaffold1713... *
+>Cluster 1605
+0	363aa, >SOAP_k55_scaffold6519... *
+>Cluster 1606
+0	363aa, >SOAP_k55_scaffold3448... *
+>Cluster 1607
+0	363aa, >SOAP_k35_C378793... *
+>Cluster 1608
+0	363aa, >SOAP_k35_scaffold12673... *
+>Cluster 1609
+0	363aa, >SOAP_k45_C308917... *
+>Cluster 1610
+0	363aa, >SOAP_k45_scaffold938... *
+>Cluster 1611
+0	360aa, >SOAP_k45_scaffold13625... *
+>Cluster 1612
+0	360aa, >SOAP_k55_scaffold519... *
+>Cluster 1613
+0	360aa, >SOAP_k35_scaffold16290... *
+>Cluster 1614
+0	360aa, >SOAP_k55_scaffold19233... *
+>Cluster 1615
+0	360aa, >SOAP_k45_scaffold1978... *
+>Cluster 1616
+0	360aa, >SOAP_k35_scaffold4514... *
+>Cluster 1617
+0	360aa, >SOAP_k35_scaffold17820... *
+>Cluster 1618
+0	360aa, >SOAP_k35_scaffold16891... *
+>Cluster 1619
+0	360aa, >SOAP_k45_C269596... *
+>Cluster 1620
+0	360aa, >SOAP_k45_scaffold14452... *
+>Cluster 1621
+0	360aa, >SOAP_k35_scaffold17266... *
+>Cluster 1622
+0	360aa, >SOAP_k55_scaffold16330... *
+>Cluster 1623
+0	360aa, >SOAP_k35_scaffold9132... *
+>Cluster 1624
+0	360aa, >SOAP_k45_scaffold16622... *
+>Cluster 1625
+0	360aa, >SOAP_k35_scaffold12080... *
+>Cluster 1626
+0	360aa, >SOAP_k35_C312164... *
+>Cluster 1627
+0	360aa, >SOAP_k55_scaffold20053... *
+>Cluster 1628
+0	360aa, >SOAP_k35_scaffold11873... *
+>Cluster 1629
+0	360aa, >SOAP_k35_C406241... *
+>Cluster 1630
+0	360aa, >SOAP_k55_scaffold19084... *
+>Cluster 1631
+0	360aa, >SOAP_k45_scaffold16547... *
+>Cluster 1632
+0	360aa, >SOAP_k45_scaffold17065... *
+>Cluster 1633
+0	360aa, >SOAP_k55_scaffold18025... *
+>Cluster 1634
+0	354aa, >SOAP_k35_scaffold13910... at 94.35%
+1	360aa, >SOAP_k55_scaffold10984... *
+>Cluster 1635
+0	357aa, >SOAP_k45_scaffold17340... *
+>Cluster 1636
+0	357aa, >SOAP_k45_C257816... *
+>Cluster 1637
+0	357aa, >SOAP_k45_scaffold5953... *
+>Cluster 1638
+0	357aa, >SOAP_k35_scaffold12210... *
+>Cluster 1639
+0	357aa, >SOAP_k45_scaffold9790... *
+>Cluster 1640
+0	357aa, >SOAP_k45_scaffold17934... *
+>Cluster 1641
+0	357aa, >SOAP_k55_scaffold15292... *
+>Cluster 1642
+0	357aa, >SOAP_k35_scaffold9437... *
+>Cluster 1643
+0	357aa, >SOAP_k55_scaffold6137... *
+>Cluster 1644
+0	357aa, >SOAP_k55_scaffold2207... *
+>Cluster 1645
+0	357aa, >SOAP_k35_C412771... *
+>Cluster 1646
+0	357aa, >SOAP_k45_scaffold14004... *
+>Cluster 1647
+0	357aa, >SOAP_k45_C225347... *
+>Cluster 1648
+0	357aa, >SOAP_k35_C329569... *
+>Cluster 1649
+0	357aa, >SOAP_k35_scaffold16243... *
+>Cluster 1650
+0	357aa, >SOAP_k45_scaffold8452... *
+>Cluster 1651
+0	357aa, >SOAP_k35_C392987... *
+>Cluster 1652
+0	357aa, >SOAP_k45_scaffold18585... *
+>Cluster 1653
+0	357aa, >SOAP_k35_scaffold15105... *
+>Cluster 1654
+0	357aa, >SOAP_k55_scaffold18235... *
+>Cluster 1655
+0	357aa, >SOAP_k55_scaffold9660... *
+>Cluster 1656
+0	357aa, >SOAP_k45_scaffold7143... *
+>Cluster 1657
+0	357aa, >SOAP_k45_C255439... *
+>Cluster 1658
+0	357aa, >SOAP_k35_scaffold2969... *
+>Cluster 1659
+0	357aa, >SOAP_k45_scaffold18287... *
+>Cluster 1660
+0	357aa, >SOAP_k45_scaffold8849... *
+>Cluster 1661
+0	348aa, >SOAP_k45_scaffold11343... at 96.84%
+1	357aa, >SOAP_k55_scaffold11078... *
+>Cluster 1662
+0	357aa, >SOAP_k55_scaffold19446... *
+>Cluster 1663
+0	357aa, >SOAP_k45_scaffold12213... *
+>Cluster 1664
+0	357aa, >SOAP_k45_scaffold13994... *
+>Cluster 1665
+0	357aa, >SOAP_k45_C321387... *
+>Cluster 1666
+0	357aa, >SOAP_k35_scaffold15057... *
+>Cluster 1667
+0	354aa, >SOAP_k45_scaffold551... *
+>Cluster 1668
+0	354aa, >SOAP_k55_scaffold15584... *
+>Cluster 1669
+0	354aa, >SOAP_k35_C404599... *
+>Cluster 1670
+0	354aa, >SOAP_k35_scaffold20228... *
+>Cluster 1671
+0	354aa, >SOAP_k55_scaffold13285... *
+>Cluster 1672
+0	354aa, >SOAP_k55_scaffold5985... *
+>Cluster 1673
+0	354aa, >SOAP_k55_scaffold4196... *
+>Cluster 1674
+0	354aa, >SOAP_k55_scaffold2267... *
+>Cluster 1675
+0	354aa, >SOAP_k45_scaffold18530... *
+>Cluster 1676
+0	354aa, >SOAP_k55_scaffold19925... *
+>Cluster 1677
+0	354aa, >SOAP_k35_scaffold17481... *
+>Cluster 1678
+0	354aa, >SOAP_k45_C293107... *
+>Cluster 1679
+0	354aa, >SOAP_k55_scaffold625... *
+>Cluster 1680
+0	354aa, >SOAP_k55_scaffold8768... *
+>Cluster 1681
+0	354aa, >SOAP_k35_C314585... *
+>Cluster 1682
+0	354aa, >SOAP_k55_scaffold5464... *
+>Cluster 1683
+0	354aa, >SOAP_k35_scaffold1217... *
+>Cluster 1684
+0	342aa, >SOAP_k45_scaffold7176... at 91.23%
+1	354aa, >SOAP_k45_scaffold7177... *
+>Cluster 1685
+0	354aa, >SOAP_k55_scaffold18700... *
+>Cluster 1686
+0	354aa, >SOAP_k35_C401947... *
+>Cluster 1687
+0	354aa, >SOAP_k35_scaffold18008... *
+>Cluster 1688
+0	354aa, >SOAP_k35_scaffold18984... *
+>Cluster 1689
+0	354aa, >SOAP_k45_scaffold13500... *
+>Cluster 1690
+0	354aa, >SOAP_k35_scaffold11382... *
+>Cluster 1691
+0	354aa, >SOAP_k55_scaffold3258... *
+>Cluster 1692
+0	351aa, >SOAP_k45_scaffold8377... *
+>Cluster 1693
+0	351aa, >SOAP_k45_scaffold20019... *
+>Cluster 1694
+0	351aa, >SOAP_k35_C407283... *
+>Cluster 1695
+0	351aa, >SOAP_k45_scaffold13978... *
+>Cluster 1696
+0	351aa, >SOAP_k55_scaffold19095... *
+>Cluster 1697
+0	351aa, >SOAP_k55_scaffold16022... *
+>Cluster 1698
+0	351aa, >SOAP_k35_C310428... *
+>Cluster 1699
+0	351aa, >SOAP_k45_scaffold19929... *
+>Cluster 1700
+0	342aa, >SOAP_k35_scaffold12077... at 96.78%
+1	351aa, >SOAP_k35_scaffold12076... *
+>Cluster 1701
+0	351aa, >SOAP_k35_C315735... *
+>Cluster 1702
+0	351aa, >SOAP_k55_scaffold12912... *
+>Cluster 1703
+0	351aa, >SOAP_k55_scaffold13176... *
+>Cluster 1704
+0	351aa, >SOAP_k35_scaffold15973... *
+>Cluster 1705
+0	351aa, >SOAP_k55_scaffold17381... *
+>Cluster 1706
+0	351aa, >SOAP_k55_scaffold16310... *
+>Cluster 1707
+0	351aa, >SOAP_k55_scaffold15606... *
+>Cluster 1708
+0	351aa, >SOAP_k35_scaffold10462... *
+>Cluster 1709
+0	351aa, >SOAP_k35_scaffold4163... *
+>Cluster 1710
+0	351aa, >SOAP_k45_C285273... *
+>Cluster 1711
+0	351aa, >SOAP_k35_scaffold10706... *
+>Cluster 1712
+0	351aa, >SOAP_k35_scaffold16743... *
+>Cluster 1713
+0	351aa, >SOAP_k45_scaffold18217... *
+>Cluster 1714
+0	348aa, >SOAP_k55_scaffold10824... *
+>Cluster 1715
+0	348aa, >SOAP_k45_C302963... *
+>Cluster 1716
+0	348aa, >SOAP_k55_scaffold17192... *
+>Cluster 1717
+0	348aa, >SOAP_k35_C396351... *
+>Cluster 1718
+0	348aa, >SOAP_k35_scaffold8170... *
+>Cluster 1719
+0	348aa, >SOAP_k35_scaffold7282... *
+>Cluster 1720
+0	348aa, >SOAP_k35_scaffold6530... *
+>Cluster 1721
+0	348aa, >SOAP_k35_scaffold6562... *
+>Cluster 1722
+0	348aa, >SOAP_k45_scaffold5537... *
+>Cluster 1723
+0	348aa, >SOAP_k35_scaffold11477... *
+>Cluster 1724
+0	348aa, >SOAP_k55_scaffold3643... *
+>Cluster 1725
+0	348aa, >SOAP_k35_scaffold8872... *
+>Cluster 1726
+0	348aa, >SOAP_k45_scaffold1413... *
+>Cluster 1727
+0	348aa, >SOAP_k55_scaffold1428... *
+>Cluster 1728
+0	348aa, >SOAP_k45_scaffold20048... *
+>Cluster 1729
+0	348aa, >SOAP_k45_C254749... *
+>Cluster 1730
+0	348aa, >SOAP_k35_scaffold19159... *
+>Cluster 1731
+0	348aa, >SOAP_k45_scaffold13109... *
+>Cluster 1732
+0	348aa, >SOAP_k55_scaffold19670... *
+>Cluster 1733
+0	348aa, >SOAP_k45_scaffold9583... *
+>Cluster 1734
+0	348aa, >SOAP_k55_scaffold7181... *
+>Cluster 1735
+0	345aa, >SOAP_k35_C308258... *
+>Cluster 1736
+0	345aa, >SOAP_k35_C310168... *
+>Cluster 1737
+0	345aa, >SOAP_k45_scaffold1459... *
+>Cluster 1738
+0	345aa, >SOAP_k45_scaffold13129... *
+>Cluster 1739
+0	345aa, >SOAP_k35_scaffold7890... *
+>Cluster 1740
+0	345aa, >SOAP_k35_scaffold4336... *
+>Cluster 1741
+0	345aa, >SOAP_k35_scaffold13953... *
+>Cluster 1742
+0	345aa, >SOAP_k35_C381091... *
+>Cluster 1743
+0	345aa, >SOAP_k35_scaffold16440... *
+>Cluster 1744
+0	345aa, >SOAP_k55_scaffold14258... *
+>Cluster 1745
+0	345aa, >SOAP_k35_C390361... *
+>Cluster 1746
+0	345aa, >SOAP_k35_C369084... *
+>Cluster 1747
+0	345aa, >SOAP_k35_scaffold16928... *
+>Cluster 1748
+0	345aa, >SOAP_k35_scaffold8425... *
+>Cluster 1749
+0	345aa, >SOAP_k35_C381257... *
+>Cluster 1750
+0	345aa, >SOAP_k45_scaffold958... *
+>Cluster 1751
+0	345aa, >SOAP_k35_scaffold4334... *
+>Cluster 1752
+0	345aa, >SOAP_k55_scaffold5970... *
+>Cluster 1753
+0	345aa, >SOAP_k35_scaffold6415... *
+>Cluster 1754
+0	345aa, >SOAP_k55_scaffold8796... *
+>Cluster 1755
+0	345aa, >SOAP_k45_C239087... *
+>Cluster 1756
+0	345aa, >SOAP_k35_scaffold3143... *
+>Cluster 1757
+0	345aa, >SOAP_k35_scaffold10292... *
+>Cluster 1758
+0	345aa, >SOAP_k35_C404435... *
+>Cluster 1759
+0	345aa, >SOAP_k45_scaffold17621... *
+>Cluster 1760
+0	345aa, >SOAP_k35_C374655... *
+>Cluster 1761
+0	345aa, >SOAP_k45_scaffold9959... *
+>Cluster 1762
+0	345aa, >SOAP_k35_C388247... *
+>Cluster 1763
+0	345aa, >SOAP_k55_scaffold10501... *
+>Cluster 1764
+0	345aa, >SOAP_k35_C316881... *
+>Cluster 1765
+0	345aa, >SOAP_k45_C311683... *
+>Cluster 1766
+0	345aa, >SOAP_k55_scaffold5792... *
+>Cluster 1767
+0	342aa, >SOAP_k35_C307824... *
+>Cluster 1768
+0	342aa, >SOAP_k55_scaffold14519... *
+>Cluster 1769
+0	342aa, >SOAP_k35_scaffold18921... *
+>Cluster 1770
+0	342aa, >SOAP_k45_scaffold13154... *
+>Cluster 1771
+0	342aa, >SOAP_k35_scaffold19378... *
+>Cluster 1772
+0	342aa, >SOAP_k35_scaffold7243... *
+>Cluster 1773
+0	342aa, >SOAP_k45_C260298... *
+>Cluster 1774
+0	342aa, >SOAP_k55_scaffold2071... *
+>Cluster 1775
+0	342aa, >SOAP_k35_scaffold4666... *
+>Cluster 1776
+0	342aa, >SOAP_k55_scaffold11809... *
+>Cluster 1777
+0	342aa, >SOAP_k35_scaffold1243... *
+>Cluster 1778
+0	342aa, >SOAP_k55_scaffold11437... *
+>Cluster 1779
+0	342aa, >SOAP_k35_scaffold17622... *
+>Cluster 1780
+0	342aa, >SOAP_k45_scaffold9591... *
+>Cluster 1781
+0	342aa, >SOAP_k55_scaffold9428... *
+>Cluster 1782
+0	342aa, >SOAP_k35_scaffold2701... *
+>Cluster 1783
+0	342aa, >SOAP_k45_scaffold4740... *
+>Cluster 1784
+0	342aa, >SOAP_k45_scaffold17084... *
+>Cluster 1785
+0	342aa, >SOAP_k55_scaffold8745... *
+>Cluster 1786
+0	342aa, >SOAP_k45_scaffold7223... *
+>Cluster 1787
+0	342aa, >SOAP_k45_scaffold14300... *
+>Cluster 1788
+0	342aa, >SOAP_k35_scaffold8818... *
+>Cluster 1789
+0	342aa, >SOAP_k35_scaffold20327... *
+>Cluster 1790
+0	342aa, >SOAP_k55_scaffold11961... *
+>Cluster 1791
+0	339aa, >SOAP_k35_C409117... *
+>Cluster 1792
+0	339aa, >SOAP_k35_scaffold20571... *
+>Cluster 1793
+0	339aa, >SOAP_k45_C311725... *
+>Cluster 1794
+0	339aa, >SOAP_k45_scaffold16215... *
+1	339aa, >SOAP_k55_scaffold16425... at 97.05%
+>Cluster 1795
+0	339aa, >SOAP_k45_C261866... *
+>Cluster 1796
+0	339aa, >SOAP_k55_scaffold2493... *
+>Cluster 1797
+0	339aa, >SOAP_k45_C307583... *
+>Cluster 1798
+0	339aa, >SOAP_k45_scaffold12429... *
+>Cluster 1799
+0	339aa, >SOAP_k35_scaffold20281... *
+>Cluster 1800
+0	339aa, >SOAP_k35_C306583... *
+>Cluster 1801
+0	339aa, >SOAP_k35_scaffold16912... *
+>Cluster 1802
+0	339aa, >SOAP_k55_scaffold11515... *
+>Cluster 1803
+0	339aa, >SOAP_k35_scaffold12300... *
+>Cluster 1804
+0	339aa, >SOAP_k35_scaffold2507... *
+>Cluster 1805
+0	339aa, >SOAP_k45_C315475... *
+>Cluster 1806
+0	339aa, >SOAP_k35_scaffold18652... *
+>Cluster 1807
+0	339aa, >SOAP_k45_scaffold3030... *
+>Cluster 1808
+0	339aa, >SOAP_k45_C219645... *
+>Cluster 1809
+0	339aa, >SOAP_k35_scaffold20144... *
+>Cluster 1810
+0	339aa, >SOAP_k55_scaffold9... *
+>Cluster 1811
+0	339aa, >SOAP_k35_scaffold4330... *
+1	339aa, >SOAP_k45_scaffold2122... at 96.17%
+>Cluster 1812
+0	339aa, >SOAP_k45_scaffold13784... *
+>Cluster 1813
+0	339aa, >SOAP_k55_scaffold18177... *
+>Cluster 1814
+0	339aa, >SOAP_k45_C304845... *
+1	339aa, >SOAP_k35_scaffold13797... at 99.71%
+>Cluster 1815
+0	339aa, >SOAP_k35_C340914... *
+>Cluster 1816
+0	339aa, >SOAP_k35_C354751... *
+>Cluster 1817
+0	339aa, >SOAP_k45_scaffold596... *
+>Cluster 1818
+0	339aa, >SOAP_k45_C319689... *
+>Cluster 1819
+0	339aa, >SOAP_k55_scaffold15322... *
+>Cluster 1820
+0	339aa, >SOAP_k45_scaffold18922... *
+>Cluster 1821
+0	339aa, >SOAP_k45_scaffold19395... *
+>Cluster 1822
+0	339aa, >SOAP_k55_scaffold16301... *
+>Cluster 1823
+0	339aa, >SOAP_k35_scaffold1389... *
+1	339aa, >SOAP_k55_scaffold14681... at 99.71%
+>Cluster 1824
+0	339aa, >SOAP_k35_scaffold196... *
+>Cluster 1825
+0	336aa, >SOAP_k35_C376881... *
+>Cluster 1826
+0	336aa, >SOAP_k45_scaffold15014... *
+>Cluster 1827
+0	336aa, >SOAP_k45_scaffold8087... *
+>Cluster 1828
+0	336aa, >SOAP_k35_scaffold10306... *
+>Cluster 1829
+0	336aa, >SOAP_k55_scaffold17255... *
+>Cluster 1830
+0	336aa, >SOAP_k35_scaffold13204... *
+>Cluster 1831
+0	336aa, >SOAP_k35_C360135... *
+>Cluster 1832
+0	336aa, >SOAP_k55_scaffold3189... *
+>Cluster 1833
+0	336aa, >SOAP_k45_scaffold2022... *
+>Cluster 1834
+0	336aa, >SOAP_k55_scaffold7189... *
+>Cluster 1835
+0	336aa, >SOAP_k35_C358129... *
+>Cluster 1836
+0	336aa, >SOAP_k45_scaffold8626... *
+>Cluster 1837
+0	336aa, >SOAP_k55_scaffold8798... *
+>Cluster 1838
+0	336aa, >SOAP_k55_scaffold12294... *
+>Cluster 1839
+0	336aa, >SOAP_k35_scaffold17990... *
+>Cluster 1840
+0	336aa, >SOAP_k45_C219397... *
+>Cluster 1841
+0	336aa, >SOAP_k45_scaffold12642... *
+>Cluster 1842
+0	336aa, >SOAP_k45_scaffold652... *
+>Cluster 1843
+0	336aa, >SOAP_k35_scaffold8281... *
+>Cluster 1844
+0	336aa, >SOAP_k45_scaffold15639... *
+>Cluster 1845
+0	336aa, >SOAP_k55_scaffold19524... *
+>Cluster 1846
+0	336aa, >SOAP_k55_scaffold16164... *
+>Cluster 1847
+0	336aa, >SOAP_k35_scaffold18995... *
+>Cluster 1848
+0	336aa, >SOAP_k45_scaffold10738... *
+>Cluster 1849
+0	336aa, >SOAP_k35_scaffold17934... *
+>Cluster 1850
+0	336aa, >SOAP_k45_scaffold5756... *
+>Cluster 1851
+0	336aa, >SOAP_k35_scaffold14057... *
+>Cluster 1852
+0	336aa, >SOAP_k45_scaffold19302... *
+>Cluster 1853
+0	336aa, >SOAP_k45_scaffold10729... *
+>Cluster 1854
+0	336aa, >SOAP_k35_scaffold18678... *
+>Cluster 1855
+0	336aa, >SOAP_k35_scaffold12548... *
+>Cluster 1856
+0	336aa, >SOAP_k45_scaffold17895... *
+>Cluster 1857
+0	336aa, >SOAP_k55_scaffold13691... *
+>Cluster 1858
+0	336aa, >SOAP_k45_C317443... *
+>Cluster 1859
+0	333aa, >SOAP_k35_scaffold20367... *
+>Cluster 1860
+0	333aa, >SOAP_k45_scaffold17734... *
+>Cluster 1861
+0	333aa, >SOAP_k35_scaffold5167... *
+>Cluster 1862
+0	333aa, >SOAP_k55_scaffold2674... *
+>Cluster 1863
+0	333aa, >SOAP_k35_C332610... *
+>Cluster 1864
+0	333aa, >SOAP_k55_scaffold4026... *
+>Cluster 1865
+0	333aa, >SOAP_k45_scaffold19243... *
+>Cluster 1866
+0	333aa, >SOAP_k55_scaffold19538... *
+>Cluster 1867
+0	333aa, >SOAP_k35_C321636... *
+>Cluster 1868
+0	333aa, >SOAP_k55_scaffold1808... *
+>Cluster 1869
+0	333aa, >SOAP_k55_scaffold12268... *
+>Cluster 1870
+0	333aa, >SOAP_k45_scaffold1013... *
+>Cluster 1871
+0	333aa, >SOAP_k55_scaffold11261... *
+>Cluster 1872
+0	333aa, >SOAP_k45_scaffold13203... *
+>Cluster 1873
+0	333aa, >SOAP_k35_scaffold6943... *
+>Cluster 1874
+0	333aa, >SOAP_k45_scaffold14011... *
+>Cluster 1875
+0	333aa, >SOAP_k45_C218501... *
+>Cluster 1876
+0	333aa, >SOAP_k35_C411195... *
+>Cluster 1877
+0	333aa, >SOAP_k35_scaffold292... *
+>Cluster 1878
+0	333aa, >SOAP_k35_C398283... *
+>Cluster 1879
+0	333aa, >SOAP_k35_scaffold10842... *
+>Cluster 1880
+0	333aa, >SOAP_k35_C304006... *
+>Cluster 1881
+0	333aa, >SOAP_k35_scaffold6622... *
+>Cluster 1882
+0	333aa, >SOAP_k35_scaffold20170... *
+>Cluster 1883
+0	333aa, >SOAP_k35_scaffold7144... *
+>Cluster 1884
+0	333aa, >SOAP_k35_scaffold19788... *
+>Cluster 1885
+0	333aa, >SOAP_k35_scaffold3004... *
+>Cluster 1886
+0	330aa, >SOAP_k45_scaffold19596... *
+>Cluster 1887
+0	330aa, >SOAP_k45_scaffold18414... *
+>Cluster 1888
+0	330aa, >SOAP_k35_scaffold412... *
+>Cluster 1889
+0	330aa, >SOAP_k35_C397209... *
+>Cluster 1890
+0	330aa, >SOAP_k55_scaffold6789... *
+>Cluster 1891
+0	330aa, >SOAP_k45_scaffold11915... *
+>Cluster 1892
+0	330aa, >SOAP_k35_scaffold14762... *
+>Cluster 1893
+0	330aa, >SOAP_k35_scaffold17699... *
+>Cluster 1894
+0	330aa, >SOAP_k45_scaffold8609... *
+>Cluster 1895
+0	330aa, >SOAP_k45_C221142... *
+>Cluster 1896
+0	330aa, >SOAP_k45_scaffold8957... *
+>Cluster 1897
+0	330aa, >SOAP_k55_scaffold17876... *
+>Cluster 1898
+0	330aa, >SOAP_k55_scaffold1655... *
+>Cluster 1899
+0	330aa, >SOAP_k35_scaffold1160... *
+>Cluster 1900
+0	330aa, >SOAP_k55_scaffold16938... *
+>Cluster 1901
+0	330aa, >SOAP_k35_scaffold7316... *
+>Cluster 1902
+0	330aa, >SOAP_k55_scaffold16591... *
+>Cluster 1903
+0	330aa, >SOAP_k35_scaffold18593... *
+>Cluster 1904
+0	330aa, >SOAP_k55_scaffold2168... *
+>Cluster 1905
+0	330aa, >SOAP_k55_scaffold290... *
+>Cluster 1906
+0	330aa, >SOAP_k35_scaffold4982... *
+>Cluster 1907
+0	330aa, >SOAP_k55_scaffold15509... *
+>Cluster 1908
+0	330aa, >SOAP_k55_scaffold7941... *
+>Cluster 1909
+0	330aa, >SOAP_k35_scaffold2972... *
+>Cluster 1910
+0	330aa, >SOAP_k55_scaffold15705... *
+>Cluster 1911
+0	330aa, >SOAP_k55_scaffold18688... *
+>Cluster 1912
+0	330aa, >SOAP_k45_scaffold18956... *
+>Cluster 1913
+0	330aa, >SOAP_k35_scaffold19281... *
+>Cluster 1914
+0	330aa, >SOAP_k55_scaffold18286... *
+>Cluster 1915
+0	330aa, >SOAP_k35_C347405... *
+>Cluster 1916
+0	330aa, >SOAP_k45_scaffold937... *
+>Cluster 1917
+0	330aa, >SOAP_k55_scaffold16276... *
+>Cluster 1918
+0	330aa, >SOAP_k35_scaffold6969... *
+>Cluster 1919
+0	330aa, >SOAP_k55_scaffold8406... *
+>Cluster 1920
+0	327aa, >SOAP_k35_scaffold5416... *
+>Cluster 1921
+0	327aa, >SOAP_k45_scaffold12361... *
+>Cluster 1922
+0	327aa, >SOAP_k55_scaffold19282... *
+>Cluster 1923
+0	327aa, >SOAP_k35_C302472... *
+>Cluster 1924
+0	327aa, >SOAP_k45_C317405... *
+>Cluster 1925
+0	327aa, >SOAP_k35_scaffold19446... *
+>Cluster 1926
+0	327aa, >SOAP_k35_C319455... *
+>Cluster 1927
+0	327aa, >SOAP_k45_scaffold5188... *
+>Cluster 1928
+0	327aa, >SOAP_k45_scaffold11117... *
+>Cluster 1929
+0	327aa, >SOAP_k45_scaffold1590... *
+>Cluster 1930
+0	327aa, >SOAP_k35_scaffold394... *
+>Cluster 1931
+0	327aa, >SOAP_k55_scaffold2165... *
+>Cluster 1932
+0	327aa, >SOAP_k35_C376067... *
+>Cluster 1933
+0	327aa, >SOAP_k35_C324060... *
+>Cluster 1934
+0	327aa, >SOAP_k55_scaffold17125... *
+>Cluster 1935
+0	327aa, >SOAP_k45_scaffold16678... *
+>Cluster 1936
+0	327aa, >SOAP_k35_C333716... *
+>Cluster 1937
+0	327aa, >SOAP_k45_scaffold633... *
+>Cluster 1938
+0	327aa, >SOAP_k35_C302462... *
+>Cluster 1939
+0	327aa, >SOAP_k45_C249777... *
+>Cluster 1940
+0	327aa, >SOAP_k35_scaffold20173... *
+>Cluster 1941
+0	327aa, >SOAP_k55_scaffold10065... *
+>Cluster 1942
+0	327aa, >SOAP_k35_scaffold14336... *
+>Cluster 1943
+0	327aa, >SOAP_k45_scaffold3176... *
+>Cluster 1944
+0	327aa, >SOAP_k45_scaffold16732... *
+>Cluster 1945
+0	327aa, >SOAP_k55_scaffold3744... *
+>Cluster 1946
+0	324aa, >SOAP_k35_scaffold7410... *
+>Cluster 1947
+0	324aa, >SOAP_k55_scaffold17227... *
+>Cluster 1948
+0	324aa, >SOAP_k55_scaffold12202... *
+>Cluster 1949
+0	324aa, >SOAP_k35_scaffold12208... *
+>Cluster 1950
+0	324aa, >SOAP_k55_scaffold3826... *
+>Cluster 1951
+0	324aa, >SOAP_k55_scaffold9677... *
+>Cluster 1952
+0	324aa, >SOAP_k45_scaffold12526... *
+>Cluster 1953
+0	324aa, >SOAP_k45_C302025... *
+>Cluster 1954
+0	324aa, >SOAP_k55_scaffold6452... *
+>Cluster 1955
+0	324aa, >SOAP_k55_scaffold3718... *
+>Cluster 1956
+0	324aa, >SOAP_k35_scaffold16371... *
+>Cluster 1957
+0	324aa, >SOAP_k45_C225855... *
+>Cluster 1958
+0	324aa, >SOAP_k45_scaffold2686... *
+>Cluster 1959
+0	324aa, >SOAP_k45_scaffold13014... *
+>Cluster 1960
+0	324aa, >SOAP_k45_C300981... *
+>Cluster 1961
+0	324aa, >SOAP_k35_scaffold20460... *
+>Cluster 1962
+0	324aa, >SOAP_k35_C400741... *
+>Cluster 1963
+0	324aa, >SOAP_k35_scaffold6306... *
+>Cluster 1964
+0	324aa, >SOAP_k55_scaffold629... *
+>Cluster 1965
+0	324aa, >SOAP_k45_C255227... *
+>Cluster 1966
+0	324aa, >SOAP_k55_scaffold17067... *
+>Cluster 1967
+0	324aa, >SOAP_k35_scaffold17128... *
+>Cluster 1968
+0	324aa, >SOAP_k55_scaffold9104... *
+>Cluster 1969
+0	324aa, >SOAP_k35_C321518... *
+>Cluster 1970
+0	324aa, >SOAP_k35_scaffold17030... *
+>Cluster 1971
+0	324aa, >SOAP_k35_scaffold20490... *
+>Cluster 1972
+0	324aa, >SOAP_k45_scaffold5228... *
+>Cluster 1973
+0	324aa, >SOAP_k55_scaffold6548... *
+>Cluster 1974
+0	324aa, >SOAP_k35_C366093... *
+>Cluster 1975
+0	324aa, >SOAP_k45_C215743... *
+>Cluster 1976
+0	324aa, >SOAP_k45_C215883... *
+>Cluster 1977
+0	324aa, >SOAP_k35_scaffold11025... *
+>Cluster 1978
+0	321aa, >SOAP_k35_scaffold19731... *
+>Cluster 1979
+0	321aa, >SOAP_k45_scaffold19181... *
+>Cluster 1980
+0	321aa, >SOAP_k45_scaffold354... *
+>Cluster 1981
+0	321aa, >SOAP_k45_scaffold9601... *
+>Cluster 1982
+0	321aa, >SOAP_k45_C305919... *
+>Cluster 1983
+0	321aa, >SOAP_k45_C215391... *
+>Cluster 1984
+0	321aa, >SOAP_k55_scaffold9753... *
+1	315aa, >SOAP_k35_scaffold16960... at 100.00%
+>Cluster 1985
+0	321aa, >SOAP_k35_C300960... *
+>Cluster 1986
+0	321aa, >SOAP_k45_C250243... *
+>Cluster 1987
+0	321aa, >SOAP_k35_scaffold14369... *
+>Cluster 1988
+0	321aa, >SOAP_k35_scaffold19636... *
+>Cluster 1989
+0	321aa, >SOAP_k35_scaffold6476... *
+>Cluster 1990
+0	321aa, >SOAP_k55_scaffold1807... *
+>Cluster 1991
+0	321aa, >SOAP_k45_scaffold13831... *
+>Cluster 1992
+0	321aa, >SOAP_k35_C383975... *
+>Cluster 1993
+0	321aa, >SOAP_k35_C300568... *
+>Cluster 1994
+0	321aa, >SOAP_k45_scaffold1050... *
+>Cluster 1995
+0	321aa, >SOAP_k35_scaffold8657... *
+>Cluster 1996
+0	321aa, >SOAP_k45_C262652... *
+>Cluster 1997
+0	321aa, >SOAP_k55_scaffold18049... *
+>Cluster 1998
+0	321aa, >SOAP_k55_scaffold11016... *
+>Cluster 1999
+0	321aa, >SOAP_k35_scaffold3619... *
+>Cluster 2000
+0	321aa, >SOAP_k55_scaffold15113... *
+>Cluster 2001
+0	321aa, >SOAP_k35_scaffold9103... *
+>Cluster 2002
+0	321aa, >SOAP_k35_C371011... *
+>Cluster 2003
+0	321aa, >SOAP_k45_scaffold2520... *
+>Cluster 2004
+0	321aa, >SOAP_k55_scaffold5706... *
+>Cluster 2005
+0	321aa, >SOAP_k45_C320349... *
+>Cluster 2006
+0	321aa, >SOAP_k45_C296869... *
+>Cluster 2007
+0	321aa, >SOAP_k45_C289705... *
+>Cluster 2008
+0	318aa, >SOAP_k45_scaffold14755... *
+>Cluster 2009
+0	318aa, >SOAP_k45_scaffold16968... *
+>Cluster 2010
+0	318aa, >SOAP_k35_scaffold4973... *
+>Cluster 2011
+0	318aa, >SOAP_k35_scaffold1696... *
+>Cluster 2012
+0	318aa, >SOAP_k45_scaffold16275... *
+>Cluster 2013
+0	318aa, >SOAP_k35_C399697... *
+>Cluster 2014
+0	318aa, >SOAP_k35_scaffold6584... *
+>Cluster 2015
+0	318aa, >SOAP_k45_scaffold16470... *
+>Cluster 2016
+0	318aa, >SOAP_k35_C310004... *
+>Cluster 2017
+0	318aa, >SOAP_k45_C219199... *
+>Cluster 2018
+0	318aa, >SOAP_k35_C389145... *
+>Cluster 2019
+0	318aa, >SOAP_k35_C361807... *
+>Cluster 2020
+0	318aa, >SOAP_k35_scaffold17451... *
+>Cluster 2021
+0	318aa, >SOAP_k55_scaffold10239... *
+>Cluster 2022
+0	318aa, >SOAP_k55_scaffold15839... *
+>Cluster 2023
+0	318aa, >SOAP_k45_C242449... *
+>Cluster 2024
+0	318aa, >SOAP_k55_scaffold9507... *
+>Cluster 2025
+0	318aa, >SOAP_k55_scaffold12894... *
+>Cluster 2026
+0	318aa, >SOAP_k35_scaffold16881... *
+>Cluster 2027
+0	315aa, >SOAP_k45_C211741... *
+>Cluster 2028
+0	315aa, >SOAP_k35_C394483... *
+>Cluster 2029
+0	315aa, >SOAP_k35_scaffold16331... *
+>Cluster 2030
+0	315aa, >SOAP_k45_scaffold19560... *
+>Cluster 2031
+0	315aa, >SOAP_k35_scaffold17385... *
+>Cluster 2032
+0	315aa, >SOAP_k45_scaffold15451... *
+>Cluster 2033
+0	315aa, >SOAP_k35_C299226... *
+>Cluster 2034
+0	315aa, >SOAP_k55_scaffold12342... *
+>Cluster 2035
+0	315aa, >SOAP_k35_C308618... *
+>Cluster 2036
+0	315aa, >SOAP_k45_scaffold10983... *
+>Cluster 2037
+0	315aa, >SOAP_k45_C252343... *
+>Cluster 2038
+0	315aa, >SOAP_k45_C212615... *
+>Cluster 2039
+0	315aa, >SOAP_k45_scaffold12934... *
+>Cluster 2040
+0	315aa, >SOAP_k45_C230329... *
+>Cluster 2041
+0	315aa, >SOAP_k35_scaffold13381... *
+>Cluster 2042
+0	315aa, >SOAP_k45_C213023... *
+>Cluster 2043
+0	315aa, >SOAP_k35_C385805... *
+>Cluster 2044
+0	315aa, >SOAP_k45_scaffold3595... *
+>Cluster 2045
+0	315aa, >SOAP_k45_C213043... *
+>Cluster 2046
+0	315aa, >SOAP_k35_scaffold20271... *
+>Cluster 2047
+0	315aa, >SOAP_k35_scaffold12276... *
+>Cluster 2048
+0	315aa, >SOAP_k35_scaffold12976... *
+>Cluster 2049
+0	315aa, >SOAP_k45_scaffold13363... *
+>Cluster 2050
+0	315aa, >SOAP_k55_scaffold5235... *
+>Cluster 2051
+0	312aa, >SOAP_k45_scaffold4720... *
+>Cluster 2052
+0	312aa, >SOAP_k35_scaffold14946... *
+>Cluster 2053
+0	312aa, >SOAP_k45_scaffold11272... *
+>Cluster 2054
+0	312aa, >SOAP_k45_scaffold16553... *
+>Cluster 2055
+0	312aa, >SOAP_k35_C390439... *
+>Cluster 2056
+0	312aa, >SOAP_k45_scaffold5830... *
+>Cluster 2057
+0	312aa, >SOAP_k35_scaffold11865... *
+>Cluster 2058
+0	312aa, >SOAP_k45_C211271... *
+>Cluster 2059
+0	312aa, >SOAP_k55_scaffold10326... *
+>Cluster 2060
+0	312aa, >SOAP_k35_C334600... *
+>Cluster 2061
+0	312aa, >SOAP_k35_scaffold2605... *
+>Cluster 2062
+0	312aa, >SOAP_k55_scaffold7734... *
+>Cluster 2063
+0	312aa, >SOAP_k45_C211829... *
+>Cluster 2064
+0	312aa, >SOAP_k55_scaffold15942... *
+>Cluster 2065
+0	312aa, >SOAP_k45_scaffold16903... *
+>Cluster 2066
+0	312aa, >SOAP_k35_scaffold12577... *
+>Cluster 2067
+0	312aa, >SOAP_k45_C305943... *
+>Cluster 2068
+0	312aa, >SOAP_k55_scaffold7423... *
+>Cluster 2069
+0	312aa, >SOAP_k45_scaffold17747... *
+>Cluster 2070
+0	312aa, >SOAP_k55_scaffold6259... *
+>Cluster 2071
+0	312aa, >SOAP_k35_C407701... *
+>Cluster 2072
+0	309aa, >SOAP_k55_scaffold9754... *
+>Cluster 2073
+0	309aa, >SOAP_k55_scaffold1815... *
+>Cluster 2074
+0	309aa, >SOAP_k35_scaffold12022... *
+>Cluster 2075
+0	309aa, >SOAP_k45_C209777... *
+>Cluster 2076
+0	309aa, >SOAP_k35_scaffold20246... *
+>Cluster 2077
+0	309aa, >SOAP_k45_scaffold20518... *
+>Cluster 2078
+0	309aa, >SOAP_k35_scaffold8336... *
+1	309aa, >SOAP_k45_scaffold7431... at 96.76%
+>Cluster 2079
+0	309aa, >SOAP_k55_scaffold15316... *
+>Cluster 2080
+0	309aa, >SOAP_k35_scaffold8918... *
+>Cluster 2081
+0	309aa, >SOAP_k45_scaffold6594... *
+>Cluster 2082
+0	309aa, >SOAP_k35_C392875... *
+>Cluster 2083
+0	309aa, >SOAP_k55_scaffold18540... *
+>Cluster 2084
+0	309aa, >SOAP_k35_scaffold10297... *
+>Cluster 2085
+0	309aa, >SOAP_k55_scaffold18557... *
+1	306aa, >SOAP_k35_scaffold14945... at 99.35%
+>Cluster 2086
+0	309aa, >SOAP_k55_scaffold14124... *
+>Cluster 2087
+0	309aa, >SOAP_k35_scaffold13224... *
+>Cluster 2088
+0	309aa, >SOAP_k45_scaffold17810... *
+>Cluster 2089
+0	309aa, >SOAP_k45_C209949... *
+1	303aa, >SOAP_k35_C294845... at 98.02%
+>Cluster 2090
+0	309aa, >SOAP_k35_scaffold14759... *
+>Cluster 2091
+0	309aa, >SOAP_k35_scaffold10981... *
+>Cluster 2092
+0	309aa, >SOAP_k55_scaffold5428... *
+>Cluster 2093
+0	309aa, >SOAP_k55_scaffold15277... *
+>Cluster 2094
+0	309aa, >SOAP_k35_scaffold12275... *
+>Cluster 2095
+0	309aa, >SOAP_k45_C257954... *
+>Cluster 2096
+0	309aa, >SOAP_k45_C216143... *
+>Cluster 2097
+0	309aa, >SOAP_k55_scaffold6177... *
+>Cluster 2098
+0	309aa, >SOAP_k35_C303858... *
+>Cluster 2099
+0	309aa, >SOAP_k35_C315905... *
+>Cluster 2100
+0	309aa, >SOAP_k45_scaffold15593... *
+>Cluster 2101
+0	309aa, >SOAP_k45_C258660... *
+>Cluster 2102
+0	309aa, >SOAP_k35_scaffold160... *
+>Cluster 2103
+0	309aa, >SOAP_k35_scaffold14274... *
+>Cluster 2104
+0	309aa, >SOAP_k55_scaffold16992... *
+>Cluster 2105
+0	309aa, >SOAP_k35_scaffold14592... *
+>Cluster 2106
+0	309aa, >SOAP_k55_scaffold6847... *
+>Cluster 2107
+0	306aa, >SOAP_k45_C224546... *
+>Cluster 2108
+0	306aa, >SOAP_k35_C314019... *
+>Cluster 2109
+0	306aa, >SOAP_k45_scaffold14176... *
+>Cluster 2110
+0	306aa, >SOAP_k35_C402137... *
+>Cluster 2111
+0	306aa, >SOAP_k55_scaffold5355... *
+>Cluster 2112
+0	306aa, >SOAP_k35_C359091... *
+>Cluster 2113
+0	306aa, >SOAP_k55_scaffold11664... *
+>Cluster 2114
+0	306aa, >SOAP_k55_scaffold15885... *
+>Cluster 2115
+0	306aa, >SOAP_k45_C214665... *
+>Cluster 2116
+0	306aa, >SOAP_k45_scaffold13749... *
+>Cluster 2117
+0	306aa, >SOAP_k35_scaffold10586... *
+>Cluster 2118
+0	306aa, >SOAP_k45_scaffold11378... *
+>Cluster 2119
+0	306aa, >SOAP_k55_scaffold17643... *
+>Cluster 2120
+0	306aa, >SOAP_k35_scaffold18669... *
+>Cluster 2121
+0	306aa, >SOAP_k45_scaffold6942... *
+>Cluster 2122
+0	306aa, >SOAP_k35_scaffold10167... *
+>Cluster 2123
+0	306aa, >SOAP_k35_scaffold8805... *
+>Cluster 2124
+0	306aa, >SOAP_k35_scaffold7525... *
+>Cluster 2125
+0	306aa, >SOAP_k35_scaffold7057... *
+>Cluster 2126
+0	306aa, >SOAP_k35_scaffold7860... *
+>Cluster 2127
+0	306aa, >SOAP_k35_C310162... *
+>Cluster 2128
+0	306aa, >SOAP_k35_scaffold20585... *
+>Cluster 2129
+0	306aa, >SOAP_k55_scaffold17028... *
+>Cluster 2130
+0	306aa, >SOAP_k35_scaffold16408... *
+>Cluster 2131
+0	306aa, >SOAP_k45_scaffold7560... *
+>Cluster 2132
+0	303aa, >SOAP_k35_C356639... *
+>Cluster 2133
+0	303aa, >SOAP_k55_scaffold1543... *
+>Cluster 2134
+0	303aa, >SOAP_k45_scaffold4703... *
+>Cluster 2135
+0	303aa, >SOAP_k35_scaffold3672... *
+>Cluster 2136
+0	303aa, >SOAP_k35_scaffold17249... *
+>Cluster 2137
+0	303aa, >SOAP_k55_scaffold9933... *
+>Cluster 2138
+0	303aa, >SOAP_k35_C294789... *
+>Cluster 2139
+0	303aa, >SOAP_k45_C252583... *
+>Cluster 2140
+0	303aa, >SOAP_k35_C320317... *
+>Cluster 2141
+0	303aa, >SOAP_k45_scaffold20270... *
+>Cluster 2142
+0	303aa, >SOAP_k35_scaffold19946... *
+>Cluster 2143
+0	303aa, >SOAP_k35_scaffold2896... *
+>Cluster 2144
+0	303aa, >SOAP_k45_scaffold13557... *
+>Cluster 2145
+0	303aa, >SOAP_k45_scaffold8419... *
+>Cluster 2146
+0	303aa, >SOAP_k35_scaffold12384... *
+>Cluster 2147
+0	303aa, >SOAP_k45_C207896... *
+>Cluster 2148
+0	303aa, >SOAP_k55_scaffold15437... *
+>Cluster 2149
+0	303aa, >SOAP_k35_scaffold15386... *
+>Cluster 2150
+0	303aa, >SOAP_k35_scaffold13248... *
+>Cluster 2151
+0	303aa, >SOAP_k45_scaffold4366... *
+>Cluster 2152
+0	303aa, >SOAP_k45_C300045... *
+>Cluster 2153
+0	303aa, >SOAP_k45_scaffold3596... *
+>Cluster 2154
+0	303aa, >SOAP_k55_scaffold14224... *
+>Cluster 2155
+0	303aa, >SOAP_k35_C358439... *
+>Cluster 2156
+0	300aa, >SOAP_k35_scaffold13712... *
+>Cluster 2157
+0	300aa, >SOAP_k35_C322698... *
+>Cluster 2158
+0	300aa, >SOAP_k35_scaffold18104... *
+>Cluster 2159
+0	300aa, >SOAP_k55_scaffold6797... *
+>Cluster 2160
+0	300aa, >SOAP_k35_scaffold17555... *
+>Cluster 2161
+0	300aa, >SOAP_k45_C249525... *
+>Cluster 2162
+0	300aa, >SOAP_k45_scaffold6309... *
+>Cluster 2163
+0	300aa, >SOAP_k55_scaffold18677... *
+>Cluster 2164
+0	300aa, >SOAP_k45_scaffold16188... *
+>Cluster 2165
+0	300aa, >SOAP_k45_scaffold7963... *
+>Cluster 2166
+0	300aa, >SOAP_k35_C396315... *
+>Cluster 2167
+0	300aa, >SOAP_k35_scaffold9411... *
+>Cluster 2168
+0	300aa, >SOAP_k35_scaffold16270... *
+>Cluster 2169
+0	300aa, >SOAP_k55_scaffold15375... *
+>Cluster 2170
+0	300aa, >SOAP_k45_C282331... *
+>Cluster 2171
+0	300aa, >SOAP_k55_scaffold3880... *
+>Cluster 2172
+0	300aa, >SOAP_k45_scaffold13744... *
+>Cluster 2173
+0	300aa, >SOAP_k45_scaffold10156... *
+>Cluster 2174
+0	300aa, >SOAP_k45_C233639... *
+>Cluster 2175
+0	300aa, >SOAP_k55_scaffold15861... *
+>Cluster 2176
+0	300aa, >SOAP_k45_scaffold8669... *
+>Cluster 2177
+0	300aa, >SOAP_k45_C212013... *
+>Cluster 2178
+0	300aa, >SOAP_k35_scaffold10389... *
+>Cluster 2179
+0	300aa, >SOAP_k35_C350623... *
+>Cluster 2180
+0	300aa, >SOAP_k35_scaffold12475... *
+>Cluster 2181
+0	300aa, >SOAP_k45_scaffold329... *
+>Cluster 2182
+0	300aa, >SOAP_k45_scaffold16978... *
+>Cluster 2183
+0	300aa, >SOAP_k35_scaffold9144... *
+>Cluster 2184
+0	297aa, >SOAP_k35_scaffold2609... *
+>Cluster 2185
+0	297aa, >SOAP_k45_C206599... *
+>Cluster 2186
+0	297aa, >SOAP_k35_C355331... *

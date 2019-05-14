@@ -1,0 +1,10 @@
+cds="$1";
+aa="$2";
+t="$3";
+
+transeq -sequence $cds -outseq $cds.tmp -table $t -frame F; transeq -sequence $cds -outseq $cds.tmp2 -table 2 -frame R; cat $cds.tmp $cds.tmp2 > frames; rm $cds.tmp $cds.tmp2
+
+
+cat frames | fasta2oneline.ba | tr '\n' '&' | sed -e 's/&>/\n>/g' -e 's/_[0-6]//g' | awk '{print $0, gsub(/\*/,""), gsub(/&M/,"")}' | sort -k8,8 -k9,9rn | sort -uk1,1 | awk '{print $1,$2,$3,$4,$5,$6,$7}' | tr '&' '\n' > $aa
+
+rm frames

@@ -1,0 +1,35 @@
+================================================================
+Program: CD-HIT, V4.7 (+OpenMP), Aug 11 2017, 11:25:55
+Command: /N/soft/rhel7/cd-hit/4.6.8/cd-hit -c 0.9 -M 1000 -l
+         89 -d 0 -i cdnanr.cds -o cdnanrcd90.aa
+
+Started: Mon May 13 15:06:03 2019
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 2277
+longest and shortest : 3270 and 297
+Total letters: 1135239
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 1M
+Buffer          : 1 X 11M = 11M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 78M
+
+Table limit with the given memory limit:
+Max number of representatives: 1525697
+Max number of word counting entries: 115241622
+
+comparing sequences from          0  to       2277
+..
+     2277  finished       2187  clusters
+
+Apprixmated maximum memory consumption: 83M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 34.00
